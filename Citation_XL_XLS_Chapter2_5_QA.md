@@ -908,6 +908,149 @@ If HYD PRESS persists or cannot be extinguished there are specific altitude/airs
 
 ---
 
+Chapter 8 – Fire Protection
+---------------------------
+
+### Question 1
+
+**An ENG FIRE switchlight illuminates:**
+
+A. When it is depressed.  
+B. The MASTER WARNING RESET lights also illuminate.  
+C. When temperature in the nacelle area reaches approximately 500°F (XL), 450°F (XLS).  
+D. Electrical resistance of the sensing loop increases due to increasing nacelle temperature.  
+
+**Correct answer: C – When temperature in the nacelle area reaches approximately 500°F (XL), 450°F (XLS)**  
+The loop‑type detectors in each nacelle decrease in resistance as temperature rises; when loop temperature reaches roughly **500°F on the XL and 450°F on the XLS**, the control unit sees the resistance drop as a fire/overheat and illuminates the corresponding ENG FIRE switchlight (without triggering MASTER WARNING).
+
+---
+
+### Question 2
+
+**Depressing an illuminated ENGINE FIRE switchlight:**
+
+A. Fires bottle No. 1 into the nacelle.  
+B. Fires bottle No. 2 into the nacelle.  
+C. Fires both bottles into the nacelle.  
+D. Illuminates both BOTTLE ARMED PUSH switchlights, arming the bottles.  
+
+**Correct answer: D – Illuminates both BOTTLE ARMED PUSH switchlights, arming the bottles**  
+Pressing an illuminated ENG FIRE switchlight **arms** the fire‑extinguishing system: both white BOTTLE ARMED switchlights come on, and associated shutdown actions occur; an actual discharge only occurs when a BOTTLE ARMED switch is then pressed.
+
+---
+
+### Question 3
+
+**After a bottle has been discharged into a nacelle:**
+
+A. No cleaning of the engine and nacelle area is required.  
+B. A thorough cleaning of the engine and nacelle area is required.  
+C. An inspection of the engine and nacelle area is required to determine if cleaning is necessary.  
+D. None of the above.  
+
+**Correct answer: A – No cleaning of the engine and nacelle area is required**  
+The bottles are charged with Halon (CBrF₃) which is **non‑corrosive and leaves no residue**; the manual notes that discharge "does not necessitate cleaning the engine or nacelle area."
+
+---
+
+### Question 4
+
+**When the fire-extinguishing system is armed for operation (fire switch light depressed):**
+
+A. The LO FUEL PRESS L or R annunciator illuminates.  
+B. The LO HYD FLOW L or R annunciator illuminates.  
+C. The GEN OFF L or R annunciator illuminates.  
+D. All the above.  
+
+**Correct answer: D – All the above**  
+Pressing an ENG FIRE switchlight arms the bottles and also **trips the generator field relay (GEN OFF), closes the engine fuel firewall shutoff valve (LO FUEL PRESS), and closes the hydraulic firewall shutoff valve (LO HYD FLOW)** for that side, while disabling the thrust reverser isolation valve.
+
+---
+
+### Question 5
+
+**If the contents of an armed bottle has been discharged into a nacelle and the ENGINE FIRE switch light remains on:**
+
+A. The fire has been extinguished.  
+B. The other bottle can be discharged into the same nacelle by depressing the other BOTTLE ARMED PUSH switchlight.  
+C. The fire still exists, but no further action can be taken.  
+D. The same BOTTLE ARMED PUSH switchlight can be depressed again, firing a second charge of agent from the same bottle.  
+
+**Correct answer: B – The other bottle can be discharged into the same nacelle by depressing the other BOTTLE ARMED PUSH switchlight**  
+The system is a **two‑shot, common‑plumbed** arrangement; if the ENG FIRE light remains on after the first discharge, the remaining bottle can be fired into the same nacelle by pressing the second BOTTLE ARMED switch.
+
+---
+
+### Question 6
+
+**Depressing the ENGINE FIRE switchlight a second time:**
+
+A. Opens the fuel shutoff valve.  
+B. Opens the hydraulic shutoff valve.  
+C. Resets the generator field relay.  
+D. A and B above.  
+
+**Correct answer: D – A and B above**  
+Pressing the ENG FIRE switchlight again **reopens the engine fuel and hydraulic firewall shutoff valves, disarms the fire bottles, and resets the thrust reversers**; the generator field relay, however, does not reset automatically.
+
+---
+
+### Question 7
+
+**If the FIRE DETECTION SYS L/R annunciator illuminates:**
+
+A. The fire detection system is working properly.  
+B. The fire detection system is inoperative.  
+C. Has no effect on the fire extinguishing system.  
+D. Both B and C.  
+
+**Correct answer: D – Both B and C**  
+The FIRE DET SYS L/R annunciator indicates a **fault in the sensor loop or control unit** (detection inoperative), but the manual explicitly notes that the **fire‑extinguishing system remains operational**.
+
+---
+
+### Question 8
+
+**If, during flight, EMER on the BATT switch is selected:**
+
+A. The fire detection and extinguishing system will be inoperative.  
+B. There will be no effect on the fire system.  
+C. The fire detection portion of the system is still operable.  
+D. The fire extinguishing portion of the system is still operable.  
+
+**Correct answer: A – The fire detection and extinguishing system will be inoperative**  
+Both detection and extinguishing rely on **main DC power** through the FIRE DETECT breakers on the LH CB panel; with the BATT switch in EMER, the main DC buses (including those breakers) are de‑energized and only the EMER/BATTERY buses are powered, so the fire system is not powered.
+
+---
+
+### Question 9
+
+**Illumination of the FIRE EXT BTL LOW annunciator indicates:**
+
+A. Both fire bottles are low on pressure.  
+B. That the fire warning system is inoperative.  
+C. That the fire detection system will not operate.  
+D. Either or both fire bottles have low pressure.  
+
+**Correct answer: D – Either or both fire bottles have low pressure**  
+The FIRE EXT BOTL LOW annunciator (and CAS) is triggered if **one or both engine fire‑extinguisher bottles have low pressure**, regardless of whether they've discharged.
+
+---
+
+### Question 10
+
+**During rotary test of the fire warning system:**
+
+A. Both ENGINE FIRE switchlights will illuminate, the master warning will flash.  
+B. The FIRE DET SYS (amber) annunciator will illuminate.  
+C. The MASTER CAUTION RESET switchlights illuminate.  
+D. Both ENGINE FIRE switchlights will illuminate.  
+
+**Correct answer: D – Both ENGINE FIRE switchlights will illuminate**  
+Selecting FIRE WARN on the rotary test switch checks loop continuity and control units; the test is valid when **both LH/RH ENGINE FIRE switchlights illuminate**. No MASTER WARNING/Caution lights are invoked by this test.
+
+---
+
 Required Knowledge
 ------------------
 

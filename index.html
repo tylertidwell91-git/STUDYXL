@@ -319,6 +319,16 @@
       box-shadow: none;
     }
 
+    button.flagged {
+      border-color: var(--danger);
+      background: rgba(249, 115, 115, 0.15);
+      color: #fca5a5;
+    }
+
+    button.flagged:hover {
+      background: rgba(249, 115, 115, 0.25);
+    }
+
     .status {
       font-size: 13px;
       color: var(--text-muted);
@@ -339,13 +349,17 @@
     }
 
     .deck-select {
-      border-radius: 999px;
+      border-radius: 8px;
       border: 1px solid rgba(148, 163, 184, 0.7);
       background: rgba(15, 23, 42, 0.9);
       color: var(--text-main);
       padding: 4px 10px;
       font-size: 12px;
       outline: none;
+      min-width: 180px;
+    }
+    .deck-select[multiple] {
+      min-height: 100px;
     }
 
     .deck-select:focus {
@@ -428,9 +442,10 @@
       </div>
       <div class="controls-right">
         <label class="deck-label">
-          Deck:
-          <select id="deck-select" class="deck-select" multiple>
-            <option value="all">All (Req + Ch. 2, 5, 6, 7, 8)</option>
+          Decks (Ctrl/Cmd+click to select multiple):
+          <select id="deck-select" class="deck-select" multiple size="6">
+            <option value="all" selected>All (Req + Ch. 2, 5, 6, 7, 8)</option>
+            <option value="needs-review">Needs Review</option>
             <option value="req">Required Knowledge</option>
             <option value="ch2">Chapter 2 – Electrical Power</option>
             <option value="ch5">Chapter 5 – Fuel System</option>
@@ -1266,6 +1281,136 @@
     "explanation": "If HYD PRESS persists or cannot be extinguished there are specific altitude/airspeed limitations; **when you can get it to go out after use, no additional operating limits are imposed** beyond normal procedures."
   },
   {
+    "chapter": "Chapter 8 – Fire Protection",
+    "number": 1,
+    "prompt": "An ENG FIRE switchlight illuminates:",
+    "options": [
+      "A. When it is depressed.",
+      "B. The MASTER WARNING RESET lights also illuminate.",
+      "C. When temperature in the nacelle area reaches approximately 500°F (XL), 450°F (XLS).",
+      "D. Electrical resistance of the sensing loop increases due to increasing nacelle temperature."
+    ],
+    "answer": "C – When temperature in the nacelle area reaches approximately 500°F (XL), 450°F (XLS)",
+    "explanation": "The loop‑type detectors in each nacelle decrease in resistance as temperature rises; when loop temperature reaches roughly **500°F on the XL and 450°F on the XLS**, the control unit sees the resistance drop as a fire/overheat and illuminates the corresponding ENG FIRE switchlight (without triggering MASTER WARNING)."
+  },
+  {
+    "chapter": "Chapter 8 – Fire Protection",
+    "number": 2,
+    "prompt": "Depressing an illuminated ENGINE FIRE switchlight:",
+    "options": [
+      "A. Fires bottle No. 1 into the nacelle.",
+      "B. Fires bottle No. 2 into the nacelle.",
+      "C. Fires both bottles into the nacelle.",
+      "D. Illuminates both BOTTLE ARMED PUSH switchlights, arming the bottles."
+    ],
+    "answer": "D – Illuminates both BOTTLE ARMED PUSH switchlights, arming the bottles",
+    "explanation": "Pressing an illuminated ENG FIRE switchlight **arms** the fire‑extinguishing system: both white BOTTLE ARMED switchlights come on, and associated shutdown actions occur; an actual discharge only occurs when a BOTTLE ARMED switch is then pressed."
+  },
+  {
+    "chapter": "Chapter 8 – Fire Protection",
+    "number": 3,
+    "prompt": "After a bottle has been discharged into a nacelle:",
+    "options": [
+      "A. No cleaning of the engine and nacelle area is required.",
+      "B. A thorough cleaning of the engine and nacelle area is required.",
+      "C. An inspection of the engine and nacelle area is required to determine if cleaning is necessary.",
+      "D. None of the above."
+    ],
+    "answer": "A – No cleaning of the engine and nacelle area is required",
+    "explanation": "The bottles are charged with Halon (CBrF₃) which is **non‑corrosive and leaves no residue**; the manual notes that discharge \"does not necessitate cleaning the engine or nacelle area.\""
+  },
+  {
+    "chapter": "Chapter 8 – Fire Protection",
+    "number": 4,
+    "prompt": "When the fire-extinguishing system is armed for operation (fire switch light depressed):",
+    "options": [
+      "A. The LO FUEL PRESS L or R annunciator illuminates.",
+      "B. The LO HYD FLOW L or R annunciator illuminates.",
+      "C. The GEN OFF L or R annunciator illuminates.",
+      "D. All the above."
+    ],
+    "answer": "D – All the above",
+    "explanation": "Pressing an ENG FIRE switchlight arms the bottles and also **trips the generator field relay (GEN OFF), closes the engine fuel firewall shutoff valve (LO FUEL PRESS), and closes the hydraulic firewall shutoff valve (LO HYD FLOW)** for that side, while disabling the thrust reverser isolation valve."
+  },
+  {
+    "chapter": "Chapter 8 – Fire Protection",
+    "number": 5,
+    "prompt": "If the contents of an armed bottle has been discharged into a nacelle and the ENGINE FIRE switch light remains on:",
+    "options": [
+      "A. The fire has been extinguished.",
+      "B. The other bottle can be discharged into the same nacelle by depressing the other BOTTLE ARMED PUSH switchlight.",
+      "C. The fire still exists, but no further action can be taken.",
+      "D. The same BOTTLE ARMED PUSH switchlight can be depressed again, firing a second charge of agent from the same bottle."
+    ],
+    "answer": "B – The other bottle can be discharged into the same nacelle by depressing the other BOTTLE ARMED PUSH switchlight",
+    "explanation": "The system is a **two‑shot, common‑plumbed** arrangement; if the ENG FIRE light remains on after the first discharge, the remaining bottle can be fired into the same nacelle by pressing the second BOTTLE ARMED switch."
+  },
+  {
+    "chapter": "Chapter 8 – Fire Protection",
+    "number": 6,
+    "prompt": "Depressing the ENGINE FIRE switchlight a second time:",
+    "options": [
+      "A. Opens the fuel shutoff valve.",
+      "B. Opens the hydraulic shutoff valve.",
+      "C. Resets the generator field relay.",
+      "D. A and B above."
+    ],
+    "answer": "D – A and B above",
+    "explanation": "Pressing the ENG FIRE switchlight again **reopens the engine fuel and hydraulic firewall shutoff valves, disarms the fire bottles, and resets the thrust reversers**; the generator field relay, however, does not reset automatically."
+  },
+  {
+    "chapter": "Chapter 8 – Fire Protection",
+    "number": 7,
+    "prompt": "If the FIRE DETECTION SYS L/R annunciator illuminates:",
+    "options": [
+      "A. The fire detection system is working properly.",
+      "B. The fire detection system is inoperative.",
+      "C. Has no effect on the fire extinguishing system.",
+      "D. Both B and C."
+    ],
+    "answer": "D – Both B and C",
+    "explanation": "The FIRE DET SYS L/R annunciator indicates a **fault in the sensor loop or control unit** (detection inoperative), but the manual explicitly notes that the **fire‑extinguishing system remains operational**."
+  },
+  {
+    "chapter": "Chapter 8 – Fire Protection",
+    "number": 8,
+    "prompt": "If, during flight, EMER on the BATT switch is selected:",
+    "options": [
+      "A. The fire detection and extinguishing system will be inoperative.",
+      "B. There will be no effect on the fire system.",
+      "C. The fire detection portion of the system is still operable.",
+      "D. The fire extinguishing portion of the system is still operable."
+    ],
+    "answer": "A – The fire detection and extinguishing system will be inoperative",
+    "explanation": "Both detection and extinguishing rely on **main DC power** through the FIRE DETECT breakers on the LH CB panel; with the BATT switch in EMER, the main DC buses (including those breakers) are de‑energized and only the EMER/BATTERY buses are powered, so the fire system is not powered."
+  },
+  {
+    "chapter": "Chapter 8 – Fire Protection",
+    "number": 9,
+    "prompt": "Illumination of the FIRE EXT BTL LOW annunciator indicates:",
+    "options": [
+      "A. Both fire bottles are low on pressure.",
+      "B. That the fire warning system is inoperative.",
+      "C. That the fire detection system will not operate.",
+      "D. Either or both fire bottles have low pressure."
+    ],
+    "answer": "D – Either or both fire bottles have low pressure",
+    "explanation": "The FIRE EXT BOTL LOW annunciator (and CAS) is triggered if **one or both engine fire‑extinguisher bottles have low pressure**, regardless of whether they've discharged."
+  },
+  {
+    "chapter": "Chapter 8 – Fire Protection",
+    "number": 10,
+    "prompt": "During rotary test of the fire warning system:",
+    "options": [
+      "A. Both ENGINE FIRE switchlights will illuminate, the master warning will flash.",
+      "B. The FIRE DET SYS (amber) annunciator will illuminate.",
+      "C. The MASTER CAUTION RESET switchlights illuminate.",
+      "D. Both ENGINE FIRE switchlights will illuminate."
+    ],
+    "answer": "D – Both ENGINE FIRE switchlights will illuminate",
+    "explanation": "Selecting FIRE WARN on the rotary test switch checks loop continuity and control units; the test is valid when **both LH/RH ENGINE FIRE switchlights illuminate**. No MASTER WARNING/Caution lights are invoked by this test."
+  },
+  {
     "chapter": "Required Knowledge",
     "number": 1,
     "prompt": "When the cabin main door is unlocked, what happens to the small vent door integral to the main door?",
@@ -1669,32 +1814,55 @@
 
     const btnNext = document.getElementById("btn-next");
     const btnShow = document.getElementById("btn-show");
+    const btnFlag = document.getElementById("btn-flag");
     const deckSelect = document.getElementById("deck-select");
+
+    const NEEDS_REVIEW_KEY = "citation-xl-needs-review";
 
     let currentIndex = null;
     let seenCount = 0;
-    let currentDeck = "all";
+
+    function getCardId(q) {
+      return q.chapter + "|" + q.number;
+    }
+
+    function getFlaggedIds() {
+      try {
+        const raw = localStorage.getItem(NEEDS_REVIEW_KEY);
+        return raw ? JSON.parse(raw) : [];
+      } catch (_) {
+        return [];
+      }
+    }
+
+    function setFlaggedIds(ids) {
+      localStorage.setItem(NEEDS_REVIEW_KEY, JSON.stringify(ids));
+    }
+
+    function getSelectedDecks() {
+      const opts = Array.from(deckSelect.selectedOptions).map((o) => o.value);
+      return opts.length ? opts : ["all"];
+    }
 
     function getActiveQuestions() {
-      if (currentDeck === "req") {
-        return questions.filter((q) => q.chapter.startsWith("Required Knowledge"));
+      const selected = getSelectedDecks();
+      const flaggedIds = new Set(getFlaggedIds());
+
+      if (selected.includes("needs-review")) {
+        return questions.filter((q) => flaggedIds.has(getCardId(q)));
       }
-      if (currentDeck === "ch2") {
-        return questions.filter((q) => q.chapter.startsWith("Chapter 2"));
+      if (selected.includes("all")) {
+        return questions;
       }
-      if (currentDeck === "ch5") {
-        return questions.filter((q) => q.chapter.startsWith("Chapter 5"));
-      }
-      if (currentDeck === "ch6") {
-        return questions.filter((q) => q.chapter.startsWith("Chapter 6"));
-      }
-      if (currentDeck === "ch7") {
-        return questions.filter((q) => q.chapter.startsWith("Chapter 7"));
-      }
-      if (currentDeck === "ch8") {
-        return questions.filter((q) => q.chapter.startsWith("Chapter 8"));
-      }
-      return questions;
+      return questions.filter((q) => {
+        if (selected.includes("req") && q.chapter.startsWith("Required Knowledge")) return true;
+        if (selected.includes("ch2") && q.chapter.startsWith("Chapter 2")) return true;
+        if (selected.includes("ch5") && q.chapter.startsWith("Chapter 5")) return true;
+        if (selected.includes("ch6") && q.chapter.startsWith("Chapter 6")) return true;
+        if (selected.includes("ch7") && q.chapter.startsWith("Chapter 7")) return true;
+        if (selected.includes("ch8") && q.chapter.startsWith("Chapter 8")) return true;
+        return false;
+      });
     }
 
     function renderQuestion(q) {
@@ -1738,6 +1906,7 @@
       hideAnswer();
       seenCount += 1;
       updateStatus();
+      updateFlagButton();
     }
 
     function updateStatus() {
@@ -1746,14 +1915,44 @@
       statusTextEl.textContent = `${seenCount} / ${active.length} cards reviewed this session.`;
     }
 
+    function updateFlagButton() {
+      if (currentIndex === null) {
+        btnFlag.textContent = "Mark Needs Review";
+        btnFlag.classList.remove("flagged");
+        return;
+      }
+      const active = getActiveQuestions();
+      const q = active[currentIndex];
+      const flagged = new Set(getFlaggedIds());
+      const isFlagged = flagged.has(getCardId(q));
+      btnFlag.textContent = isFlagged ? "Unflag (Needs Review)" : "Mark Needs Review";
+      btnFlag.classList.toggle("flagged", isFlagged);
+    }
+
+    function toggleFlag() {
+      if (currentIndex === null) return;
+      const active = getActiveQuestions();
+      const q = active[currentIndex];
+      const id = getCardId(q);
+      const ids = getFlaggedIds();
+      const set = new Set(ids);
+      if (set.has(id)) {
+        set.delete(id);
+      } else {
+        set.add(id);
+      }
+      setFlaggedIds(Array.from(set));
+      updateFlagButton();
+      updateStatus();
+    }
+
     btnNext.addEventListener("click", nextQuestion);
     btnShow.addEventListener("click", showAnswer);
+    btnFlag.addEventListener("click", toggleFlag);
 
     deckSelect.addEventListener("change", () => {
-      currentDeck = deckSelect.value;
       currentIndex = null;
       seenCount = 0;
-      // Reset question/answer text to prompt the user
       chapterEl.textContent = "Ready";
       metaEl.textContent = "\u00a0";
       questionTextEl.innerHTML =
@@ -1761,6 +1960,7 @@
       optionsListEl.innerHTML = "";
       hideAnswer();
       updateStatus();
+      updateFlagButton();
     });
 
     // Initial state
