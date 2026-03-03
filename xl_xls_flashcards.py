@@ -3,7 +3,8 @@ import re
 from pathlib import Path
 
 
-MARKDOWN_PATH = Path.home() / "Citation_XL_XLS_Chapter2_5_QA.md"
+# Markdown lives alongside this script in the project directory
+MARKDOWN_PATH = (Path(__file__).resolve().parent / "Citation_XL_XLS_Chapter2_5_QA.md").resolve()
 
 
 class Question:
