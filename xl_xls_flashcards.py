@@ -42,8 +42,14 @@ def parse_markdown_questions(text: str):
     while i < len(lines):
         line = lines[i]
 
+        # Chapter-style headings
         if line.startswith("Chapter ") and "–" in line:
             current_chapter = line.strip()
+            i += 1
+            continue
+        # Non-chapter category heading (e.g., Required Knowledge)
+        if line.strip().startswith("Required Knowledge"):
+            current_chapter = "Required Knowledge"
             i += 1
             continue
 
