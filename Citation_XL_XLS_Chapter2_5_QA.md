@@ -1,0 +1,907 @@
+Citation XL/XLS – Study Questions Answer Key (Ch. 2 & 5)
+========================================================
+
+This document compiles the multiple‑choice questions and answers from:
+
+- **Chapter 2: Electrical Power Systems**
+- **Chapter 5: Fuel System**
+
+Each question shows the options, the **correct answer**, and a short explanation.
+
+---
+
+Chapter 2 – Electrical Power Systems
+------------------------------------
+
+> NOTE: Assume the APU generator is OFF unless otherwise stated.
+
+### Question 1
+
+**A fully charged battery should supply power to the BATTERY bus and the EMER buses for approximately:**
+
+A. 2 hours  
+B. 1 hour  
+C. 30 minutes  
+D. 10 minutes  
+
+**Correct answer: C – 30 minutes**  
+With load shedding (only BATTERY and EMER bus items powered), the manual states the battery can power critical systems for **approximately 30 minutes**; if powering the entire electrical system, endurance would be only about 10 minutes.
+
+---
+
+### Question 2
+
+**If the red BATT O’TEMP annunciator light segment flashes, the battery switch should be initially placed to _______ to isolate the battery from the generators and check for an amperage decrease.**
+
+A. OFF  
+B. EMER  
+C. Either A or B  
+D. None of the above  
+
+**Correct answer: B – EMER**  
+Moving the BATT switch to **EMER** opens the battery isolation relay to the crossfeed bus, isolating the battery from the generators while still powering the EMER bus from the battery, allowing you to observe whether charging amperage decreases.
+
+---
+
+### Question 3
+
+**Generators on-line, BATT switch ON, with the voltmeter selector switch remaining in BATT, the voltmeter gauge will indicate:**
+
+A. Generator system voltage, 28.5 V, from the battery bus  
+B. Generator system voltage, 28.5 V, from the crossfeed bus  
+C. Battery voltage, 24–25 V, from the battery bus  
+D. Battery voltage, 24–25 V, from the crossfeed bus  
+
+**Correct answer: A – Generator system voltage, 28.5 V, from the battery bus**  
+With generators online and BATT **ON**, the BATTERY bus is at generator voltage (about **28.5 V**); with VOLTAGE SEL in BATT you are reading generator‑supplied battery bus voltage, not the battery’s own resting 24–25 V.
+
+---
+
+### Question 4
+
+**Generators on line, BATT switch OFF, voltage selector BATT, the voltmeter gauge will indicate:**
+
+A. 24–25 V  
+B. 28.5 V  
+C. No voltage  
+D. None of the above  
+
+**Correct answer: C – No voltage**  
+With the BATT switch **OFF**, the circuit between the BATTERY bus and the voltmeter is open; with VOLTAGE SEL at BATT the voltmeter reads **zero**, even if the generators are online.
+
+---
+
+### Question 5
+
+**If the GEN OFF L annunciator segment illuminates:**
+
+A. The right generator ammeter gauge should indicate double the previous load.  
+B. The left generator amperage will drop to zero.  
+C. The voltmeter should register zero with the voltmeter selector remaining in the BATT position.  
+D. Both A and B.  
+
+**Correct answer: D – Both A and B**  
+When the left generator goes offline (GEN OFF L), its ammeter drops to **zero** and the **right generator load doubles**, assuming both 225‑amp current limiters are intact and the remaining generator now carries the full system load.
+
+---
+
+### Question 6
+
+**If both GEN OFF L and R annunciator segments illuminate simultaneously:**
+
+A. The MASTER CAUTION RESET lights will illuminate steady.  
+B. The MASTER WARNING RESET lights will illuminate flashing.  
+C. Both A and B.  
+D. Only the GEN OFF L and R annunciator segments will flash.  
+
+**Correct answer: C – Both A and B**  
+Loss of **both** generators causes **GEN OFF L/R** to flash and illuminates both **MASTER CAUTION** and **MASTER WARNING** lights, as described in the monitoring section.
+
+---
+
+### Question 7
+
+**If the AFT J-BOX-LMT annunciator segment illuminates, indicates:**
+
+A. An aft J-Box 60 amp feed bus current limiter is open.  
+B. An aft J-Box 225 amp feed bus current limiter is open.  
+C. The generators should be selected OFF one at a time to determine which limiter is open.  
+D. The aircraft should be landed as soon as possible.  
+
+**Correct answer: B – An aft J-Box 225 amp feed bus current limiter is open**  
+The **AFT J‑BOX LMT** segment monitors the **225‑amp current limiters** between the FEED buses and the CROSSFEED bus; illumination (flashing) indicates one of these high‑current limiters is open.
+
+---
+
+### Question 8
+
+**If both generators have tripped off line and unable to reset, and the BATT switch is placed in EMER, the following equipment is inoperative:**
+
+A. Standby HSI  
+B. Normal extension of the landing gear  
+C. Ignition  
+D. Speedbrakes  
+
+**Correct answer: D – Speedbrakes**  
+With both generators failed and BATT in **EMER**, the EMER and BATTERY buses power only selected critical instruments and controls to safely land (e.g., gear extension and ignition remain available); **speedbrakes** are not essential and are not powered in this configuration.
+
+---
+
+### Question 9
+
+**Aircraft configuration same as question 8, select correct choice:**
+
+A. Only the standby radio control head will be operational for air-to-ground communications.  
+B. AHRS 2 supplies heading information to the standby HSI.  
+C. AHRS 1 supplies heading information to the standby HSI.  
+D. The secondary flight display may be used for an ILS approach (APR switch depressed).  
+
+**Correct answer: C – AHRS 1 supplies heading information to the standby HSI**  
+In EMER power, the standby HSI remains powered and uses **AHRS 1** as its heading source; RMU 1 is also powered from EMER buses, but AHRS 1 is the designated input to the standby HSI.
+
+---
+
+### Question 10
+
+**If the battery overtemps and cannot be isolated, battery isolation relay stuck closed:**
+
+A. Turn the BATT switch OFF and land as soon as practical.  
+B. Activate the BATTERY DISCONNECT switch.  
+C. After performing choice B, if the BATT O’TEMP>160° annunciator segment begins to flash, land as soon as possible.  
+D. Both B and C.  
+
+**Correct answer: D – Both B and C**  
+If the battery cannot be isolated via the BATT switch (battery isolation relay stuck), you must use the **BATTERY DISCONNECT** switch to remove it from the system. If after that the **BATT O’TEMP >160°** segment flashes, the condition requires landing **as soon as possible**.
+
+---
+
+### Question 11
+
+**Select the correct statement concerning the use of a ground power unit:**
+
+A. Never connect the power cord to or remove it from the aircraft with power applied.  
+B. The battery will not receive a charge if the BATT switch is ON.  
+C. The GEN switches are placed in the OFF position for an engine start using the GPU.  
+D. The GPU ground unit must be regulated at 24 volts, and 800/1,000 amps.  
+
+**Correct answer: C – The GEN switches are placed in the OFF position for an engine start using the GPU**  
+The manual specifies GEN switches are **ON** for normal engine starts and **OFF** when a GPU is used. It also states the GPU should be **regulated to 28 V** with 800–1000 A capability; statement D’s 24 V is incorrect, and statement B contradicts the note that the GPU will charge the battery regardless of BATT switch position.
+
+---
+
+### Question 12
+
+**The standby flight display emergency power system powers:**
+
+A. The pilot PFD with the battery switch set to EMER.  
+B. The standby HSI back lighting.  
+C. The standby flight display.  
+D. Both B and C.  
+
+**Correct answer: C – The standby flight display**  
+The left nose emergency battery pack is a dedicated backup power source for the **secondary/standby flight display (SFD)** only; it does not power the pilot PFD or the standby HSI lighting.
+
+---
+
+### Question 13
+
+**Selecting EMER with the BATT switch:**
+
+A. Will allow the CROSSFEED bus to power all emergency systems.  
+B. Will render the voltmeter inoperative.  
+C. The battery will still receive a charge from the generators.  
+D. Allows only the EMER and BATTERY bus items to be powered.  
+
+**Correct answer: D – Allows only the EMER and BATTERY bus items to be powered**  
+With BATT in **EMER**, the EMER PWR relays reconfigure so that the **BATTERY bus powers the EMER bus**, and the battery isolation relay opens to the crossfeed bus. In this configuration only **BATTERY bus and EMER bus** loads are powered, and the battery is no longer being charged by the generators.
+
+---
+
+### Question 14
+
+**By activating the INTERIOR MASTER switch:**
+
+A. The cabin light switches are disabled.  
+B. Turns on all of the reading lights.  
+C. Removes all power from the cabin, aft of the cockpit.  
+D. Removes all interior power from the aircraft.  
+
+**Correct answer: C – Removes all power from the cabin, aft of the cockpit**  
+The INTERIOR MASTER switch opens the interior master relay on the RH feed bus and **removes electrical power to the cabin area**, not the cockpit.
+
+---
+
+### Question 15
+
+**Which interior lights may be turned on with the BATT and GEN switches OFF?**
+
+A. Cabin entry, tail cone, and baggage lighting.  
+B. Cockpit flood, cabin (indirect), tail cone, and battery compartment.  
+C. Cabin entry, tail cone, cockpit flood, and baggage lighting.  
+D. Cockpit flood, cabin flood, and baggage lighting.  
+
+**Correct answer: A – Cabin entry, tail cone, and baggage lighting**  
+These lights are on hot/battery‑direct circuits so they can be turned on with **BATT and GEN switches OFF**, allowing access and servicing without energizing the rest of the aircraft electrical system.
+
+---
+
+### Question 16
+
+**An illuminated white AHRS AUX PWR 1/2 annunciator indicates:**
+
+A. The AHRS system is now powered through the AVN bus.  
+B. Indicates the AHRS is being powered by the AHRS auxiliary battery.  
+C. Indicates a condition that requires immediate attention.  
+D. Indicates a partial failure of the AHRS system.  
+
+**Correct answer: B – Indicates the AHRS is being powered by the AHRS auxiliary battery**  
+The white **AHRS AUX PWR 1–2** annunciator means the respective AHRS is drawing power from the **auxiliary battery pack** in the right nose compartment instead of the main DC system.
+
+---
+
+### Question 17
+
+**If the battery voltage indicates 24 volts prior to engine start:**
+
+A. This is a low battery and must be charged to 28 volts.  
+B. The GPU must be used for starting.  
+C. 24 volts is the minimum voltage required.  
+D. Voltage is excessive and could damage the starter.  
+
+**Correct answer: C – 24 volts is the minimum voltage required**  
+The manual states that prior to start the battery voltage should read **24 V minimum** (for either NiCad or lead‑acid); less than 24 V requires maintenance.
+
+---
+
+### Question 18
+
+**During a DC volts and amps test:**
+
+A. The operating generator should indicate 24 volts.  
+B. When turning the right generator off, the left amp load should double.  
+C. The GEN OFF L/R should illuminate.  
+D. Is required to make sure the emergency power supply is supplying power to the aircraft.  
+
+**Correct answer: B – When turning the right generator off, the left amp load should double**  
+In the DC volts/amps test, turning one generator **OFF** should cause the other generator’s ammeter reading to **double**, confirming proper load sharing and intact 225‑amp current limiters; the operating generator should show about 28.5 V, not 24 V.
+
+---
+
+### Question 19
+
+**Concerning starting limitations, which is the correct statement?**
+
+A. Three engine starts per hour is allowed.  
+B. A generator assisted start counts as one battery count.  
+C. If four or more battery starts are performed in one hour, the battery must be allowed to cool for 30 minutes.  
+D. There are no starter limitations when using a GPU.  
+
+**Correct answer: C – If four or more battery starts are performed in one hour, the battery must be allowed to cool for 30 minutes**  
+Battery‑start limitations are based on preventing battery and starter overheating; performing **four or more battery starts in one hour** requires a **30‑minute cool‑down** period, while there are still starter limitations when using a GPU, so D is incorrect.
+
+---
+
+Chapter 5 – Fuel System
+------------------------
+
+### Question 1
+
+**In the event of a loss of main DC power while operating in crossfeed:**
+
+A. The crossfeed valve will fail closed.  
+B. Crossfeed will continue.  
+C. The LO FUEL PRESS L or R annunciator will illuminate.  
+D. The motive flow valve for the receiving side will fail open and crossfeed will terminate.  
+
+**Correct answer: D – The motive flow valve for the receiving side will fail open and crossfeed will terminate**  
+The crossfeed valve is motor‑operated and “will fail in its present position” with loss of main DC power, but the motive‑flow shutoff valves are **normally open, electrically closed**. Loss of DC de‑energizes them back to open, restoring normal motive flow to the receiving side and effectively ending crossfeed.
+
+---
+
+### Question 2
+
+**During initial engine starting, the primary source of fuel pressure to the engine-driven pump is:**
+
+A. Motive flow fuel pressure.  
+B. Primary ejector pump pressure.  
+C. Respective side electric boost pump pressure.  
+D. Suction pressure from the engine driven pump.  
+
+**Correct answer: C – Respective side electric boost pump pressure**  
+In start with `FUEL BOOST` in `NORM`, pressing the start button **automatically turns on the respective boost pump**, which supplies low‑pressure, high‑volume fuel to the engine‑driven pump for the initial start.
+
+---
+
+### Question 3
+
+**The primary ejector fuel pump:**
+
+A. Provides motive flow fuel pressure.  
+B. Provides head pressure to the engine-driven fuel pump.  
+C. Provides high pressure, low volume fuel to the engine-driven fuel pump.  
+D. Is located in the surge tank.  
+
+**Correct answer: B – Provides head pressure to the engine-driven fuel pump**  
+The primary ejector is located in the hopper and is charged by high‑pressure, low‑volume motive flow from the engine‑driven pump. It then provides the engine‑driven pump with a continuous supply of **low‑pressure, high‑volume** fuel (head pressure).
+
+---
+
+### Question 4
+
+**During initial engine start, the electric boost pump is activated when the:**
+
+A. START button is depressed.  
+B. Throttle is advanced from CUTOFF to IDLE.  
+C. Placing the FUEL BOOST switch to ON.  
+D. Fuel low pressure switch activates.  
+
+**Correct answer: A – START button is depressed**  
+With the `FUEL BOOST` switch in `NORM`, **depressing the engine START button** activates the respective electric boost pump; advancing the throttle or low‑pressure alone are not what initiates this automatic start‑phase activation.
+
+---
+
+### Question 5
+
+**During over-the-wing fueling:**
+
+A. Fill the wing tanks until fuel fills the standpipe.  
+B. It is not necessary to ground the refueling apparatus.  
+C. Fill the wing tanks until fuel reaches the bottom of the standpipe.  
+D. None of the above.  
+
+**Correct answer: C – Fill the wing tanks until fuel reaches the bottom of the standpipe**  
+The manual note states during over‑the‑wing fueling you should “**top off…only to the bottom level of the standpipe**” to prevent fuel from entering and filling the standpipe, which would cause fuel to spill out of the filler opening.
+
+---
+
+### Question 6
+
+**Select the correct choice regarding Single Point Pressure Refueling:**
+
+A. Immediately after fuel flow has stabilized, perform a precheck test.  
+B. A fuel flow precheck test is not required if a partial load of fuel is desired.  
+C. Extreme care must be observed when attaching the fueling nozzle in order not to spill fuel.  
+D. The refueling/defueling compartment is located directly forward of the left wing.  
+
+**Correct answer: A – Immediately after fuel flow has stabilized, perform a precheck test**  
+SPPR procedure calls for starting fuel flow, letting it stabilize, then pulling the precheck levers; flow must cease within 30 seconds to verify that the automatic refuel/defuel shutoff valves will close when the tanks are full.
+
+---
+
+### Question 7
+
+**Opening a defuel select lever:**
+
+A. Allows defueling the corresponding wing tank.  
+B. Prevents defueling the opposite wing tank.  
+C. Prevents refueling the corresponding wing tank.  
+D. Prevents defueling the corresponding wing tank.  
+
+**Correct answer: D – Prevents defueling the corresponding wing tank**  
+Moving a defuel select lever out deactivates that tank’s refuel/defuel shutoff valve and **prevents defueling the respective wing tank**; it does not affect the opposite tank’s defuel capability.
+
+---
+
+### Question 8
+
+**With total loss of DC power, the motorized fuel crossfeed valve will:**
+
+A. Fail in the open position.  
+B. Fail in the closed position.  
+C. Fail in its present position.  
+D. Return to a reset position.  
+
+**Correct answer: C – Fail in its present position**  
+The crossfeed valve is a motor‑driven ball valve powered by main DC and is described to “**fail in its present position** if loss of main DC power occurs,” meaning it does not move to a default open or closed state.
+
+---
+
+### Question 9
+
+**With the FUEL BOOST switch in the NORM position, the boost pump:**
+
+A. Will automatically activate during crossfeed.  
+B. Will only activate during fuel crossfeed.  
+C. Will run continuously.  
+D. Only activates during engine start.  
+
+**Correct answer: A – Will automatically activate during crossfeed**  
+In `NORM`, the boost pump auto‑activates in several cases: during engine start, during crossfeed (in the selected tank), and upon low fuel pressure with the throttle not in cutoff; it does not run continuously in `NORM`.
+
+---
+
+### Question 10
+
+**To crossfeed fuel on the ground:**
+
+A. A GPU is required for power, because the aircraft battery must be OFF.  
+B. The aircraft battery must be in the ON position.  
+C. Is impossible.  
+D. One engine must be operating.  
+
+**Correct answer: B – The aircraft battery must be in the ON position**  
+Crossfeed depends on powered components (motorized crossfeed valve and motive‑flow shutoff valves) using main DC power. On the ground this can be supplied by the aircraft battery (which must be **ON**) or another DC source; engines do not have to be running for the hardware to operate.
+
+---
+Chapter 6 – Auxiliary Power System
+----------------------------------
+
+### Question 1
+
+**The APU generator limits are:**
+
+A. 200 amps ground/300 amps flight  
+B. 230 amps ground/300 amps flight  
+C. 200 amps ground/230 amps flight  
+D. 230 amps ground/230 amps flight  
+
+**Correct answer: D – 230 amps ground/230 amps flight**  
+The APU starter-generator is rated at 28 V, 300 amps, but is **regulated not to exceed 230 amps**; this limit applies regardless of whether the aircraft is on the ground or in flight.
+
+---
+
+### Question 2
+
+**The maximum altitude is:**
+
+A. 45,000 feet for APU operations  
+B. 30,000 feet for APU operations  
+C. 30,000 feet for APU starting  
+D. 25,000 feet for APU starting  
+
+**Correct answer: B – 30,000 feet for APU operations**  
+The APU is certified for ground and in-flight use with a **maximum altitude of 20,000 ft for starting** and **30,000 ft for operational usage**; starting above 20,000 ft is not approved.
+
+---
+
+### Question 3
+
+**Select the false statement:**
+
+A. The APU fire bottle will discharge automatically eight seconds after a fire is detected  
+B. The APU fire bottle will discharge at any time if selected by the pilot  
+C. The aircraft master warning annunciators will illuminate if the APU FIRE light illuminates  
+D. Low fire bottle pressure will illuminate the APU FAIL annunciator  
+
+**Correct answer: C – The aircraft master warning annunciators will illuminate if the APU FIRE light illuminates**  
+The manual specifically notes that the **MASTER WARNING annunciators will not illuminate** when the APU FIRE light comes on. Automatic discharge occurs 8 seconds after a detected fire if the switchlight is not pressed; the pilot can manually discharge the bottle at any time, and low bottle pressure does illuminate the APU FAIL annunciator.
+
+---
+
+### Question 4
+
+**Select the correct limitation:**
+
+A. APU start attempt is prohibited after a dual generator failure  
+B. Deployment of thrust reversers is prohibited with the APU operating  
+C. The APU is approved for unattended operation  
+D. The aircraft battery is limited to three APU starts per hour  
+
+**Correct answer: A – APU start attempt is prohibited after a dual generator failure**  
+The text states that an **APU start attempt in flight is prohibited after a dual generator failure**, making this a specific limitation; the APU is explicitly **not certified for unattended use**, and no thrust‑reverser or APU‑starts‑per‑hour limits are given here.
+
+---
+
+### Question 5
+
+**Select the correct statement:**
+
+A. The APU bleed air valve will not close in response to an ACM overheat  
+B. APU fuel is normally taken from the left tank (crossfeed off)  
+C. APU fuel can be taken from the left tank (crossfeed open)  
+D. The only method of manual shutdown of the APU is the START/STOP switch on the APU control panel  
+
+**Correct answer: C – APU fuel can be taken from the left tank (crossfeed open)**  
+Normally the **right wing fuel tank** supplies the APU, but the left tank can supply fuel during fuel crossfeed operation. The BAV will close in response to an ACM overheat, normal APU fuel is not taken from the left tank, and there is an additional manual shutdown method via the **EMERGENCY SHUTOFF** button on the tailcone maintenance panel.
+
+---
+
+Chapter 6 – Auxiliary Power System
+----------------------------------
+
+### Question 1
+
+**The APU generator limits are:**
+
+A. 200 amps ground/300 amps flight  
+B. 230 amps ground/300 amps flight  
+C. 200 amps ground/230 amps flight  
+D. 230 amps ground/230 amps flight  
+
+**Correct answer: D – 230 amps ground/230 amps flight**  
+The APU starter-generator is rated at 28 V, 300 amps, but is **regulated not to exceed 230 amps**; this limit applies regardless of whether the aircraft is on the ground or in flight.
+
+---
+
+### Question 2
+
+**The maximum altitude is:**
+
+A. 45,000 feet for APU operations  
+B. 30,000 feet for APU operations  
+C. 30,000 feet for APU starting  
+D. 25,000 feet for APU starting  
+
+**Correct answer: B – 30,000 feet for APU operations**  
+The APU is certified for ground and in-flight use with a **maximum altitude of 20,000 ft for starting** and **30,000 ft for operational usage**; starting above 20,000 ft is not approved.
+
+---
+
+### Question 3
+
+**Select the false statement:**
+
+A. The APU fire bottle will discharge automatically eight seconds after a fire is detected  
+B. The APU fire bottle will discharge at any time if selected by the pilot  
+C. The aircraft master warning annunciators will illuminate if the APU FIRE light illuminates  
+D. Low fire bottle pressure will illuminate the APU FAIL annunciator  
+
+**Correct answer: C – The aircraft master warning annunciators will illuminate if the APU FIRE light illuminates**  
+The manual specifically notes that the **MASTER WARNING annunciators will not illuminate** when the APU FIRE light comes on. Automatic discharge occurs 8 seconds after a detected fire if the switchlight is not pressed; the pilot can manually discharge the bottle at any time, and low bottle pressure does illuminate the APU FAIL annunciator.
+
+---
+
+### Question 4
+
+**Select the correct limitation:**
+
+A. APU start attempt is prohibited after a dual generator failure  
+B. Deployment of thrust reversers is prohibited with the APU operating  
+C. The APU is approved for unattended operation  
+D. The aircraft battery is limited to three APU starts per hour  
+
+**Correct answer: A – APU start attempt is prohibited after a dual generator failure**  
+The text states that an **APU start attempt in flight is prohibited after a dual generator failure**, making this a specific limitation; the APU is explicitly **not certified for unattended use**, and no thrust‑reverser or APU‑starts‑per‑hour limits are given here.
+
+---
+
+### Question 5
+
+**Select the correct statement:**
+
+A. The APU bleed air valve will not close in response to an ACM overheat  
+B. APU fuel is normally taken from the left tank (crossfeed off)  
+C. APU fuel can be taken from the left tank (crossfeed open)  
+D. The only method of manual shutdown of the APU is the START/STOP switch on the APU control panel  
+
+**Correct answer: C – APU fuel can be taken from the left tank (crossfeed open)**  
+Normally the **right wing fuel tank** supplies the APU, but the left tank can supply fuel during fuel crossfeed operation. The BAV will close in response to an ACM overheat, normal APU fuel is not taken from the left tank, and there is an additional manual shutdown method via the **EMERGENCY SHUTOFF** button on the tailcone maintenance panel.
+
+---
+
+Chapter 7 – Powerplant
+-----------------------
+
+### Question 1
+
+**The primary thrust indicator for PW545A/B engine is:**
+
+A. Fuel flow  
+B. N1  
+C. ITT  
+D. N2  
+
+**Correct answer: B – N1**  
+In normal operations the EEC schedules engine power by governing **N1 (fan) speed** as a function of thrust lever angle, and performance charts reference N1 as the primary takeoff, climb, and cruise power setting parameter.
+
+---
+
+### Question 2
+
+**If one igniter plug should fail during engine start:**
+
+A. The engine will start normally.  
+B. It will result in a “hot” start.  
+C. Combustion will not occur.  
+D. Engine start will be slower than normal.  
+
+**Correct answer: A – The engine will start normally**  
+The ignition system is dual-plug, single exciter; the manual notes that if **one ignitor plug fails during engine starts, the engine will start normally**, because the remaining plug still provides adequate ignition energy.
+
+---
+
+### Question 3
+
+**Ignition during normal engine start is activated by:**
+
+A. Turning the IGNITION switches to ON at 8 to 10% N2.  
+B. Moving the throttle to IDLE at 8 to 10% N2.  
+C. Depressing the start button.  
+D. Ignition is not required during normal engine start.  
+
+**Correct answer: B – Moving the throttle to IDLE at 8 to 10% N2**  
+With the ignition switches in NORM, depressing the start button spins the engine, and **moving the throttle from CUTOFF to IDLE at the proper N2** commands the start sequence; the EEC/FCU automatically schedules fuel and ignition for ambient conditions.
+
+---
+
+### Question 4
+
+**Of the following statements concerning the PW545A/B engine, the correct one is:**
+
+A. Fuel from the engine fuel system is used to cool engine oil through a fuel‑oil heat exchanger.  
+B. The engine accessory gearbox has its own oil lubricating system (independent of the engine itself).  
+C. Fuel is warmed through the fuel‑oil heat exchanger.  
+D. Both A and C.  
+
+**Correct answer: D – Both A and C**  
+The fuel/oil heat exchanger (FOHE) transfers heat between engine oil and fuel: **oil is cooled by fuel**, and **fuel is warmed by oil** as it passes through the FOHE; the accessory gearbox is lubricated by the same engine oil system, not a separate system.
+
+---
+
+### Question 5
+
+**If the N1 turbine shaft shifts to the rear:**
+
+A. The engine automatically shuts down.  
+B. The vibration detector causes illumination of the master warning lights.  
+C. The synchronizer shuts the engine down.  
+D. Nothing occurs.  
+
+**Correct answer: A – The engine automatically shuts down**  
+Rearward displacement of the N1 shaft mechanically trips the **emergency fuel shutoff valve** via the plunger and cable linkage, closing fuel flow to the manifolds and causing an automatic engine shutdown to protect against turbine/shaft failure.
+
+---
+
+### Question 6
+
+**The following engine instruments are available in the event of a loss of normal DC electrical power (Emer Power Only):**
+
+A. N2 rpm  
+B. N1 rpm, N2 rpm, and ITT  
+C. N1 rpm (tape and digital display)  
+D. N1 rpm (tape only)  
+
+**Correct answer: C – N1 rpm (tape and digital display)**  
+The manual states that **all engine indicators require main DC power except the N1 gauges**, which are powered by the emergency DC bus; both the N1 tape and its digital readout remain available on emergency power.
+
+---
+
+### Question 7
+
+**The ENGINE SYNC switch:**
+
+A. Should be in FAN for takeoffs and landings.  
+B. Should be in TURB at altitude.  
+C. Can be placed in FAN or TURB after takeoff and should be left there for the remainder of the flight.  
+D. Should be OFF for large power changes.  
+
+**Correct answer: D – Should be OFF for large power changes**  
+The engine synchronizer is designed for steady‑state operation; the manual specifies that the **sync switch should be OFF for major power changes and for single‑engine operation**, and it must be OFF for takeoff and landing.
+
+---
+
+### Question 8
+
+**Regarding the electronic engine control (EEC) system:**
+
+A. Place the EEC switch OFF prior to engine start.  
+B. Low-speed ground idle is controlled by the EECs.  
+C. Engine sync is operational with or without the EEC operational.  
+D. If an EEC trips off line in flight, EEC MANUAL L–R annunciator illuminates, the throttle detents will remain operational.  
+
+**Correct answer: B – Low-speed ground idle is controlled by the EECs**  
+In AUTO mode the EECs **control low‑speed ground idle** (GND IDLE annunciator), including the 8‑second delay after landing; engine sync requires the EECs to be in AUTO and detents are lost when an EEC reverts to MANUAL.
+
+---
+
+### Question 9
+
+**During engine starts:**
+
+A. N1 should register by 25% N2.  
+B. ITT should not exceed 720°C (545A), 740°C (545B).  
+C. Generator assist starts should not be initiated until the operating engine rpm is stabilized at 60% N2.  
+D. Both A and B.  
+
+**Correct answer: D – Both A and B**  
+Normal start monitoring includes ensuring **N1 rotation is indicated by about 25% N2** and that **ITT remains within start limits** (720°C for PW545A, 740°C for PW545B); the text emphasizes these limits, whereas the exact 60% N2 value for generator assist is not specified.
+
+---
+
+### Question 10
+
+**Starting engines with a ground power unit (GPU):**
+
+A. Stabilize voltage output 28 VDC.  
+B. Amperage output should be adjusted not to exceed 1,200 amps.  
+C. The minimum amperage for the GPU output is 500 amps.  
+D. After engine starts are complete, place generators online prior to disconnecting the GPU.  
+
+**Correct answer: A – Stabilize voltage output 28 VDC**  
+The engine start section specifies that when using a GPU, **voltage should be regulated and stabilized at 28 VDC** and current kept between published limits (not as high as 1,200 A); generators should be brought online only after the GPU is disconnected.
+
+---
+
+### Question 11
+
+**During right engine start, the right start switch light remains illuminated. How can you correct this?**
+
+A. Shutdown that engine.  
+B. Turn the right generator switch to RESET, then ON.  
+C. Engage the BATTERY DISCONNECT switch.  
+D. Push the starter disconnect button.  
+
+**Correct answer: D – Push the starter disconnect button**  
+If the start light remains on after the normal cutout speed, the corrective action is to **manually open the start relay using the starter disconnect control**, rather than shutting down the engine or cycling generators in flight.
+
+---
+
+### Question 12
+
+**When you move the throttles back out of the CRU detent to avoid an overspeed during cruise flight, are the EECs still controlling the engines?**
+
+A. Yes, with all functions.  
+B. Yes, but the engines will not synchronize.  
+C. No, you must manually set the engine.  
+D. No, the EEC switch must be placed in MAN.  
+
+**Correct answer: A – Yes, with all functions**  
+As long as the EEC switches remain in AUTO, the **EECs continue to govern N1 based on throttle angle** whether or not the levers are in a detent; the detents only command specific rated thrust settings.
+
+---
+
+### Question 13
+
+**Select the correct statement regarding the engine oil system:**
+
+A. The oil level should be checked between five and ten minutes after shutdown.  
+B. If the oil level indicates below the range marks on the saddle tank, oil must always be added.  
+C. Add no more than two quarts in a five hour period.  
+D. Any turbine oil may be used, with no restrictions.  
+
+**Correct answer: A – The oil level should be checked between five and ten minutes after shutdown**  
+The manual states that for an accurate oil level, **the check should be done 5–10 minutes after engine shutdown**; it also gives allowable consumption limits rather than a “must add” rule at a specific mark, and oil type is restricted by spec.
+
+---
+
+### Question 14
+
+**When using the operating engine for a cross-generator start:**
+
+A. The operating engine must be at 52% N1.  
+B. The operating engine must have the GEN switch OFF.  
+C. The operating engine must be stable, at idle.  
+D. The EEC switches must be in the MAN position.  
+
+**Correct answer: C – The operating engine must be stable, at idle**  
+Cross‑generator starts require the **operating engine’s generator to be on line and the engine stabilized at idle power** to ensure adequate electrical power and avoid overstressing the generator.
+
+---
+
+### Question 15
+
+**If the BLEED OFF VALVE, or BOV, sticks open, what indication will you get?**
+
+A. Slow throttle response.  
+B. About 30° ITT increase for that engine.  
+C. EECs will revert to manual.  
+D. You will notice no indication.  
+
+**Correct answer: B – About 30° ITT increase for that engine**  
+The compressor bleed off valve, when stuck open, continuously dumps P2.8 air into the bypass duct, and the manual notes this will cause an **increase of approximately 30°C in ITT** on that engine.
+
+---
+
+### Question 16
+
+**When the ENGINE VIB-R illuminates during flight, you must:**
+
+A. Immediately shut down the right engine.  
+B. Monitor for the vibration, verify it exists.  
+C. Declare an emergency.  
+D. Turn the right engine boost pump on.  
+
+**Correct answer: B – Monitor for the vibration, verify it exists**  
+The ENG VIB annunciator is an advisory triggered at a vibration level well below any rotor integrity concern; procedure is to **evaluate and monitor**—not to immediately shut down the engine unless accompanied by other abnormal indications.
+
+---
+
+### Question 17
+
+**Illumination of the OIL FILTER BYPASS annunciator indicates:**
+
+A. Nothing, it is an advisory indication.  
+B. The oil filter on that engine has bypassed.  
+C. You must land as soon as possible.  
+D. You must crossfeed fuel from the opposite tank to cure the problem.  
+
+**Correct answer: B – The oil filter on that engine has bypassed**  
+The OIL FLTR BP annunciator is driven by an impending‑bypass switch in the oil filter; illumination means **filter differential pressure is high enough that bypass is occurring or imminent**, so unfiltered oil may be flowing and the crew should closely monitor oil pressure and temperature.
+
+---
+
+### Question 18
+
+**If the LO OIL PRESS-R annunciator illuminates during flight, your initial action is to:**
+
+A. Shut down the right engine.  
+B. Verify with the oil pressure gauge.  
+C. Bring the right engine to IDLE.  
+D. Consider the possibility of an engine fire.  
+
+**Correct answer: B – Verify with the oil pressure gauge**  
+The red LO OIL PRESS annunciator is triggered by a dedicated pressure switch, while the gauge uses a separate sensor; the manual notes the gauge can be used to **verify the validity** of the annunciation before deciding on further action.
+
+---
+
+### Question 19
+
+**The thrust reversers:**
+
+A. May be deployed only when the throttles are in IDLE.  
+B. Must have both STOW switches in EMER for takeoffs to guard against inadvertent deployment during that critical phase of flight.  
+C. May be left in idle reverse until the airplane is brought to a full stop.  
+D. Both A and C.  
+
+**Correct answer: D – Both A and C**  
+Normal operation requires the **throttles at idle before lifting the reverser levers**, and the manual allows idle reverse to be maintained during rollout to assist deceleration; STOW switches should be in NORM for takeoff so reversers are available for an abort.
+
+---
+
+### Question 20
+
+**When normal deployment of the thrust reversers is obtained, the following annunciator lights should be illuminated:**
+
+A. ARM, UNLOCK, DEPLOY.  
+B. DOOR NOT LOCKED, ARM, UNLOCK, DEPLOY.  
+C. HYD PRESS, ARM, UNLOCK, DEPLOY.  
+D. DOOR NOT LOCKED, HYD PRESS, DEPLOY.  
+
+**Correct answer: C – HYD PRESS, ARM, UNLOCK, DEPLOY**  
+During normal deployment the hydraulic system is pressurized and the sequence is **HYD PRESS and ARM, then UNLOCK, then DEPLOY**, all remaining illuminated while reverse thrust is maintained.
+
+---
+
+### Question 21
+
+**The incorrect statement regarding the use of thrust reversers is:**
+
+A. They may be used in flight to slow the airplane.  
+B. They should not be used on touch-and-go landings.  
+C. The reversers must be in idle reverse by 60 KIAS.  
+D. Either squat switch on the ground will allow both reversers to deploy.  
+
+**Correct answer: A – They may be used in flight to slow the airplane**  
+Thrust reversers are **limited to ground operations only**; they are not approved for in‑flight use, and deployment logic is tied to main‑gear squat switches.
+
+---
+
+### Question 22
+
+**The MASTER WARNING RESET lights:**
+
+A. Have nothing to do with the reverser system.  
+B. Will illuminate if an ARM light illuminates in flight.  
+C. Will illuminate if the HYD PRESS light remains illuminated after the DEPLOY light is illuminated on the ground.  
+D. Will not illuminate if an UNLOCK light illuminates in flight.  
+
+**Correct answer: B – Will illuminate if an ARM light illuminates in flight**  
+The thrust reverser section states that **if either an ARM or UNLOCK light illuminates in flight, the MASTER WARNING lights will flash**, to immediately alert the crew to an abnormal reverser condition.
+
+---
+
+### Question 23
+
+**The HYD PRESS annunciator is normal anytime a hydraulic system is in operation. If this light begins to flash, it indicates:**
+
+A. The hydraulic system has been pressurized for more than 40 seconds.  
+B. The hydraulic pumps are overheating.  
+C. The hydraulic system has failed.  
+D. The landing gear must be lowered by the emergency system.  
+
+**Correct answer: A – The hydraulic system has been pressurized for more than 40 seconds**  
+On the ground or in flight HYD PRESS illuminates steady whenever the system is pressurized; **if it remains on longer than about 40 seconds it begins to flash and triggers MASTER CAUTION**, indicating an abnormally long pressurization period.
+
+---
+
+### Question 24
+
+**If the HYD PRESS annunciator remains on after system use, and you can get it to extinguish:**
+
+A. The system may not run for more than 15 minutes.  
+B. An altitude limit of 31,000 feet, and airspeed not over 200 knots, are imposed.  
+C. No limits are indicated.  
+D. An altitude limit of 10,000 feet, and airspeed not over 150 knots, are imposed.  
+
+**Correct answer: C – No limits are indicated**  
+If HYD PRESS persists or cannot be extinguished there are specific altitude/airspeed limitations; **when you can get it to go out after use, no additional operating limits are imposed** beyond normal procedures.
