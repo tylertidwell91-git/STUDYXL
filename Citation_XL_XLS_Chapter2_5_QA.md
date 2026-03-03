@@ -905,3 +905,429 @@ D. An altitude limit of 10,000 feet, and airspeed not over 150 knots, are impose
 
 **Correct answer: C – No limits are indicated**  
 If HYD PRESS persists or cannot be extinguished there are specific altitude/airspeed limitations; **when you can get it to go out after use, no additional operating limits are imposed** beyond normal procedures.
+
+---
+
+Required Knowledge
+------------------
+
+### Question 1
+
+**When the cabin main door is unlocked, what happens to the small vent door integral to the main door?**
+
+A. It closes automatically to seal the cabin.  
+B. It opens to equalize cabin and ambient pressure.  
+C. It remains closed until the door is fully open.  
+D. It opens only in flight.  
+
+**Correct answer: B – It opens to equalize cabin and ambient pressure**  
+The main cabin door design includes a **small vent door that opens as the cabin door is unlocked**, allowing cabin pressure to equalize with outside ambient before the main door is opened.
+
+---
+
+### Question 2
+
+**If the primary inflatable cabin door seal loses pressure:**
+
+A. Cabin pressure will immediately be lost.  
+B. A secondary non‑inflatable pressure seal should hold cabin pressure.  
+C. The DOOR SEAL CAS message will immediately display.  
+D. The door must be closed and re‑locked to reseal.  
+
+**Correct answer: B – A secondary non‑inflatable pressure seal should hold cabin pressure**  
+The door uses a **primary inflatable seal** and a **secondary non‑inflatable pressure seal**; if the primary loses pressure, the secondary seal is intended to maintain cabin pressurization.
+
+---
+
+### Question 3
+
+**An ACC DOOR UNLOCKED–NOSE CAS message indicates:**
+
+A. The nose door is closed but not latched by the key lock.  
+B. Only one nose door latch is engaged.  
+C. A microswitch at a nose paddle latch senses the door is not fully latched.  
+D. The nose door is open in flight.  
+
+**Correct answer: C – A microswitch at a nose paddle latch senses the door is not fully latched**  
+Each nose door latch has an **integral microswitch**; if the door isn’t fully latched, these switches will trigger the amber **ACC DOOR UNLOCKED–NOSE** CAS message.
+
+---
+
+### Question 4
+
+**The ACC DOOR UNLOCKED–TAIL CAS message illuminates when:**
+
+A. Any tailcone latch is open.  
+B. The tailcone door is open on the ground.  
+C. The key‑operated cam lock on the battery door is not in the locked position.  
+D. Tailcone pressure is low.  
+
+**Correct answer: C – The key‑operated cam lock on the battery door is not in the locked position**  
+The tail battery door is held by four pin latches and a **key‑operated cam lock**; if the cam lock is not locked, the **ACC DOOR UNLOCKED–TAIL** CAS appears.
+
+---
+
+### Question 5
+
+**Power sources for the DC electrical system include:**
+
+A. One battery and two engine‑driven starter‑generators only.  
+B. One battery, two starter‑generators, an APU generator, and external power.  
+C. Two batteries and two starter‑generators only.  
+D. Two starter‑generators and an APU generator only.  
+
+**Correct answer: B – One battery, two starter‑generators, an APU generator, and external power**  
+The G5000 XL system summary lists **one main battery, two engine‑driven starter‑generators, an APU generator, and an external power unit** as DC sources.
+
+---
+
+### Question 6
+
+**A fully charged main battery in good condition will supply power to all buses for at least:**
+
+A. 5 minutes.  
+B. 10 minutes.  
+C. 20 minutes.  
+D. 30 minutes.  
+
+**Correct answer: B – 10 minutes**  
+With the BATT switch in the normal position and **all buses powered**, the main battery alone is expected to power the system for a minimum of about **10 minutes**.
+
+---
+
+### Question 7
+
+**With the battery switch in the EMER position, a fully charged main battery will supply power to:**
+
+A. All buses for at least 10 minutes.  
+B. Only the avionics buses for at least 20 minutes.  
+C. The battery and emergency buses for at least 30 minutes.  
+D. Only the emergency bus for at least 60 minutes.  
+
+**Correct answer: C – The battery and emergency buses for at least 30 minutes**  
+In EMER, main DC buses are shed and the **battery and EMER buses remain powered**, allowing approximately **30 minutes** of operation on a good battery.
+
+---
+
+### Question 8
+
+**Minimum battery voltage for engine start is:**
+
+A. 22 VDC.  
+B. 23 VDC.  
+C. 24 VDC.  
+D. 25 VDC.  
+
+**Correct answer: C – 24 VDC**  
+The client guide specifies a **minimum of 24 VDC** as the acceptable pre‑start battery voltage.
+
+---
+
+### Question 9
+
+**The GPU should be set to which output before connection to the aircraft?**
+
+A. 24 VDC and 500–700 amps.  
+B. 28 VDC and 800–1,000 amps.  
+C. 30 VDC and 500–800 amps.  
+D. 28 VDC and 300–500 amps.  
+
+**Correct answer: B – 28 VDC and 800–1,000 amps**  
+The G5000 summary states the **GPU should be running and set to 28 VDC with 800–1,000 amps** available before connection.
+
+---
+
+### Question 10
+
+**In the ARM position, the cabin emergency lighting system will activate for which conditions?**
+
+A. Loss of main DC power only.  
+B. 5g impact only.  
+C. PASS SAFETY switch ON only.  
+D. Any of: loss of main DC power, 5g impact, or PASS SAFETY switch ON.  
+
+**Correct answer: D – Any of: loss of main DC power, 5g impact, or PASS SAFETY switch ON**  
+With the emergency lighting switch in **ARM**, the system automatically turns on for **loss of main DC, a 5g impact, or selection of the PASS SAFETY switch to ON**.
+
+---
+
+### Question 11
+
+**With the loss of main DC power and aircraft battery voltage lower than the emergency battery packs, emergency cabin lighting is powered from:**
+
+A. The main aircraft battery only.  
+B. Two emergency battery packs.  
+C. The APU generator.  
+D. The avionics standby battery.  
+
+**Correct answer: B – Two emergency battery packs**  
+When main DC is lost and the aircraft battery voltage falls below the emergency packs, **two dedicated emergency battery packs** supply the cabin emergency lights.
+
+---
+
+### Question 12
+
+**When a red CAS message appears on the G5000, it will:**
+
+A. Illuminate steady until the condition clears.  
+B. Flash until the MASTER WARNING is reset.  
+C. Flash until the MASTER CAUTION is reset.  
+D. Illuminate steady and cannot be reset.  
+
+**Correct answer: B – Flash until the MASTER WARNING is reset**  
+Red CAS messages are warnings; they **flash until the MASTER WARNING reset switchlight is pressed**, then remain steady (or extinguish when the condition clears).
+
+---
+
+### Question 13
+
+**Failure of both generators (amber generator CAS messages) is treated as:**
+
+A. A caution function only.  
+B. A white advisory.  
+C. A red function that triggers MASTER WARNING.  
+D. A normal condition if the APU is on line.  
+
+**Correct answer: C – A red function that triggers MASTER WARNING**  
+The client guide notes that **loss of both generators**, even though annunciated with amber generator CAS messages, is considered a **red function** and will trigger the MASTER WARNING.
+
+---
+
+### Question 14
+
+**The white GND IDLE CAS message:**
+
+A. Illuminates immediately upon touchdown.  
+B. Illuminates 8 seconds after landing.  
+C. Illuminates whenever throttle is at idle in flight.  
+D. Indicates the EECs are in MANUAL.  
+
+**Correct answer: B – Illuminates 8 seconds after landing**  
+Ground idle is delayed to maintain responsiveness for possible go‑around or touch‑and‑go; **GND IDLE CAS appears about 8 seconds after landing** when low ground idle is commanded.
+
+---
+
+### Question 15
+
+**The LO FUEL LEVEL L/R CAS message displays flashing when:**
+
+A. Total fuel in the airplane reaches 1,000 lbs.  
+B. Fuel in either wing tank decreases to approximately 360 ± 20 lbs.  
+C. Any tank reaches 200 lbs or less.  
+D. Fuel imbalance reaches 400 lbs.  
+
+**Correct answer: B – Fuel in either wing tank decreases to approximately 360 ± 20 lbs**  
+The low fuel level indication is based on **per‑wing quantity**: when a wing tank’s total fuel decreases to about **360 ± 20 lbs**, the corresponding LO FUEL LEVEL CAS flashes.
+
+---
+
+### Question 16
+
+**Fuel boost pumps automatically activate for all of the following EXCEPT:**
+
+A. Engine start.  
+B. Crossfeed.  
+C. Low fuel pressure.  
+D. Automatic refueling.  
+
+**Correct answer: D – Automatic refueling**  
+Boost pumps auto‑activate for **engine start, crossfeed, low fuel pressure, and APU operation**; refueling is not an automatic trigger for the boost pumps.
+
+---
+
+### Question 17
+
+**To define icing conditions for ground and takeoff in the XL G5000, RAT and moisture must be:**
+
+A. RAT +5°C or below with visible moisture.  
+B. RAT +10°C or below with visible moisture.  
+C. RAT 0°C or below with visible moisture.  
+D. RAT –5°C or below with visible moisture.  
+
+**Correct answer: B – RAT +10°C or below with visible moisture**  
+The guide defines icing conditions as **indicated RAT +10°C (+50°F) or below with visible moisture in any form** present.
+
+---
+
+### Question 18
+
+**If the airplane experiences a loss of main DC power, the wing and engine anti‑ice PRSOVs will:**
+
+A. All fail closed.  
+B. All fail open.  
+C. Wing valves open and engine valves close.  
+D. Stay in their last position.  
+
+**Correct answer: B – All fail open**  
+Loss of main DC de‑energizes the pressure regulating/shutoff valves; the guide notes that **all wing and engine anti‑ice PRSOVs fail to the open position** to protect against ice accretion.
+
+---
+
+### Question 19
+
+**Emergency pressurization activates automatically when cabin altitude:**
+
+A. Exceeds 8,000 feet.  
+B. Reaches or exceeds 10,000 feet.  
+C. Reaches or exceeds 14,500 feet.  
+D. Exceeds 15,000 feet.  
+
+**Correct answer: C – Reaches or exceeds 14,500 feet**  
+The emergency pressurization mode automatically engages if **cabin altitude reaches or exceeds about 14,500 ft**, providing backup bleed air to pressurize the cabin.
+
+---
+
+### Question 20
+
+**Turbulent air penetration airspeed in the XL G5000 client guide is:**
+
+A. 160 KIAS.  
+B. 170 KIAS.  
+C. 180 KIAS.  
+D. 200 KIAS.  
+
+**Correct answer: C – 180 KIAS**  
+The flight controls section lists **180 KIAS** as the recommended turbulent air penetration speed.
+
+---
+
+### Question 21
+
+**The battery pack for the Standby Flight Display (SFD) can provide approximately how long of power to the SFD?**
+
+A. 10 minutes  
+B. 20 minutes  
+C. 30 minutes  
+D. 60 minutes  
+
+**Correct answer: C – 30 minutes**  
+The client guide states the **standby flight display battery pack can power the SFD for approximately 30 minutes**, providing independent attitude and basic flight data if main DC power is lost.
+
+---
+
+### Question 22
+
+**A generator control unit (GCU) regulates its respective starter‑generator to what voltage?**
+
+A. 24.0 VDC  
+B. 26.5 VDC  
+C. 28.5 VDC  
+D. 30.0 VDC  
+
+**Correct answer: C – 28.5 VDC**  
+Each starter‑generator’s output is controlled by its **GCU**, which regulates voltage to **28.5 VDC** during normal operation.
+
+---
+
+### Question 23
+
+**Battery voltage is indicated on the voltmeter when the battery switch is in which positions?**
+
+A. OFF only  
+B. BATT only  
+C. EMER only  
+D. BATT or EMER  
+
+**Correct answer: D – BATT or EMER**  
+Battery voltage is shown on the voltmeter only when the **battery switch is in BATT or EMER**, because in those positions the voltmeter is tied to the battery bus.
+
+---
+
+### Question 24
+
+**Start logic does not allow generator‑assisted engine starts when the aircraft is:**
+
+A. On the ground with APU running  
+B. On the ground with only GPU connected  
+C. Airborne  
+D. Above FL200  
+
+**Correct answer: C – Airborne**  
+The start logic explicitly **prevents generator‑assisted engine starts in flight**; airborne starts are strictly battery‑only to preserve generator power to the main DC buses.
+
+---
+
+### Question 25
+
+**The AHRS Auxiliary Battery is capable of providing approximately how long of operating power directly to both AHRS systems?**
+
+A. 10 minutes  
+B. 20 minutes  
+C. 30 minutes  
+D. 60 minutes  
+
+**Correct answer: C – 30 minutes**  
+The AHRS aux battery pack is sized to provide about **30 minutes of direct power to both AHRS units**, maintaining attitude/heading data during a main power interruption.
+
+---
+
+### Question 26
+
+**When the Interior Master switch is placed OFF:**
+
+A. All electrical power is removed from the airplane.  
+B. All power is removed from both cockpit and cabin.  
+C. Only the cabin (passenger compartment) electrical power is removed.  
+D. Only galley power is removed.  
+
+**Correct answer: C – Only the cabin (passenger compartment) electrical power is removed**  
+The Interior Master switch **removes electrical power from the passenger compartment**, not the cockpit; cockpit systems remain powered by the main buses.
+
+---
+
+### Question 27
+
+**Cabin entry lights are powered from which bus, and when are they available?**
+
+A. Left main DC bus; only with generators on line.  
+B. Battery bus; any time the battery is physically connected.  
+C. Emergency DC bus; only in EMER.  
+D. Avionics bus; only with AVIONICS POWER ON.  
+
+**Correct answer: B – Battery bus; any time the battery is physically connected**  
+Cabin entry lights are fed from the **battery bus** and are available **whenever the battery is physically connected**, even if the BATT switch is OFF.
+
+---
+
+### Question 28
+
+**Which bus powers the Overhead Flood and AUX Panel lights?**
+
+A. Left main DC bus  
+B. Right main DC bus  
+C. Emergency DC bus  
+D. Avionics bus  
+
+**Correct answer: C – Emergency DC bus**  
+The **Emergency DC bus** supplies the **Overhead Flood and AUX Panel** lighting, ensuring basic cockpit lighting is available on emergency power.
+
+---
+
+### Question 29
+
+**The total usable fuel capacity with both wing tanks filled is:**
+
+A. 906 U.S. gallons  
+B. 1,006 U.S. gallons  
+C. 6,390 lbs  
+D. 7,500 lbs  
+
+**Correct answer: B – 1,006 U.S. gallons**  
+Filling both wing tanks yields a total **usable fuel capacity of 1,006 U.S. gallons**, as noted in the fuel section.
+
+---
+
+### Question 30
+
+**Which of the following correctly lists all automatic boost pump activation triggers?**
+
+A. Engine start, crossfeed, refueling, APU shutdown  
+B. Engine start, crossfeed, low fuel pressure, APU operation  
+C. Engine start, refueling, low fuel quantity, APU operation  
+D. Crossfeed, refueling, low fuel pressure, APU shutdown  
+
+**Correct answer: B – Engine start, crossfeed, low fuel pressure, APU operation**  
+Fuel boost pumps **automatically activate** for: **engine start, crossfeed, low fuel pressure, and APU operation** (normally the right pump, or left pump when crossfeeding from L tank to R engine).
+
+---
+
