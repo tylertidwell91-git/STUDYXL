@@ -4,7 +4,8 @@ from pathlib import Path
 from xl_xls_flashcards import MARKDOWN_PATH, parse_markdown_questions
 
 
-HTML_PATH = Path.home() / "Citation_XL_XLS_Flashcards.html"
+# HTML lives in the project directory as index.html (for GitHub Pages)
+HTML_PATH = (Path(__file__).resolve().parent / "index.html").resolve()
 
 
 def build_questions_data():
