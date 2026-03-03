@@ -386,7 +386,7 @@
     <header class="app-header">
       <div class="title-block">
         <div class="title">Citation XL/XLS – Study Cards</div>
-        <div class="subtitle">Ch. 2 Electrical, Ch. 5 Fuel, Ch. 6 APU, Ch. 7 Powerplant</div>
+        <div class="subtitle">Ch. 2 Electrical, Ch. 5 Fuel, Ch. 6 APU, Ch. 7 Powerplant, Ch. 8 Fire</div>
       </div>
       <div class="badge">
         <span class="badge-dot"></span>
@@ -427,11 +427,12 @@
         <label class="deck-label">
           Deck:
           <select id="deck-select" class="deck-select">
-            <option value="all">All (Ch. 2, 5, 6, 7)</option>
+            <option value="all">All (Ch. 2, 5, 6, 7, 8)</option>
             <option value="ch2">Chapter 2 – Electrical Power</option>
             <option value="ch5">Chapter 5 – Fuel System</option>
             <option value="ch6">Chapter 6 – Auxiliary Power (APU)</option>
             <option value="ch7">Chapter 7 – Powerplant</option>
+            <option value="ch8">Chapter 8 – Fire Protection</option>
           </select>
         </label>
         <div class="status" id="status-text">0 / 0 cards reviewed in this session.</div>
@@ -1422,6 +1423,9 @@
       }
       if (currentDeck === "ch7") {
         return questions.filter((q) => q.chapter.startsWith("Chapter 7"));
+      }
+      if (currentDeck === "ch8") {
+        return questions.filter((q) => q.chapter.startsWith("Chapter 8"));
       }
       return questions;
     }
