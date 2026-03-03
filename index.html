@@ -1819,8 +1819,19 @@
 
     const NEEDS_REVIEW_KEY = "citation-xl-needs-review";
 
-    let currentIndex = null;
+    let currentQuestion = null;
     let seenCount = 0;
+    let roundQuestions = [];
+    let roundIndex = 0;
+
+    function shuffle(arr) {
+      const a = arr.slice();
+      for (let i = a.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [a[i], a[j]] = [a[j], a[i]];
+      }
+      return a;
+    }
 
     function getCardId(q) {
       return q.chapter + "|" + q.number;
@@ -1889,20 +1900,22 @@
     }
 
     function showAnswer() {
-      if (currentIndex === null) return;
-      const active = getActiveQuestions();
-      const q = active[currentIndex];
+      if (currentQuestion === null) return;
       answerPillEl.textContent = "Revealed";
-      answerMainEl.textContent = q.answer;
-      answerExplanationEl.textContent = q.explanation;
+      answerMainEl.textContent = currentQuestion.answer;
+      answerExplanationEl.textContent = currentQuestion.explanation;
     }
 
     function nextQuestion() {
       const active = getActiveQuestions();
       if (!active.length) return;
-      currentIndex = Math.floor(Math.random() * active.length);
-      const q = active[currentIndex];
-      renderQuestion(q);
+      if (roundQuestions.length === 0 || roundIndex >= roundQuestions.length) {
+        roundQuestions = shuffle(active.slice());
+        roundIndex = 0;
+      }
+      currentQuestion = roundQuestions[roundIndex];
+      roundIndex += 1;
+      renderQuestion(currentQuestion);
       hideAnswer();
       seenCount += 1;
       updateStatus();
@@ -1916,23 +1929,20 @@
     }
 
     function updateFlagButton() {
-      if (currentIndex === null) {
+      if (currentQuestion === null) {
         btnFlag.textContent = "Mark Needs Review";
         btnFlag.classList.remove("flagged");
         return;
       }
-      const active = getActiveQuestions();
-      const q = active[currentIndex];
       const flagged = new Set(getFlaggedIds());
-      const isFlagged = flagged.has(getCardId(q));
+      const isFlagged = flagged.has(getCardId(currentQuestion));
       btnFlag.textContent = isFlagged ? "Unflag (Needs Review)" : "Mark Needs Review";
       btnFlag.classList.toggle("flagged", isFlagged);
     }
 
     function toggleFlag() {
-      if (currentIndex === null) return;
-      const active = getActiveQuestions();
-      const q = active[currentIndex];
+      if (currentQuestion === null) return;
+      const q = currentQuestion;
       const id = getCardId(q);
       const ids = getFlaggedIds();
       const set = new Set(ids);
@@ -1951,7 +1961,9 @@
     btnFlag.addEventListener("click", toggleFlag);
 
     deckSelect.addEventListener("change", () => {
-      currentIndex = null;
+      currentQuestion = null;
+      roundQuestions = [];
+      roundIndex = 0;
       seenCount = 0;
       chapterEl.textContent = "Ready";
       metaEl.textContent = "\u00a0";
