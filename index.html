@@ -1977,13 +1977,21 @@
 
         if (mode === "test" && isTestActive && currentTestQuestionIndex >= 0) {
           li.classList.add("selectable");
-          li.addEventListener("click", () => {
+          li.tabIndex = 0;
+          const selectThis = () => {
             testAnswers[currentTestQuestionIndex] = idx;
             Array.from(optionsListEl.children).forEach((el) =>
               el.classList.remove("selected")
             );
             li.classList.add("selected");
-          });
+          };
+          li.onclick = selectThis;
+          li.onkeydown = (evt) => {
+            if (evt.key === "Enter" || evt.key === " ") {
+              evt.preventDefault();
+              selectThis();
+            }
+          };
 
           if (testAnswers[currentTestQuestionIndex] === idx) {
             li.classList.add("selected");
