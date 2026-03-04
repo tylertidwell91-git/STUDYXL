@@ -188,6 +188,18 @@
       color: #d1d5db;
     }
 
+    .options-list li.selectable {
+      cursor: pointer;
+      transition:
+        background 0.12s ease,
+        border-color 0.12s ease;
+    }
+
+    .options-list li.selected {
+      border-color: var(--accent);
+      background: var(--accent-soft);
+    }
+
     .answer-card {
       border-radius: 14px;
       border: 1px solid rgba(52, 211, 153, 0.35);
@@ -2004,9 +2016,9 @@
     }
 
     function handleStudyNext() {
-      const active = getActiveQuestions();
-      if (!active.length) return;
       if (roundQuestions.length === 0 || roundIndex >= roundQuestions.length) {
+        const active = getActiveQuestions();
+        if (!active.length) return;
         roundQuestions = shuffle(active.slice());
         roundIndex = 0;
       }
@@ -2020,9 +2032,6 @@
     }
 
     function handleTestNext() {
-      const active = getActiveQuestions();
-      if (!active.length) return;
-
       if (!isTestActive) {
         testQuestions = buildTestPool();
         if (!testQuestions.length) return;
@@ -2044,6 +2053,12 @@
       hideAnswer();
       updateStatus();
       updateFlagButton();
+
+      if (testIndex >= testQuestions.length) {
+        btnNext.textContent = "Finish Test";
+      } else {
+        btnNext.textContent = "Next Question";
+      }
     }
 
     function nextQuestion() {
