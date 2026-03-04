@@ -283,6 +283,12 @@
         box-shadow 0.12s ease;
     }
 
+    button:disabled {
+      opacity: 0.5;
+      cursor: default;
+      box-shadow: none;
+    }
+
     button.primary {
       background: linear-gradient(135deg, #2563eb, #1d4ed8);
       border-color: #3b82f6;
@@ -327,6 +333,36 @@
 
     button.flagged:hover {
       background: rgba(249, 115, 115, 0.25);
+    }
+
+    .mode-toggle {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      margin-right: 8px;
+    }
+
+    .mode-label {
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--text-muted);
+    }
+
+    .mode-button {
+      border-radius: 999px;
+      border: 1px solid rgba(148, 163, 184, 0.7);
+      padding: 3px 10px;
+      font-size: 11px;
+      background: transparent;
+      color: var(--text-main);
+    }
+
+    .mode-button.active {
+      border-color: var(--accent);
+      background: var(--accent-soft);
+      color: var(--text-strong);
+      box-shadow: 0 0 0 1px rgba(59, 130, 246, 0.5);
     }
 
     .status {
@@ -441,6 +477,11 @@
         </button>
       </div>
       <div class="controls-right">
+        <div class="mode-toggle" aria-label="Mode selection">
+          <span class="mode-label">Mode</span>
+          <button type="button" class="mode-button active" id="btn-mode-study">Study</button>
+          <button type="button" class="mode-button" id="btn-mode-test">Test</button>
+        </div>
         <label class="deck-label">
           Decks (Ctrl/Cmd+click to select multiple):
           <select id="deck-select" class="deck-select" multiple size="6">
@@ -454,7 +495,7 @@
             <option value="ch8">Chapter 8 – Fire Protection</option>
           </select>
         </label>
-        <div class="status" id="status-text">0 / 0 cards reviewed in this session.</div>
+        <div class="status" id="status-text">Study mode – 0 / 0 cards reviewed this session.</div>
       </div>
     </footer>
   </div>
@@ -1816,13 +1857,24 @@
     const btnShow = document.getElementById("btn-show");
     const btnFlag = document.getElementById("btn-flag");
     const deckSelect = document.getElementById("deck-select");
+    const btnModeStudy = document.getElementById("btn-mode-study");
+    const btnModeTest = document.getElementById("btn-mode-test");
 
     const NEEDS_REVIEW_KEY = "citation-xl-needs-review";
+
+    let mode = "study"; // "study" | "test"
 
     let currentQuestion = null;
     let seenCount = 0;
     let roundQuestions = [];
     let roundIndex = 0;
+
+    // Test mode state
+    let isTestActive = false;
+    let testQuestions = [];
+    let testIndex = 0;
+    let testAnswers = [];
+    let currentTestQuestionIndex = -1;
 
     function shuffle(arr) {
       const a = arr.slice();
@@ -1855,6 +1907,23 @@
       return opts.length ? opts : ["all"];
     }
 
+    function buildTestPool() {
+      const selected = getSelectedDecks();
+      let base;
+
+      if (selected.includes("all") || !selected.length) {
+        base = questions.slice();
+      } else {
+        base = getActiveQuestions();
+      }
+
+      const pool = shuffle(base);
+      if (selected.includes("all") && pool.length > 50) {
+        return pool.slice(0, 50);
+      }
+      return pool;
+    }
+
     function getActiveQuestions() {
       const selected = getSelectedDecks();
       const flaggedIds = new Set(getFlaggedIds());
@@ -1878,35 +1947,63 @@
 
     function renderQuestion(q) {
       chapterEl.textContent = q.chapter;
-      metaEl.textContent = `Question ${q.number}`;
+      if (mode === "test" && isTestActive && testQuestions.length > 0 && currentTestQuestionIndex >= 0) {
+        metaEl.textContent = `Question ${currentTestQuestionIndex + 1} of ${testQuestions.length}`;
+      } else {
+        metaEl.textContent = `Question ${q.number}`;
+      }
 
       const promptHtml = q.prompt;
       questionTextEl.textContent = promptHtml;
 
       optionsListEl.innerHTML = "";
-      q.options.forEach((opt) => {
+      q.options.forEach((opt, idx) => {
         const li = document.createElement("li");
         const span = document.createElement("span");
         span.textContent = opt;
         li.appendChild(span);
+
+        if (mode === "test" && isTestActive && currentTestQuestionIndex >= 0) {
+          li.classList.add("selectable");
+          li.addEventListener("click", () => {
+            testAnswers[currentTestQuestionIndex] = idx;
+            Array.from(optionsListEl.children).forEach((el) =>
+              el.classList.remove("selected")
+            );
+            li.classList.add("selected");
+          });
+
+          if (testAnswers[currentTestQuestionIndex] === idx) {
+            li.classList.add("selected");
+          }
+        }
+
         optionsListEl.appendChild(li);
       });
     }
 
     function hideAnswer() {
-      answerPillEl.textContent = "Hidden";
-      answerMainEl.textContent = "Press “Show Answer” when you’re ready.";
-      answerExplanationEl.textContent = "";
+      if (mode === "test" && isTestActive) {
+        answerPillEl.textContent = "Hidden (Test Mode)";
+        answerMainEl.textContent =
+          "Answers and explanations will be shown at the end of the test.";
+        answerExplanationEl.textContent = "";
+      } else {
+        answerPillEl.textContent = "Hidden";
+        answerMainEl.textContent = "Press “Show Answer” when you’re ready.";
+        answerExplanationEl.textContent = "";
+      }
     }
 
     function showAnswer() {
+      if (mode === "test") return;
       if (currentQuestion === null) return;
       answerPillEl.textContent = "Revealed";
       answerMainEl.textContent = currentQuestion.answer;
       answerExplanationEl.textContent = currentQuestion.explanation;
     }
 
-    function nextQuestion() {
+    function handleStudyNext() {
       const active = getActiveQuestions();
       if (!active.length) return;
       if (roundQuestions.length === 0 || roundIndex >= roundQuestions.length) {
@@ -1922,10 +2019,56 @@
       updateFlagButton();
     }
 
+    function handleTestNext() {
+      const active = getActiveQuestions();
+      if (!active.length) return;
+
+      if (!isTestActive) {
+        testQuestions = buildTestPool();
+        if (!testQuestions.length) return;
+        testAnswers = new Array(testQuestions.length).fill(null);
+        testIndex = 0;
+        isTestActive = true;
+      }
+
+      if (testIndex >= testQuestions.length) {
+        finishTest();
+        return;
+      }
+
+      currentTestQuestionIndex = testIndex;
+      currentQuestion = testQuestions[testIndex];
+      testIndex += 1;
+
+      renderQuestion(currentQuestion);
+      hideAnswer();
+      updateStatus();
+      updateFlagButton();
+    }
+
+    function nextQuestion() {
+      if (mode === "test") {
+        handleTestNext();
+      } else {
+        handleStudyNext();
+      }
+    }
+
     function updateStatus() {
       const active = getActiveQuestions();
       badgeCountEl.textContent = `${active.length} cards`;
-      statusTextEl.textContent = `${seenCount} / ${active.length} cards reviewed this session.`;
+
+      if (mode === "test") {
+        if (!isTestActive || !testQuestions.length) {
+          statusTextEl.textContent = "Test mode – test not started.";
+        } else if (currentTestQuestionIndex >= 0) {
+          statusTextEl.textContent = `Test mode – Question ${currentTestQuestionIndex + 1} of ${testQuestions.length}.`;
+        } else {
+          statusTextEl.textContent = `Test mode – ${testQuestions.length} questions in this test.`;
+        }
+      } else {
+        statusTextEl.textContent = `Study mode – ${seenCount} / ${active.length} cards reviewed this session.`;
+      }
     }
 
     function updateFlagButton() {
@@ -1956,19 +2099,116 @@
       updateStatus();
     }
 
+    function finishTest() {
+      isTestActive = false;
+
+      let correct = 0;
+      const total = testQuestions.length;
+
+      testQuestions.forEach((q, i) => {
+        const chosenIdx = testAnswers[i];
+        if (chosenIdx == null) return;
+
+        const chosenLetter = q.options[chosenIdx].trim().charAt(0);
+        const correctLetter = q.answer.trim().charAt(0);
+        if (chosenLetter === correctLetter) {
+          correct += 1;
+        }
+      });
+
+      const percent = total ? Math.round((correct / total) * 100) : 0;
+
+      chapterEl.textContent = "Test Results";
+      metaEl.textContent = "";
+      questionTextEl.textContent = `You answered ${correct} out of ${total} questions correctly (${percent}%).`;
+
+      optionsListEl.innerHTML = "";
+
+      answerPillEl.textContent = "Completed";
+      answerMainEl.textContent = `Score: ${correct}/${total} (${percent}%)`;
+      answerExplanationEl.textContent =
+        "Use Study mode and the Needs Review deck to focus on any missed areas.";
+
+      btnNext.textContent = "Start New Test";
+      updateStatus();
+    }
+
+    function setMode(newMode) {
+      if (mode === newMode) return;
+      mode = newMode;
+
+      // Reset shared state
+      currentQuestion = null;
+      roundQuestions = [];
+      roundIndex = 0;
+      seenCount = 0;
+
+      // Reset test state
+      isTestActive = false;
+      testQuestions = [];
+      testAnswers = [];
+      testIndex = 0;
+      currentTestQuestionIndex = -1;
+
+      if (mode === "study") {
+        btnModeStudy.classList.add("active");
+        btnModeTest.classList.remove("active");
+        btnNext.textContent = "Next Question";
+        btnShow.disabled = false;
+        chapterEl.textContent = "Ready";
+        metaEl.textContent = "\u00a0";
+        questionTextEl.innerHTML =
+          'Study mode. Click <span class="question-highlight">Next Question</span> to start.';
+      } else {
+        btnModeStudy.classList.remove("active");
+        btnModeTest.classList.add("active");
+        btnNext.textContent = "Start Test";
+        btnShow.disabled = true;
+        chapterEl.textContent = "Test Mode";
+        metaEl.textContent = "\u00a0";
+        questionTextEl.textContent =
+          "Select decks, then click “Start Test” to begin. Answers are hidden until the end of the test.";
+      }
+
+      optionsListEl.innerHTML = "";
+      hideAnswer();
+      updateStatus();
+      updateFlagButton();
+    }
+
     btnNext.addEventListener("click", nextQuestion);
     btnShow.addEventListener("click", showAnswer);
     btnFlag.addEventListener("click", toggleFlag);
+
+    btnModeStudy.addEventListener("click", () => setMode("study"));
+    btnModeTest.addEventListener("click", () => setMode("test"));
 
     deckSelect.addEventListener("change", () => {
       currentQuestion = null;
       roundQuestions = [];
       roundIndex = 0;
       seenCount = 0;
-      chapterEl.textContent = "Ready";
-      metaEl.textContent = "\u00a0";
-      questionTextEl.innerHTML =
-        'Deck changed. Click <span class="question-highlight">Next Question</span> to start.';
+
+      isTestActive = false;
+      testQuestions = [];
+      testAnswers = [];
+      testIndex = 0;
+      currentTestQuestionIndex = -1;
+
+      if (mode === "test") {
+        chapterEl.textContent = "Test Mode";
+        metaEl.textContent = "\u00a0";
+        questionTextEl.textContent =
+          "Deck changed. Click “Start Test” to generate a new test.";
+        btnNext.textContent = "Start Test";
+      } else {
+        chapterEl.textContent = "Ready";
+        metaEl.textContent = "\u00a0";
+        questionTextEl.innerHTML =
+          'Deck changed. Click <span class="question-highlight">Next Question</span> to start.';
+        btnNext.textContent = "Next Question";
+      }
+
       optionsListEl.innerHTML = "";
       hideAnswer();
       updateStatus();
