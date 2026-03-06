@@ -224,6 +224,11 @@
       background: rgba(248, 113, 113, 0.1);
     }
 
+    .test-review-item.unanswered {
+      border-color: rgba(148, 163, 184, 0.5);
+      background: rgba(148, 163, 184, 0.08);
+    }
+
     .review-header {
       font-weight: 600;
       font-size: 14px;
@@ -521,6 +526,9 @@
         </button>
         <button class="secondary" id="btn-flag">
           Mark Needs Review
+        </button>
+        <button class="secondary" id="btn-finish-test" style="display: none;">
+          Finish Test
         </button>
       </div>
       <div class="controls-right">
@@ -3586,6 +3594,7 @@
     const btnNext = document.getElementById("btn-next");
     const btnShow = document.getElementById("btn-show");
     const btnFlag = document.getElementById("btn-flag");
+    const btnFinishTest = document.getElementById("btn-finish-test");
     const deckSelect = document.getElementById("deck-select");
     const btnModeStudy = document.getElementById("btn-mode-study");
     const btnModeTest = document.getElementById("btn-mode-test");
@@ -3825,6 +3834,10 @@
       }
     }
 
+    function updateFinishTestButton() {
+      btnFinishTest.style.display = mode === "test" && isTestActive ? "" : "none";
+    }
+
     function updateStatus() {
       const active = getActiveQuestions();
       badgeCountEl.textContent = `${active.length} cards`;
@@ -3840,6 +3853,7 @@
       } else {
         statusTextEl.textContent = `Study mode – ${seenCount} / ${active.length} cards reviewed this session.`;
       }
+      updateFinishTestButton();
     }
 
     function updateFlagButton() {
@@ -3872,14 +3886,16 @@
 
     function finishTest() {
       isTestActive = false;
+      btnFinishTest.style.display = "none";
 
       let correct = 0;
-      const total = testQuestions.length;
+      let answeredCount = 0;
 
       testQuestions.forEach((q, i) => {
         const chosenIdx = testAnswers[i];
         if (chosenIdx == null) return;
 
+        answeredCount += 1;
         const chosenLetter = q.options[chosenIdx].trim().charAt(0);
         const correctLetter = q.answer.trim().charAt(0);
         if (chosenLetter === correctLetter) {
@@ -3887,11 +3903,16 @@
         }
       });
 
+      const total = answeredCount;
       const percent = total ? Math.round((correct / total) * 100) : 0;
 
       chapterEl.textContent = "Test Results";
       metaEl.textContent = "";
-      questionTextEl.textContent = `You answered ${correct} out of ${total} questions correctly (${percent}%). Scroll below to review each question.`;
+      if (total === 0) {
+        questionTextEl.textContent = "No questions were answered. Start a new test when ready.";
+      } else {
+        questionTextEl.textContent = `You answered ${correct} out of ${total} questions correctly (${percent}%). Scroll below to review each question.`;
+      }
 
       optionsListEl.innerHTML = "";
 
@@ -3913,8 +3934,9 @@
           q.options && q.options.length
             ? chosenIdx != null && chosenText && chosenText.trim().charAt(0) === correctLetter
             : false;
+        const isUnanswered = chosenIdx == null;
 
-        li.classList.add(isCorrect ? "correct" : "incorrect");
+        li.classList.add(isUnanswered ? "unanswered" : isCorrect ? "correct" : "incorrect");
 
         const header = document.createElement("div");
         header.className = "review-header";
@@ -3940,9 +3962,11 @@
       });
 
       answerPillEl.textContent = "Completed";
-      answerMainEl.textContent = `Score: ${correct}/${total} (${percent}%)`;
+      answerMainEl.textContent = total === 0
+        ? "No answers submitted"
+        : `Score: ${correct}/${total} (${percent}%)`;
       answerExplanationEl.textContent =
-        "Green cards = correct, red cards = questions to review. Use Study mode and the Needs Review deck to focus on any missed areas.";
+        "Green = correct, red = incorrect, gray = skipped. Use Study mode and the Needs Review deck to focus on any missed areas.";
 
       btnNext.textContent = "Start New Test";
       updateStatus();
@@ -3965,6 +3989,7 @@
       testIndex = 0;
       currentTestQuestionIndex = -1;
 
+      updateFinishTestButton();
       if (mode === "study") {
         btnModeStudy.classList.add("active");
         btnModeTest.classList.remove("active");
@@ -3994,6 +4019,7 @@
     btnNext.addEventListener("click", nextQuestion);
     btnShow.addEventListener("click", showAnswer);
     btnFlag.addEventListener("click", toggleFlag);
+    btnFinishTest.addEventListener("click", finishTest);
 
     btnModeStudy.addEventListener("click", () => setMode("study"));
     btnModeTest.addEventListener("click", () => setMode("test"));
@@ -4010,6 +4036,7 @@
       testIndex = 0;
       currentTestQuestionIndex = -1;
 
+      updateFinishTestButton();
       if (mode === "test") {
         chapterEl.textContent = "Test Mode";
         metaEl.textContent = "\u00a0";
