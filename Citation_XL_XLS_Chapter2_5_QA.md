@@ -5,6 +5,7 @@ This document compiles the multiple‑choice questions and answers from:
 
 - **Chapters 2, 3, 5, 6, 7, 8, 9, 10, 11** (by topic)
 - **Required Knowledge**
+- **Limitations** (CE-560XL G5000)
 - **Memory Items** (CE-560XL G5000 — each step as a question/answer card)
 
 Chapters include:
@@ -15,6 +16,7 @@ Chapters include:
 - **Chapter 9: Pneumatics**
 - **Chapter 10: Ice and Rain Protection**
 - **Chapter 11: Air Conditioning**
+- **Limitations**
 
 Each question shows the options, the **correct answer**, and a short explanation.
 
@@ -1866,6 +1868,457 @@ D. Crossfeed, refueling, low fuel pressure, APU shutdown
 
 **Correct answer: B – Engine start, crossfeed, low fuel pressure, APU operation**  
 Fuel boost pumps **automatically activate** for: **engine start, crossfeed, low fuel pressure, and APU operation** (normally the right pump, or left pump when crossfeeding from L tank to R engine).
+
+---
+
+Limitations (CE-560XL G5000)
+----------------------------
+
+### Question 1
+
+**The maximum altitude limit for takeoff and landing is:**
+
+A. 12,000 feet  
+B. 14,000 feet  
+C. 18,000 feet  
+D. 45,000 feet  
+
+**Correct answer: B – 14,000 feet**  
+Takeoff and landing limits include a maximum altitude limit of **14,000 feet**.
+
+---
+
+### Question 2
+
+**The maximum tailwind component for takeoff and landing is:**
+
+A. 5 knots  
+B. 10 knots  
+C. 15 knots  
+D. 20 knots  
+
+**Correct answer: B – 10 knots**  
+The maximum tailwind component is **10 knots**.
+
+---
+
+### Question 3
+
+**For takeoff and landing, the autopilot and yaw damper must be:**
+
+A. ON  
+B. ARM  
+C. OFF  
+D. As selected by the pilot  
+
+**Correct answer: C – OFF**  
+The autopilot and yaw damper **must be OFF** for takeoff and landing.
+
+---
+
+### Question 4
+
+**The ENGINE SYNC knob must be _________ for takeoff and landing.**
+
+A. FAN  
+B. TURB  
+C. OFF  
+D. As required  
+
+**Correct answer: C – OFF**  
+ENGINE SYNC must be **OFF** for takeoff and landing.
+
+---
+
+### Question 5
+
+**Maximum tire ground speed is:**
+
+A. 150 knots  
+B. 165 knots  
+C. 200 knots  
+D. 250 knots  
+
+**Correct answer: B – 165 knots**  
+Maximum tire ground speed is **165 knots**.
+
+---
+
+### Question 6
+
+**Takeoff may not be initiated with:**
+
+A. An amber annunciator displayed.  
+B. A red annunciator displayed.  
+C. Either an amber or red annunciator.  
+D. A white advisory displayed.  
+
+**Correct answer: B – A red annunciator displayed**  
+Takeoff **may not be initiated with a red annunciator displayed**. Takeoff may not be initiated with an **amber** annunciator unless the associated system or component has been deferred per an approved MEL.
+
+---
+
+### Question 7
+
+**MMO (maximum operating Mach) above 26,515 feet is:**
+
+A. 0.70 Mach  
+B. 0.75 Mach  
+C. 0.80 Mach  
+D. 0.82 Mach  
+
+**Correct answer: B – 0.75 Mach**  
+Above 26,515 feet, MMO is **0.75 Mach** (indicated).
+
+---
+
+### Question 8
+
+**VMO between 8,000 and 26,515 feet is:**
+
+A. 260 KIAS  
+B. 305 KIAS  
+C. 350 KIAS  
+D. 0.75 Mach  
+
+**Correct answer: B – 305 KIAS**  
+VMO between 8,000 and 26,515 feet is **305 KIAS**; below 8,000 feet VMO is 260 KIAS.
+
+---
+
+### Question 9
+
+**Maximum flap extended speed (VFE) for full flaps – LAND position (35°) is:**
+
+A. 160 KIAS  
+B. 175 KIAS  
+C. 200 KIAS  
+D. 250 KIAS  
+
+**Correct answer: B – 175 KIAS**  
+Full flaps (35° LAND): **175 KIAS**. Partial flaps (7° T.O. and 15° T.O. & APPR): 200 KIAS.
+
+---
+
+### Question 10
+
+**Maximum landing gear extended speed (VLE) is:**
+
+A. 200 KIAS  
+B. 250 KIAS  
+C. 260 KIAS  
+D. 305 KIAS  
+
+**Correct answer: B – 250 KIAS**  
+VLE is **250 KIAS**. VLO (extending) is 250 KIAS; VLO (retracting) is 200 KIAS.
+
+---
+
+### Question 11
+
+**Minimum speed for sustained flight in icing conditions (except takeoff, approach, and landing) is:**
+
+A. 140 KIAS  
+B. 160 KIAS  
+C. 175 KIAS  
+D. 200 KIAS  
+
+**Correct answer: B – 160 KIAS**  
+Minimum speed for sustained flight in icing (except takeoff, approach, and landing) is **160 KIAS**.
+
+---
+
+### Question 12
+
+**Engine starter limitation is:**
+
+A. Two start cycles per 30 minutes with 60 seconds rest between cycles.  
+B. Three start cycles per 30 minutes with 90 seconds rest between cycles.  
+C. Four start cycles per hour with 2 minutes rest between cycles.  
+D. Five start cycles per hour.  
+
+**Correct answer: B – Three start cycles per 30 minutes with 90 seconds rest between cycles**  
+**Three** engine start cycles per **30 minutes** with a **90-second** rest period between cycles is permitted.
+
+---
+
+### Question 13
+
+**Battery start limitation is:**
+
+A. Three battery start cycles per hour; nine APU start cycles per hour.  
+B. Five battery start cycles per hour.  
+C. Three battery start cycles per 30 minutes.  
+D. Nine battery start cycles per hour.  
+
+**Correct answer: A – Three battery start cycles per hour; nine APU start cycles per hour**  
+**Three** battery start cycles per hour and **nine** APU start cycles per hour. An APU battery start counts as 1/3 of a normal engine battery start. Three generator-assisted cross starts equal one battery start.
+
+---
+
+### Question 14
+
+**The fuel boost pumps must be turned on when:**
+
+A. Fuel quantity is below 1,000 pounds.  
+B. The amber LO FUEL LEVEL L or R annunciator displays or at 400 pounds or less indicated fuel.  
+C. Crossfeed is selected.  
+D. Only during engine start.  
+
+**Correct answer: B – The amber LO FUEL LEVEL L or R annunciator displays or at 400 pounds or less indicated fuel**  
+The fuel boost pumps must be turned on when the **amber LO FUEL LEVEL L or R** annunciator displays **or at 400 pounds or less** indicated fuel.
+
+---
+
+### Question 15
+
+**Maximum asymmetric fuel differential for normal operations is:**
+
+A. 200 pounds  
+B. 400 pounds  
+C. 800 pounds  
+D. 1,000 pounds  
+
+**Correct answer: B – 400 pounds**  
+Maximum asymmetric fuel differential for **normal** operations is **400 pounds**. Emergency (e.g. following fuel system malfunction) lateral imbalance demonstrated is **800 pounds**.
+
+---
+
+### Question 16
+
+**Maximum design takeoff weight is:**
+
+A. 18,700 pounds  
+B. 19,500 pounds  
+C. 20,000 pounds  
+D. 20,200 pounds  
+
+**Correct answer: C – 20,000 pounds**  
+Maximum design **takeoff** weight is **20,000 pounds**. Ramp: 20,200 lb; landing: 18,700 lb; zero fuel: 15,000 lb; minimum flight: 12,400 lb.
+
+---
+
+### Question 17
+
+**Maximum tailcone baggage weight is:**
+
+A. 500 pounds  
+B. 700 pounds  
+C. 800 pounds  
+D. 1,000 pounds  
+
+**Correct answer: B – 700 pounds**  
+Maximum tailcone baggage weight is **700 pounds**.
+
+---
+
+### Question 18
+
+**Limit ground operation of pitot-static heat to _________ to preclude damage to the pitot tubes and angle-of-attack vane.**
+
+A. 1 minute  
+B. 2 minutes  
+C. 5 minutes  
+D. 10 minutes  
+
+**Correct answer: B – 2 minutes**  
+Limit ground operation of pitot-static heat to **2 minutes** except as required in icing conditions.
+
+---
+
+### Question 19
+
+**Electrical load during ground operations is limited to _________ per generator.**
+
+A. 150 amps  
+B. 200 amps  
+C. 250 amps  
+D. 300 amps  
+
+**Correct answer: B – 200 amps**  
+Electrical load is limited to **200 amps** per generator during ground operations (transients up to **250 amps** are permissible for up to 4 minutes).
+
+---
+
+### Question 20
+
+**Maximum operating altitude is:**
+
+A. 35,000 feet  
+B. 41,000 feet  
+C. 45,000 feet  
+D. FL450  
+
+**Correct answer: C – 45,000 feet**  
+Maximum operating altitude is **45,000 feet**. Maximum altitude for flaps and landing gear extended is 18,000 feet.
+
+---
+
+### Question 21
+
+**Generator load in flight is limited to:**
+
+A. 200 amps  
+B. 230 amps  
+C. 250 amps  
+D. 300 amps  
+
+**Correct answer: D – 300 amps**  
+Generator load in flight is **300 amps** (ground: 200 amps per generator with transients to 250 A for up to 4 minutes).
+
+---
+
+### Question 22
+
+**Normal cabin pressurization differential limit is:**
+
+A. 0 to 8.0 psi  
+B. 0 to 9.6 psi  
+C. 0 to 9.5 psi  
+D. 9.7 psi red line only  
+
+**Correct answer: B – 0 to 9.6 psi**  
+Normal cabin pressurization limitations are **0.0 to 9.6 psi** differential (+0.1 or –0.1). Pressure relief valve: 9.5 psi; pressure gauge red line: **9.7 psi**.
+
+---
+
+### Question 23
+
+**If the red BATT O'TEMP annunciator displays during ground operation:**
+
+A. Reduce electrical load and continue.  
+B. Do not take off until after the proper maintenance procedures have been accomplished.  
+C. Place the BATT switch to EMER and take off.  
+D. Cycle the battery and take off.  
+
+**Correct answer: B – Do not take off until after the proper maintenance procedures have been accomplished**  
+If the **red BATT O'TEMP** annunciator displays during ground operation, **do not take off** until after the proper maintenance procedures have been accomplished.
+
+---
+
+### Question 24
+
+**Reverse thrust must be decreased to idle reverse at _________ KIAS on landing roll.**
+
+A. 40  
+B. 60  
+C. 80  
+D. 100  
+
+**Correct answer: B – 60**  
+Reverse thrust must be decreased to the **idle reverse** detent position at **60 KIAS** on landing roll.
+
+---
+
+### Question 25
+
+**Maximum thrust reverser deployed time is:**
+
+A. 1 minute in any 5-minute period.  
+B. 2 minutes in any 10-minute period.  
+C. 3 minutes in any 10-minute period.  
+D. 5 minutes in any 15-minute period.  
+
+**Correct answer: C – 3 minutes in any 10-minute period**  
+Maximum allowable thrust reverser deployed time is **3 minutes in any 10-minute period**. Deployment of thrust reversers for more than 30 seconds with the APU running is prohibited.
+
+---
+
+### Question 26
+
+**Use of thrust reversers is prohibited during:**
+
+A. Landing.  
+B. Touch-and-go landings.  
+C. Rejected takeoff.  
+D. Taxi.  
+
+**Correct answer: B – Touch-and-go landings**  
+Use of thrust reversers is **prohibited during touch-and-go landings**. Use to back the airplane is also prohibited.
+
+---
+
+### Question 27
+
+**Autopilot minimum height for engagement on a precision approach (e.g. ILS, LPV) is:**
+
+A. 80 feet AGL  
+B. 120 feet AGL  
+C. 200 feet AGL  
+D. 500 feet AGL  
+
+**Correct answer: B – 120 feet AGL**  
+Precision approach (ILS, LPV): **120 feet AGL**. Non-precision: 200 feet AGL. Enroute: 1,000 feet AGL. Minimum engagement after takeoff: 500 feet; go-around: 500 feet unless UNDERSPEED PROT ACTIVE.
+
+---
+
+### Question 28
+
+**Tail deice minimum temperature for use at airspeed at or above 150 KIAS is:**
+
+A. -40°C RAT  
+B. -35°C RAT  
+C. -30°C RAT  
+D. No limit  
+
+**Correct answer: B – -35°C RAT**  
+At **airspeed at or above 150 KIAS**: **-35°C RAT**. Below 150 KIAS: **-40°C RAT**. Boot cracking may result if used below these limits.
+
+---
+
+### Question 29
+
+**APU start attempt is prohibited:**
+
+A. When the APU FAIL annunciator is displayed only.  
+B. After a dual generator failure only.  
+C. When APU FAIL is displayed or after a dual generator failure.  
+D. Only when EGT is exceeded.  
+
+**Correct answer: C – When APU FAIL is displayed or after a dual generator failure**  
+Starting the APU is **prohibited whenever the APU FAIL annunciator is displayed**. **APU start attempt is prohibited after a dual generator failure.**
+
+---
+
+### Question 30
+
+**Following APU shutdown, restart must not be attempted until:**
+
+A. 15 seconds after RPM reads 0%.  
+B. 30 seconds after the RPM indicator reads 0%.  
+C. 60 seconds after shutdown.  
+D. 90 seconds after shutdown.  
+
+**Correct answer: B – 30 seconds after the RPM indicator reads 0%**  
+Following shutdown for any reason, **APU restart must not be attempted until 30 seconds after the RPM indicator reads 0%.**
+
+---
+
+### Question 31
+
+**Maximum APU starting altitude is:**
+
+A. 15,000 feet  
+B. 20,000 feet  
+C. 25,000 feet  
+D. 30,000 feet  
+
+**Correct answer: B – 20,000 feet**  
+APU **starting** max altitude: **20,000 ft**. APU **running** max altitude: **30,000 ft**.
+
+---
+
+### Question 32
+
+**If up to 3 vortex generators are missing, the aircraft is limited to _________ for enroute operations.**
+
+A. FL350  
+B. FL390  
+C. FL410  
+D. FL450  
+
+**Correct answer: C – FL410**  
+Up to **3** vortex generators may be missing provided the aircraft is limited to **FL410** for enroute operations.
 
 ---
 

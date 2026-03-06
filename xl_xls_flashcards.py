@@ -50,9 +50,13 @@ def parse_markdown_questions(text: str):
             current_chapter = line.strip()
             i += 1
             continue
-        # Non-chapter category heading (e.g., Required Knowledge)
+        # Non-chapter category heading (e.g., Required Knowledge, Limitations)
         if line.strip().startswith("Required Knowledge"):
             current_chapter = "Required Knowledge"
+            i += 1
+            continue
+        if line.strip().startswith("Limitations"):
+            current_chapter = "Limitations"
             i += 1
             continue
         # Memory Items procedure (e.g. ## APU FIRE) — level-2 heading that starts a procedure block
