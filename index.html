@@ -229,6 +229,29 @@
       background: rgba(148, 163, 184, 0.08);
     }
 
+    .review-actions {
+      margin-top: 6px;
+    }
+
+    .review-actions button {
+      font-size: 12px;
+      padding: 4px 10px;
+      border-radius: 6px;
+      border: 1px solid rgba(148, 163, 184, 0.5);
+      background: rgba(255, 255, 255, 0.05);
+      color: var(--text-main);
+      cursor: pointer;
+    }
+
+    .review-actions button:hover {
+      background: rgba(148, 163, 184, 0.15);
+    }
+
+    .review-actions button.flagged {
+      border-color: var(--accent);
+      background: var(--accent-soft);
+    }
+
     .review-header {
       font-weight: 600;
       font-size: 14px;
@@ -3870,7 +3893,12 @@
 
     function toggleFlag() {
       if (currentQuestion === null) return;
-      const q = currentQuestion;
+      toggleFlagForQuestion(currentQuestion);
+      updateFlagButton();
+      updateStatus();
+    }
+
+    function toggleFlagForQuestion(q) {
       const id = getCardId(q);
       const ids = getFlaggedIds();
       const set = new Set(ids);
@@ -3880,8 +3908,6 @@
         set.add(id);
       }
       setFlaggedIds(Array.from(set));
-      updateFlagButton();
-      updateStatus();
     }
 
     function finishTest() {
@@ -3954,9 +3980,26 @@
         correctLine.className = "review-line";
         correctLine.textContent = `Correct answer: ${correctOption}`;
 
+        const actions = document.createElement("div");
+        actions.className = "review-actions";
+        const flagBtn = document.createElement("button");
+        const updateFlagBtn = () => {
+          const flagged = new Set(getFlaggedIds()).has(getCardId(q));
+          flagBtn.textContent = flagged ? "Unflag (Needs Review)" : "Mark Needs Review";
+          flagBtn.classList.toggle("flagged", flagged);
+        };
+        flagBtn.addEventListener("click", () => {
+          toggleFlagForQuestion(q);
+          updateFlagBtn();
+          updateStatus();
+        });
+        updateFlagBtn();
+        actions.appendChild(flagBtn);
+
         li.appendChild(header);
         li.appendChild(yourLine);
         li.appendChild(correctLine);
+        li.appendChild(actions);
 
         optionsListEl.appendChild(li);
       });
