@@ -1882,7 +1882,12 @@ Memory items are recall procedures; each step is presented as a question/answer 
 
 **APU FIRE — Step 1: What is the required action?**
 
-**Answer: Lift cover and push (APU FIRE button)**  
+A. Throttle (affected engine) — IDLE
+B. BATT Switch — EMER
+C. Oxygen masks — DON and 100% oxygen
+D. Lift cover and push (APU FIRE button)
+
+**Correct answer: D – Lift cover and push (APU FIRE button)**
 Lift the cover and push the APU FIRE button.
 
 ---
@@ -1893,7 +1898,12 @@ Lift the cover and push the APU FIRE button.
 
 **BATT O'TEMP — Step 1: What is the required action?**
 
-**Answer: BATT DC AMPS — Note**  
+A. IGNITION Switches — ON
+B. BATT DC AMPS — Note decrease
+C. BATT DC AMPS — Note
+D. BATT Switch — EMER
+
+**Correct answer: C – BATT DC AMPS — Note**
 Note the battery amperage indication before changing the BATT switch.
 
 ---
@@ -1902,7 +1912,12 @@ Note the battery amperage indication before changing the BATT switch.
 
 **BATT O'TEMP — Step 2: What is the required action?**
 
-**Answer: BATT Switch — EMER**  
+A. BATT DC AMPS — Note
+B. APU MASTER switch — OFF
+C. BATT DC AMPS — Note decrease
+D. BATT Switch — EMER
+
+**Correct answer: D – BATT Switch — EMER**
 Place the BATT switch to EMER to isolate the battery from the generators.
 
 ---
@@ -1911,7 +1926,12 @@ Place the BATT switch to EMER to isolate the battery from the generators.
 
 **BATT O'TEMP — Step 3: What is the required action?**
 
-**Answer: BATT DC AMPS — Note decrease**  
+A. BATT Switch — EMER
+B. BATT DC AMPS — Note
+C. BATT DC AMPS — Note decrease
+D. FUEL BOOST Switches (both) — ON
+
+**Correct answer: C – BATT DC AMPS — Note decrease**
 Note that amperage decreases after isolation; if it does not, follow appropriate procedures (e.g., BATTERY DISCONNECT, land as soon as possible if BATT O'TEMP >160° flashes).
 
 ---
@@ -1922,7 +1942,12 @@ Note that amperage decreases after isolation; if it does not, follow appropriate
 
 **CAB ALT — Step 1: What is the required action?**
 
-**Answer: Oxygen masks — DON and 100% oxygen**  
+A. Microphone switches — MIC OXY MASK
+B. Emergency descent — as required
+C. Oxygen masks/goggles — DON and EMER
+D. Oxygen masks — DON and 100% oxygen
+
+**Correct answer: D – Oxygen masks — DON and 100% oxygen**
 Don oxygen masks and select 100% oxygen.
 
 ---
@@ -1931,7 +1956,12 @@ Don oxygen masks and select 100% oxygen.
 
 **CAB ALT — Step 2: What is the required action?**
 
-**Answer: Microphone switches — MIC OXY MASK**  
+A. Oxygen masks — DON and 100% oxygen
+B. Throttles (both) — IDLE
+C. Emergency descent — as required
+D. Microphone switches — MIC OXY MASK
+
+**Correct answer: D – Microphone switches — MIC OXY MASK**
 Select microphone to oxygen mask for communications.
 
 ---
@@ -1940,7 +1970,12 @@ Select microphone to oxygen mask for communications.
 
 **CAB ALT — Step 3: What is the required action?**
 
-**Answer: Emergency descent — as required**  
+A. Microphone switches — MIC OXY MASK
+B. Oxygen masks — DON and 100% oxygen
+C. Emergency descent — as required
+D. Initiate maximum rate of descent to a safe altitude
+
+**Correct answer: C – Emergency descent — as required**
 Execute emergency descent as required. Refer to Red Message Procedures, EMER DESCENT.
 
 ---
@@ -1951,7 +1986,12 @@ Execute emergency descent as required. Refer to Red Message Procedures, EMER DES
 
 **EMER DESCENT — Step 1: What is the required action?**
 
-**Answer: Initiate maximum rate of descent to a safe altitude**  
+A. Emergency descent — as required
+B. Takeoff — Abort
+C. Initiate maximum rate of descent to a safe altitude
+D. Thrust — REDUCE AS REQUIRED
+
+**Correct answer: C – Initiate maximum rate of descent to a safe altitude**
 Initiate maximum rate of descent to a safe altitude. If not in EDM (Emergency Descent Mode), disconnecting the autopilot disables EDM.
 
 ---
@@ -1962,7 +2002,12 @@ Initiate maximum rate of descent to a safe altitude. If not in EDM (Emergency De
 
 **LH ENGINE FIRE or RH ENGINE FIRE — Step 1: What is the required action?**
 
-**Answer: Throttle (affected engine) — IDLE**  
+A. Throttle (affected engine) — IDLE
+B. Either displayed BOTTLE ARMED annunciator — Push
+C. ENGINE FIRE button (affected engine) — Lift cover and push
+D. Throttles (both) — CUT OFF
+
+**Correct answer: A – Throttle (affected engine) — IDLE**
 Retard the throttle on the affected engine to IDLE.
 
 ---
@@ -1971,7 +2016,12 @@ Retard the throttle on the affected engine to IDLE.
 
 **LH ENGINE FIRE or RH ENGINE FIRE — Step 2: If annunciator remains displayed, what is the required action?**
 
-**Answer: ENGINE FIRE button (affected engine) — Lift cover and push**  
+A. Either displayed BOTTLE ARMED annunciator — Push
+B. APU FIRE Button — Lift cover and push
+C. ENGINE FIRE button (affected engine) — Lift cover and push
+D. Throttle (affected engine) — IDLE
+
+**Correct answer: C – ENGINE FIRE button (affected engine) — Lift cover and push**
 Lift the cover and push the affected ENGINE FIRE button to arm the bottles and initiate shutdown actions.
 
 ---
@@ -1980,7 +2030,12 @@ Lift the cover and push the affected ENGINE FIRE button to arm the bottles and i
 
 **LH ENGINE FIRE or RH ENGINE FIRE — Step 3: What is the required action?**
 
-**Answer: Either displayed BOTTLE ARMED annunciator — Push**  
+A. Throttle (affected engine) — IDLE
+B. ENGINE FIRE button (affected engine) — Lift cover and push
+C. THRUST REVERSER STOW switch (affected side) — EMER
+D. Either displayed BOTTLE ARMED annunciator — Push
+
+**Correct answer: D – Either displayed BOTTLE ARMED annunciator — Push**
 Push the BOTTLE ARMED switchlight for the bottle to be discharged into the affected nacelle.
 
 ---
@@ -1991,7 +2046,12 @@ Push the BOTTLE ARMED switchlight for the bottle to be discharged into the affec
 
 **UNLOCK (thrust reverser) — Step 1: What is the required action?**
 
-**Answer: THRUST REVERSER STOW switch (affected side) — EMER**  
+A. AP TRIM DISC button — Push
+B. Throttle (affected engine) — Check IDLE
+C. Thrust reverser levers — Check in stowed (full forward) position
+D. THRUST REVERSER STOW switch (affected side) — EMER
+
+**Correct answer: D – THRUST REVERSER STOW switch (affected side) — EMER**
 Place the affected THRUST REVERSER STOW switch to EMER.
 
 ---
@@ -2000,7 +2060,12 @@ Place the affected THRUST REVERSER STOW switch to EMER.
 
 **UNLOCK (thrust reverser) — Step 2: What is the required action?**
 
-**Answer: Thrust reverser levers — Check in stowed (full forward) position**  
+A. Control wheel — GRIP
+B. THRUST REVERSER STOW switch (affected side) — EMER
+C. Thrust reverser levers — Check in stowed (full forward) position
+D. Airspeed — 140 KIAS maximum
+
+**Correct answer: C – Thrust reverser levers — Check in stowed (full forward) position**
 Verify thrust reverser levers are stowed full forward.
 
 ---
@@ -2011,7 +2076,12 @@ Verify thrust reverser levers are stowed full forward.
 
 **Engine failure or other emergency during takeoff — If speed is below V1 — Step 1: What is the required action?**
 
-**Answer: Takeoff — Abort**  
+A. Go-around procedures — EXECUTE
+B. WING XFLOW switch (if wing anti-ice is ON) — ON
+C. Takeoff — Continue to a safe altitude
+D. Takeoff — Abort
+
+**Correct answer: D – Takeoff — Abort**
 Abort the takeoff.
 
 ---
@@ -2022,7 +2092,12 @@ Abort the takeoff.
 
 **Engine failure or other emergency during takeoff — If speed at or above V1 — Step 1: What is the required action?**
 
-**Answer: Takeoff — Continue to a safe altitude**  
+A. Takeoff — Continue to a safe altitude
+B. Takeoff — Abort
+C. Emergency descent — as required
+D. Go-around procedures — EXECUTE
+
+**Correct answer: A – Takeoff — Continue to a safe altitude**
 Continue the takeoff to a safe altitude.
 
 ---
@@ -2031,7 +2106,12 @@ Continue the takeoff to a safe altitude.
 
 **Engine failure or other emergency during takeoff — If speed at or above V1 — Step 2: What is the required action?**
 
-**Answer: WING XFLOW switch (if wing anti-ice is ON) — ON**  
+A. THRUST REVERSER STOW switch (affected side) — EMER
+B. WING XFLOW switch (if wing anti-ice is ON) — ON
+C. IGNITION Switches — ON
+D. Takeoff — Continue to a safe altitude
+
+**Correct answer: B – WING XFLOW switch (if wing anti-ice is ON) — ON**
 If wing anti-ice is on, place WING XFLOW switch ON so one engine can supply both wings.
 
 ---
@@ -2042,7 +2122,12 @@ If wing anti-ice is on, place WING XFLOW switch ON so one engine can supply both
 
 **Dual engine failure (if below FL300) — Step 1: What is the required action?**
 
-**Answer: IGNITION switches — ON**  
+A. FUEL BOOST Switches (both) — ON
+B. BATT Switch — EMER
+C. Throttles (both) — IDLE
+D. IGNITION Switches — ON
+
+**Correct answer: D – IGNITION switches — ON**
 Place both IGNITION switches ON.
 
 ---
@@ -2051,7 +2136,12 @@ Place both IGNITION switches ON.
 
 **Dual engine failure (if below FL300) — Step 2: What is the required action?**
 
-**Answer: FUEL BOOST switches (both) — ON**  
+A. IGNITION Switches — ON
+B. Oxygen masks/goggles — DON and EMER
+C. FUEL BOOST Switches (both) — ON
+D. Throttles (both) — IDLE
+
+**Correct answer: C – FUEL BOOST switches (both) — ON**
 Place both FUEL BOOST switches ON.
 
 ---
@@ -2060,7 +2150,12 @@ Place both FUEL BOOST switches ON.
 
 **Dual engine failure (if below FL300) — Step 3: What is the required action?**
 
-**Answer: Throttles (both) — IDLE**  
+A. Throttles (both) — CUT OFF
+B. FUEL BOOST Switches (both) — ON
+C. IGNITION Switches — ON
+D. Throttles (both) — IDLE
+
+**Correct answer: D – Throttles (both) — IDLE**
 Set both throttles to IDLE for windmill/relight.
 
 ---
@@ -2071,7 +2166,12 @@ Set both throttles to IDLE for windmill/relight.
 
 **Environmental system smoke or odor — Step 1: What is the required action?**
 
-**Answer: Oxygen masks/goggles — DON and EMER**  
+A. Oxygen masks/goggles — DON and EMER
+B. Microphone switch — MIC OXY MASK
+C. Oxygen masks — DON and 100% oxygen
+D. Throttles (both) — CUT OFF
+
+**Correct answer: A – Oxygen masks/goggles — DON and EMER**
 Don oxygen masks and goggles and select EMER (100%) as required.
 
 ---
@@ -2080,7 +2180,12 @@ Don oxygen masks and goggles and select EMER (100%) as required.
 
 **Environmental system smoke or odor — Step 2: What is the required action?**
 
-**Answer: Microphone switch — MIC OXY MASK**  
+A. Microphone switch — MIC OXY MASK
+B. Emergency descent — as required
+C. APU MASTER switch — OFF
+D. Oxygen masks/goggles — DON and EMER
+
+**Correct answer: A – Microphone switch — MIC OXY MASK**
 Select microphone to oxygen mask for communications.
 
 ---
@@ -2091,7 +2196,12 @@ Select microphone to oxygen mask for communications.
 
 **Electrical fire or smoke — Step 1: What is the required action?**
 
-**Answer: Oxygen masks/goggles — DON and EMER**  
+A. Oxygen masks/goggles — DON and EMER
+B. LH ENGINE FIRE button — Push
+C. BATT switch — OFF
+D. Microphone switch — MIC OXY MASK
+
+**Correct answer: A – Oxygen masks/goggles — DON and EMER**
 Don oxygen masks and goggles and select EMER (100%) as required.
 
 ---
@@ -2100,7 +2210,12 @@ Don oxygen masks and goggles and select EMER (100%) as required.
 
 **Electrical fire or smoke — Step 2: What is the required action?**
 
-**Answer: Microphone switch — MIC OXY MASK**  
+A. Oxygen masks/goggles — DON and EMER
+B. Parking brake — SET
+C. BATT switch — OFF
+D. Microphone switch — MIC OXY MASK
+
+**Correct answer: D – Microphone switch — MIC OXY MASK**
 Select microphone to oxygen mask for communications.
 
 ---
@@ -2111,7 +2226,12 @@ Select microphone to oxygen mask for communications.
 
 **Smoke removal — Step 1: What is the required action?**
 
-**Answer: Oxygen masks/goggles — DON and EMER**  
+A. Oxygen masks — DON and 100% oxygen
+B. Thrust — REDUCE AS REQUIRED
+C. Oxygen masks/goggles — DON and EMER
+D. Microphone switches — MIC OXY MASK
+
+**Correct answer: C – Oxygen masks/goggles — DON and EMER**
 Don oxygen masks and goggles and select EMER as required.
 
 ---
@@ -2120,7 +2240,12 @@ Don oxygen masks and goggles and select EMER as required.
 
 **Smoke removal — Step 2: What is the required action?**
 
-**Answer: Microphone switches — MIC OXY MASK**  
+A. Emergency descent — as required
+B. Microphone switches — MIC OXY MASK
+C. Oxygen masks/goggles — DON and EMER
+D. Speed brakes — AS REQUIRED
+
+**Correct answer: B – Microphone switches — MIC OXY MASK**
 Select microphone to oxygen mask for communications.
 
 ---
@@ -2131,7 +2256,12 @@ Select microphone to oxygen mask for communications.
 
 **Thrust reverser in-flight deployment — Step 1: What is the required action?**
 
-**Answer: Control wheel — GRIP**  
+A. AP TRIM DISC button — Push
+B. Throttle (affected engine) — Check IDLE
+C. Control wheel — GRIP
+D. THRUST REVERSER STOW switch (affected side) — EMER
+
+**Correct answer: C – Control wheel — GRIP**
 Maintain positive control; grip the control wheel.
 
 ---
@@ -2140,7 +2270,12 @@ Maintain positive control; grip the control wheel.
 
 **Thrust reverser in-flight deployment — Step 2: What is the required action?**
 
-**Answer: AP TRIM DISC button — Push**  
+A. AP YD DISC/TRIM INT button — PRESS and RELEASE
+B. THRUST REVERSER STOW switch (affected side) — EMER
+C. Control wheel — GRIP
+D. AP TRIM DISC button — Push
+
+**Correct answer: D – AP TRIM DISC button — Push**
 Push the AP TRIM DISC button to disconnect autopilot trim.
 
 ---
@@ -2149,7 +2284,12 @@ Push the AP TRIM DISC button to disconnect autopilot trim.
 
 **Thrust reverser in-flight deployment — Step 3: What is the required action?**
 
-**Answer: THRUST REVERSER STOW switch (affected side) — EMER**  
+A. Throttle (affected engine) — Check IDLE
+B. Control wheel — GRIP
+C. THRUST REVERSER STOW switch (affected side) — EMER
+D. Airspeed — 140 KIAS maximum
+
+**Correct answer: C – THRUST REVERSER STOW switch (affected side) — EMER**
 Place the affected THRUST REVERSER STOW switch to EMER.
 
 ---
@@ -2158,7 +2298,12 @@ Place the affected THRUST REVERSER STOW switch to EMER.
 
 **Thrust reverser in-flight deployment — Step 4: What is the required action?**
 
-**Answer: Throttle (affected engine) — Check IDLE**  
+A. Throttles (both) — IDLE
+B. THRUST REVERSER STOW switch (affected side) — EMER
+C. Throttle (affected engine) — Check IDLE
+D. Airspeed — 140 KIAS maximum
+
+**Correct answer: C – Throttle (affected engine) — Check IDLE**
 Verify the affected engine throttle is at IDLE.
 
 ---
@@ -2167,7 +2312,12 @@ Verify the affected engine throttle is at IDLE.
 
 **Thrust reverser in-flight deployment — Step 5: What is the required action?**
 
-**Answer: Airspeed — 140 KIAS maximum**  
+A. Airspeed — 140 KIAS maximum
+B. Throttle (affected engine) — Check IDLE
+C. Thrust — REDUCE AS REQUIRED
+D. Thrust — T/O DETENT
+
+**Correct answer: A – Airspeed — 140 KIAS maximum**
 Do not exceed 140 KIAS.
 
 ---
@@ -2178,7 +2328,12 @@ Do not exceed 140 KIAS.
 
 **Emergency evacuation — Step 1: What is the required action?**
 
-**Answer: Parking brake — SET**  
+A. LH ENGINE FIRE button — Push
+B. Parking brake — SET
+C. BATT switch — OFF
+D. Throttles (both) — CUT OFF
+
+**Correct answer: B – Parking brake — SET**
 Set the parking brake.
 
 ---
@@ -2187,7 +2342,12 @@ Set the parking brake.
 
 **Emergency evacuation — Step 2: What is the required action?**
 
-**Answer: Throttles (both) — CUT OFF**  
+A. Throttles (both) — CUT OFF
+B. APU MASTER switch — OFF
+C. LH ENGINE FIRE button — Push
+D. Parking brake — SET
+
+**Correct answer: A – Throttles (both) — CUT OFF**
 Move both throttles to CUT OFF.
 
 ---
@@ -2196,7 +2356,12 @@ Move both throttles to CUT OFF.
 
 **Emergency evacuation — Step 3: What is the required action?**
 
-**Answer: LH ENGINE FIRE button — Push**  
+A. LH ENGINE FIRE button — Push
+B. RH ENGINE FIRE button — Push
+C. APU MASTER switch — OFF
+D. BATT switch — OFF
+
+**Correct answer: A – LH ENGINE FIRE button — Push**
 Push the LH ENGINE FIRE button (lift cover and push as required).
 
 ---
@@ -2205,7 +2370,12 @@ Push the LH ENGINE FIRE button (lift cover and push as required).
 
 **Emergency evacuation — Step 4: What is the required action?**
 
-**Answer: RH ENGINE FIRE button — Push**  
+A. LH ENGINE FIRE button — Push
+B. BATT switch — OFF
+C. RH ENGINE FIRE button — Push
+D. APU MASTER switch — OFF
+
+**Correct answer: C – RH ENGINE FIRE button — Push**
 Push the RH ENGINE FIRE button (lift cover and push as required).
 
 ---
@@ -2214,7 +2384,12 @@ Push the RH ENGINE FIRE button (lift cover and push as required).
 
 **Emergency evacuation — Step 5: What is the required action?**
 
-**Answer: APU MASTER switch — OFF**  
+A. BATT switch — OFF
+B. Throttles (both) — CUT OFF
+C. APU MASTER switch — OFF
+D. Parking brake — SET
+
+**Correct answer: C – APU MASTER switch — OFF**
 Place the APU MASTER switch OFF.
 
 ---
@@ -2223,7 +2398,12 @@ Place the APU MASTER switch OFF.
 
 **Emergency evacuation — Step 6: What is the required action?**
 
-**Answer: BATT switch — OFF**  
+A. APU MASTER switch — OFF
+B. Throttles (both) — CUT OFF
+C. IGNITION Switches — ON
+D. BATT switch — OFF
+
+**Correct answer: D – BATT switch — OFF**
 Place the BATT switch OFF.
 
 ---
@@ -2234,7 +2414,12 @@ Place the BATT switch OFF.
 
 **Overspeed recovery (MAXSPD) — Step 1: What is the required action?**
 
-**Answer: Thrust — Reduce as required**  
+A. Thrust — REDUCE AS REQUIRED
+B. Speed brakes — As required
+C. Speed brakes — CONFIRM RETRACTED
+D. Flaps — RETRACT (15°) if required
+
+**Correct answer: B – Thrust — Reduce as required**
 Reduce thrust as required to recover from overspeed.
 
 ---
@@ -2243,7 +2428,12 @@ Reduce thrust as required to recover from overspeed.
 
 **Overspeed recovery (MAXSPD) — Step 2: What is the required action?**
 
-**Answer: Speed brakes — As required**  
+A. Speed brakes — As required
+B. Speed brakes — CONFIRM RETRACTED
+C. Thrust — REDUCE AS REQUIRED
+D. Flaps — RETRACT (15°) if required
+
+**Correct answer: A – Speed brakes — As required**
 Use speed brakes as required.
 
 ---
@@ -2254,7 +2444,12 @@ Use speed brakes as required.
 
 **Aileron mistrim (AIL or AIL) — Step 1: What is the required action?**
 
-**Answer: Control wheel — GRIP FIRMLY**  
+A. AP YD DISC/TRIM INT button — PRESS and RELEASE
+B. Control wheel — GRIP FIRMLY
+C. Pitch trim — ADJUST AS REQUIRED (in flight)
+D. Roll trim — AS REQUIRED
+
+**Correct answer: B – Control wheel — GRIP FIRMLY**
 Grip the control wheel firmly.
 
 ---
@@ -2263,7 +2458,12 @@ Grip the control wheel firmly.
 
 **Aileron mistrim (AIL or AIL) — Step 2: What is the required action?**
 
-**Answer: AP YD DISC/TRIM INT button — PRESS and RELEASE**  
+A. AP YD DISC/TRIM INT button — PUSH and HOLD
+B. Control wheel — GRIP FIRMLY
+C. Roll trim — AS REQUIRED
+D. AP YD DISC/TRIM INT button — PRESS and RELEASE
+
+**Correct answer: D – AP YD DISC/TRIM INT button — PRESS and RELEASE**
 Press and release the AP YD DISC/TRIM INT button to disconnect autopilot and yaw damper.
 
 ---
@@ -2272,7 +2472,12 @@ Press and release the AP YD DISC/TRIM INT button to disconnect autopilot and yaw
 
 **Aileron mistrim (AIL or AIL) — Step 3: What is the required action?**
 
-**Answer: Roll trim — AS REQUIRED**  
+A. Rudder trim — AS REQUIRED
+B. Control wheel — GRIP FIRMLY
+C. Roll trim — AS REQUIRED
+D. AP YD DISC/TRIM INT button — PRESS and RELEASE
+
+**Correct answer: C – Roll trim — AS REQUIRED**
 Use roll trim as required to correct the mistrim.
 
 ---
@@ -2283,7 +2488,12 @@ Use roll trim as required to correct the mistrim.
 
 **Elevator mistrim (ELE or ELE) — Step 1: What is the required action?**
 
-**Answer: Control wheel — GRIP FIRMLY**  
+A. Pitch trim — ADJUST AS REQUIRED (in flight)
+B. AP YD DISC/TRIM INT button — PRESS and RELEASE
+C. Control wheel — GRIP FIRMLY
+D. Roll trim — AS REQUIRED
+
+**Correct answer: C – Control wheel — GRIP FIRMLY**
 Grip the control wheel firmly.
 
 ---
@@ -2292,7 +2502,12 @@ Grip the control wheel firmly.
 
 **Elevator mistrim (ELE or ELE) — Step 2: What is the required action?**
 
-**Answer: AP YD DISC/TRIM INT button — PRESS and RELEASE**  
+A. AP TRIM DISC button — Push
+B. Control wheel — GRIP FIRMLY
+C. Pitch trim — ADJUST AS REQUIRED (in flight)
+D. AP YD DISC/TRIM INT button — PRESS and RELEASE
+
+**Correct answer: D – AP YD DISC/TRIM INT button — PRESS and RELEASE**
 Press and release the AP YD DISC/TRIM INT button.
 
 ---
@@ -2301,7 +2516,12 @@ Press and release the AP YD DISC/TRIM INT button.
 
 **Elevator mistrim (ELE or ELE) — Step 3: What is the required action?**
 
-**Answer: Pitch trim — ADJUST AS REQUIRED (in flight)**  
+A. Roll trim — AS REQUIRED
+B. Pitch trim — ADJUST AS REQUIRED (in flight)
+C. AP YD DISC/TRIM INT button — PRESS and RELEASE
+D. Control wheel — GRIP FIRMLY
+
+**Correct answer: B – Pitch trim — ADJUST AS REQUIRED (in flight)**
 Adjust pitch trim as required to correct the mistrim.
 
 ---
@@ -2312,7 +2532,12 @@ Adjust pitch trim as required to correct the mistrim.
 
 **Rudder mistrim (RUD or RUD) — Step 1: What is the required action?**
 
-**Answer: Rudder trim — AS REQUIRED**  
+A. Rudder pedals — HOLD FIRMLY
+B. Rudder trim — AS REQUIRED
+C. Roll trim — AS REQUIRED
+D. AP YD DISC/TRIM INT button — PRESS and RELEASE
+
+**Correct answer: B – Rudder trim — AS REQUIRED**
 Apply rudder trim in the direction of the indicated mistrim until the annunciation clears.
 
 ---
@@ -2321,7 +2546,12 @@ Apply rudder trim in the direction of the indicated mistrim until the annunciati
 
 **Rudder mistrim (RUD or RUD) — Step 2: What is the required action?**
 
-**Answer: Rudder pedals — HOLD FIRMLY**  
+A. AP YD DISC/TRIM INT button — PRESS and RELEASE
+B. Rudder pedals — HOLD FIRMLY
+C. Control wheel — GRIP FIRMLY
+D. Rudder trim — AS REQUIRED
+
+**Correct answer: B – Rudder pedals — HOLD FIRMLY**
 Hold the rudder pedals firmly.
 
 ---
@@ -2330,7 +2560,12 @@ Hold the rudder pedals firmly.
 
 **Rudder mistrim (RUD or RUD) — Step 3: What is the required action?**
 
-**Answer: AP YD DISC/TRIM INT button — PRESS and RELEASE**  
+A. AP YD DISC/TRIM INT button — PUSH and HOLD
+B. Rudder trim — AS REQUIRED
+C. Rudder pedals — HOLD FIRMLY
+D. AP YD DISC/TRIM INT button — PRESS and RELEASE
+
+**Correct answer: D – AP YD DISC/TRIM INT button — PRESS and RELEASE**
 Press and release the AP YD DISC/TRIM INT button.
 
 ---
@@ -2341,7 +2576,12 @@ Press and release the AP YD DISC/TRIM INT button.
 
 **Wheel brake failure — Step 1: What is the required action?**
 
-**Answer: Brake pedals — Remove feet**  
+A. EMER BRAKE handle — Pull
+B. Parking brake — SET
+C. Brake pedals — Remove feet
+D. Throttles (both) — CUT OFF
+
+**Correct answer: C – Brake pedals — Remove feet**
 Remove feet from the brake pedals.
 
 ---
@@ -2350,7 +2590,12 @@ Remove feet from the brake pedals.
 
 **Wheel brake failure — Step 2: What is the required action?**
 
-**Answer: EMER BRAKE handle — Pull**  
+A. THRUST REVERSER STOW switch (affected side) — EMER
+B. EMER BRAKE handle — Pull
+C. Brake pedals — Remove feet
+D. Parking brake — SET
+
+**Correct answer: B – EMER BRAKE handle — Pull**
 Pull the emergency brake handle.
 
 ---
@@ -2361,7 +2606,12 @@ Pull the emergency brake handle.
 
 **Autopilot or yaw damper malfunction / pitch trim runaway or failure — Step 1: What is the required action?**
 
-**Answer: Control wheel — GRIP FIRMLY**  
+A. AP YD DISC/TRIM INT button — PUSH and HOLD
+B. Throttles — Reduce as required to control airspeed
+C. Speed brakes — AS REQUIRED
+D. Control wheel — GRIP FIRMLY
+
+**Correct answer: D – Control wheel — GRIP FIRMLY**
 Grip the control wheel firmly.
 
 ---
@@ -2370,7 +2620,12 @@ Grip the control wheel firmly.
 
 **Autopilot or yaw damper malfunction / pitch trim runaway or failure — Step 2: What is the required action?**
 
-**Answer: AP YD DISC/TRIM INT button — PUSH and HOLD**  
+A. Throttles — Reduce as required to control airspeed
+B. Control wheel — GRIP FIRMLY
+C. AP YD DISC/TRIM INT button — PRESS and RELEASE
+D. AP YD DISC/TRIM INT button — PUSH and HOLD
+
+**Correct answer: D – AP YD DISC/TRIM INT button — PUSH and HOLD**
 Push and hold the AP YD DISC/TRIM INT button (do not just release).
 
 ---
@@ -2379,7 +2634,12 @@ Push and hold the AP YD DISC/TRIM INT button (do not just release).
 
 **Autopilot or yaw damper malfunction / pitch trim runaway or failure — Step 3: What is the required action?**
 
-**Answer: Throttles — Reduce as required to control airspeed**  
+A. Speed brakes — AS REQUIRED
+B. Throttles — Maximum thrust
+C. Thrust — INCREASE as required
+D. Throttles — Reduce as required to control airspeed
+
+**Correct answer: D – Throttles — Reduce as required to control airspeed**
 Reduce throttles as required to control airspeed.
 
 ---
@@ -2388,7 +2648,12 @@ Reduce throttles as required to control airspeed.
 
 **Autopilot or yaw damper malfunction / pitch trim runaway or failure — Step 4: What is the required action?**
 
-**Answer: Speed brakes — AS REQUIRED**  
+A. Speed brakes — AS REQUIRED
+B. Flaps — UP
+C. Speed brakes — CONFIRM RETRACTED
+D. Throttles — Reduce as required to control airspeed
+
+**Correct answer: A – Speed brakes — AS REQUIRED**
 Use speed brakes as required.
 
 ---
@@ -2399,7 +2664,12 @@ Use speed brakes as required.
 
 **Inadvertent stall (stick shaker, buffet, and/or roll-off) — Step 1: What is the required action?**
 
-**Answer: AP TRIM DISC button — Push**  
+A. AP TRIM DISC button — Push
+B. Roll attitude — Level
+C. Throttles — Maximum thrust
+D. Pitch attitude — Reduce
+
+**Correct answer: A – AP TRIM DISC button — Push**
 Push the AP TRIM DISC button to disconnect autopilot trim.
 
 ---
@@ -2408,7 +2678,12 @@ Push the AP TRIM DISC button to disconnect autopilot trim.
 
 **Inadvertent stall (stick shaker, buffet, and/or roll-off) — Step 2: What is the required action?**
 
-**Answer: Pitch attitude — Reduce**  
+A. AP TRIM DISC button — Push
+B. Pitch attitude — Reduce
+C. Throttles — Maximum thrust
+D. Roll attitude — Level
+
+**Correct answer: B – Pitch attitude — Reduce**
 Reduce pitch attitude.
 
 ---
@@ -2417,7 +2692,12 @@ Reduce pitch attitude.
 
 **Inadvertent stall (stick shaker, buffet, and/or roll-off) — Step 3: What is the required action?**
 
-**Answer: Roll attitude — Level**  
+A. Roll attitude — Level
+B. Aircraft attitude and altitude — MONITOR
+C. Pitch attitude — Reduce
+D. Throttles — Maximum thrust
+
+**Correct answer: A – Roll attitude — Level**
 Level the wings.
 
 ---
@@ -2426,7 +2706,12 @@ Level the wings.
 
 **Inadvertent stall (stick shaker, buffet, and/or roll-off) — Step 4: What is the required action?**
 
-**Answer: Throttles — Maximum thrust**  
+A. Throttles — Maximum thrust
+B. Pitch attitude — Reduce
+C. Roll attitude — Level
+D. Thrust — T/O DETENT
+
+**Correct answer: A – Throttles — Maximum thrust**
 Apply maximum thrust.
 
 ---
@@ -2437,7 +2722,12 @@ Apply maximum thrust.
 
 **Autopilot underspeed protection activation and recovery — Step 1: What is the required action?**
 
-**Answer: Thrust — INCREASE as required**  
+A. Aircraft attitude and altitude — MONITOR
+B. Thrust — REDUCE AS REQUIRED
+C. Throttles — Maximum thrust
+D. Thrust — INCREASE as required
+
+**Correct answer: D – Thrust — INCREASE as required**
 Increase thrust as required to correct the underspeed.
 
 ---
@@ -2446,7 +2736,12 @@ Increase thrust as required to correct the underspeed.
 
 **Autopilot underspeed protection activation and recovery — Step 2: What is the required action?**
 
-**Answer: Aircraft attitude and altitude — MONITOR**  
+A. Aircraft pitch attitude — Smoothly pitch up climb as required to avoid terrain
+B. Landing gear — UP
+C. Thrust — INCREASE as required
+D. Aircraft attitude and altitude — MONITOR
+
+**Correct answer: D – Aircraft attitude and altitude — MONITOR**
 Monitor aircraft attitude and altitude.
 
 ---
@@ -2457,7 +2752,12 @@ Monitor aircraft attitude and altitude.
 
 **TAWS warning (PULL UP) — Step 1: What is the required action?**
 
-**Answer: AP YD DISC/TRIM INT button — PRESS and RELEASE**  
+A. Flaps — RETRACT (15°) if required
+B. AP YD DISC/TRIM INT button — PRESS and RELEASE
+C. Thrust — T/O DETENT
+D. Aircraft pitch attitude — Smoothly pitch up climb as required to avoid terrain
+
+**Correct answer: B – AP YD DISC/TRIM INT button — PRESS and RELEASE**
 Press and release to disconnect the autopilot.
 
 ---
@@ -2466,7 +2766,12 @@ Press and release to disconnect the autopilot.
 
 **TAWS warning (PULL UP) — Step 2: What is the required action?**
 
-**Answer: Aircraft pitch attitude — Smoothly pitch up climb as required to avoid terrain**  
+A. Thrust — T/O DETENT
+B. Flaps — RETRACT (15°) if required
+C. Landing gear — UP
+D. Aircraft pitch attitude — Smoothly pitch up climb as required to avoid terrain
+
+**Correct answer: D – Aircraft pitch attitude — Smoothly pitch up climb as required to avoid terrain**
 Smoothly pitch up and climb as required to avoid terrain.
 
 ---
@@ -2475,7 +2780,12 @@ Smoothly pitch up and climb as required to avoid terrain.
 
 **TAWS warning (PULL UP) — Step 3: What is the required action?**
 
-**Answer: Thrust — T/O DETENT**  
+A. Flaps — UP
+B. Landing gear — UP
+C. Thrust — T/O DETENT
+D. Flaps — RETRACT (15°) if required
+
+**Correct answer: C – Thrust — T/O DETENT**
 Set thrust to takeoff detent.
 
 ---
@@ -2484,7 +2794,12 @@ Set thrust to takeoff detent.
 
 **TAWS warning (PULL UP) — Step 4: What is the required action?**
 
-**Answer: Flaps — RETRACT (15°) if required**  
+A. Landing gear — UP
+B. Speed brakes — CONFIRM RETRACTED
+C. Flaps — RETRACT (15°) if required
+D. Flaps — UP
+
+**Correct answer: C – Flaps — RETRACT (15°) if required**
 Retract flaps to 15° if required.
 
 ---
@@ -2493,7 +2808,12 @@ Retract flaps to 15° if required.
 
 **TAWS warning (PULL UP) — Step 5: What is the required action?**
 
-**Answer: Landing gear — UP**  
+A. Landing gear — UP
+B. Flaps — UP
+C. Thrust — T/O DETENT
+D. Speed brakes — CONFIRM RETRACTED
+
+**Correct answer: A – Landing gear — UP**
 Retract the landing gear.
 
 ---
@@ -2502,7 +2822,12 @@ Retract the landing gear.
 
 **TAWS warning (PULL UP) — Step 6: What is the required action?**
 
-**Answer: Flaps — UP**  
+A. Flaps — RETRACT (15°) if required
+B. Flaps — UP
+C. Landing gear — UP
+D. Speed brakes — CONFIRM RETRACTED
+
+**Correct answer: B – Flaps — UP**
 Retract flaps to UP.
 
 ---
@@ -2511,7 +2836,12 @@ Retract flaps to UP.
 
 **TAWS warning (PULL UP) — Step 7: What is the required action?**
 
-**Answer: Speed brakes — CONFIRM RETRACTED**  
+A. Takeoff — Continue to a safe altitude
+B. Takeoff — ABORT
+C. Go-around procedures — EXECUTE
+D. Emergency descent — as required
+
+**Correct answer: C – Speed brakes — CONFIRM RETRACTED**
 Confirm speed brakes are retracted.
 
 ---
@@ -2522,7 +2852,12 @@ Confirm speed brakes are retracted.
 
 **TWY TAKEOFF SurfaceWatch warning — Step 1: What is the required action?**
 
-**Answer: Takeoff — ABORT**  
+A. Takeoff — Continue to a safe altitude
+B. Go-around procedures — EXECUTE
+C. Takeoff — ABORT
+D. WING XFLOW switch (if wing anti-ice is ON) — ON
+
+**Correct answer: C – Takeoff — ABORT**
 Abort the takeoff.
 
 ---
@@ -2533,7 +2868,12 @@ Abort the takeoff.
 
 **TWY LANDING SurfaceWatch warning — Step 1: What is the required action?**
 
-**Answer: Go-around procedures — EXECUTE**  
+A. Emergency descent — as required
+B. Takeoff — ABORT
+C. Takeoff — Continue to a safe altitude
+D. Go-around procedures — EXECUTE
+
+**Correct answer: D – Go-around procedures — EXECUTE**
 Execute go-around procedures.
 
 ---
@@ -2544,7 +2884,12 @@ Execute go-around procedures.
 
 **RWY TOO SHORT SurfaceWatch warning (during takeoff) — Step 1: What is the required action?**
 
-**Answer: Takeoff — ABORT**  
+A. Takeoff — ABORT
+B. Emergency descent — as required
+C. Go-around procedures — EXECUTE
+D. Takeoff — Continue to a safe altitude
+
+**Correct answer: A – Takeoff — ABORT**
 Abort the takeoff.
 
 ---
@@ -2555,7 +2900,12 @@ Abort the takeoff.
 
 **RWY TOO SHORT SurfaceWatch warning (during landing) — Step 1: What is the required action?**
 
-**Answer: Go-around procedures — EXECUTE**  
+A. Takeoff — ABORT
+B. Go-around procedures — EXECUTE
+C. Takeoff — Continue to a safe altitude
+D. Emergency descent — as required
+
+**Correct answer: B – Go-around procedures — EXECUTE**
 Execute go-around procedures.
 
 ---

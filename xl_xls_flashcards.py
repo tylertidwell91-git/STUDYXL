@@ -65,7 +65,7 @@ def parse_markdown_questions(text: str):
             i += 1
             continue
 
-        # Memory Items: ### Step N with **Answer:** (no A.–D. options)
+        # Memory Items: ### Step N with optional A.–D. options and **Correct answer:** or **Answer:**
         step_m = step_num_pattern.match(line.strip())
         if step_m and current_chapter.startswith("Memory Items"):
             number = step_m.group(1)
@@ -78,16 +78,27 @@ def parse_markdown_questions(text: str):
             prompt_line = lines[i].strip()
             prompt = prompt_line.strip("* ").strip()
             i += 1
-            # Look for **Answer:** (not Correct answer)
-            answer_line = ""
+            # Collect optional A.–D. options
+            options = []
             while i < len(lines):
                 s = lines[i].strip()
-                if s.startswith("**Answer:"):
-                    # Strip "**Answer:** " or "**Answer: ...**"
-                    answer_line = s.replace("**Answer:", "").strip().strip("* ").strip()
+                if re.match(r"^[A-D]\.\s", s):
+                    options.append(s)
                     i += 1
+                    continue
+                if s.startswith("**Correct answer:") or s.startswith("**Answer:"):
                     break
                 i += 1
+            # Answer line: **Correct answer: X – ...** or **Answer: ...**
+            answer_line = ""
+            if i < len(lines):
+                s = lines[i].strip()
+                if s.startswith("**Correct answer:"):
+                    answer_line = s.replace("**Correct answer:", "").strip().strip("* ").strip()
+                    i += 1
+                elif s.startswith("**Answer:"):
+                    answer_line = s.replace("**Answer:", "").strip().strip("* ").strip()
+                    i += 1
             # Explanation until next '---' or '### Step' or '## '
             explanation_lines = []
             while i < len(lines):
@@ -107,7 +118,7 @@ def parse_markdown_questions(text: str):
                     chapter=current_chapter,
                     number=number,
                     prompt=prompt,
-                    options=[],  # no multiple choice for memory items
+                    options=options,
                     answer_line=answer_line,
                     explanation=explanation,
                 )
