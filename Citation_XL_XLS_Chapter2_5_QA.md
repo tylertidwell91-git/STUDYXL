@@ -1,10 +1,20 @@
-Citation XL/XLS – Study Questions Answer Key (Ch. 2 & 5)
-========================================================
+Citation XL/XLS – Study Questions Answer Key (Ch. 2, 3, 5, etc.)
+===============================================================
 
 This document compiles the multiple‑choice questions and answers from:
 
+- **Chapters 2, 3, 5, 6, 7, 8, 9, 10, 11** (by topic)
+- **Required Knowledge**
+- **Memory Items** (CE-560XL G5000 — each step as a question/answer card)
+
+Chapters include:
+
 - **Chapter 2: Electrical Power Systems**
+- **Chapter 3: Lighting**
 - **Chapter 5: Fuel System**
+- **Chapter 9: Pneumatics**
+- **Chapter 10: Ice and Rain Protection**
+- **Chapter 11: Air Conditioning**
 
 Each question shows the options, the **correct answer**, and a short explanation.
 
@@ -278,6 +288,107 @@ D. There are no starter limitations when using a GPU.
 
 **Correct answer: C – If four or more battery starts are performed in one hour, the battery must be allowed to cool for 30 minutes**  
 Battery‑start limitations are based on preventing battery and starter overheating; performing **four or more battery starts in one hour** requires a **30‑minute cool‑down** period, while there are still starter limitations when using a GPU, so D is incorrect.
+
+---
+
+Chapter 3 – Lighting
+--------------------
+
+### Question 1
+
+**Turning the PANEL LIGHT control master switch to ON:**
+
+A. Activates the control rheostats  
+B. Dims the annunciator panel lights  
+C. Illuminates the START DISG button  
+D. All of the above  
+
+**Correct answer: A – Activates the control rheostats**  
+When the master PANEL LIGHT switch is placed in the ON position, Table 3-1 shows that the left, center, right, and EL rheostats are **activated**, and the annunciator panel (and other items) dim. The START DISG button is not part of the panel light sequence, so D is incorrect. The primary direct effect of turning the switch ON is to **activate the control rheostats** so panel lighting can be adjusted.
+
+---
+
+### Question 2
+
+**Emergency cabin lighting is powered from:**
+
+A. Main aircraft battery  
+B. Two emergency battery packs  
+C. Emergency DC power  
+D. Either A or B  
+
+**Correct answer: B – Two emergency battery packs**  
+The emergency lighting system is a **separate, independent system** using **two emergency battery packs** (2.5 amp, 18 cell). When main DC power fails and aircraft battery voltage is lower than the emergency packs’ voltage, these battery packs power the exit signs, step lights, overhead lights, floor proximity lighting, and overwing egress lights. Main DC normally powers and trickle-charges the packs, but the *source* of emergency cabin lighting in a power failure is the two battery packs.
+
+---
+
+### Question 3
+
+**Emergency lighting is activated by:**
+
+A. The FLOOD rheostat knob  
+B. STBY PWR switch ON  
+C. Loss of main DC power or G force (switch ARM)  
+D. B and C.  
+
+**Correct answer: C – Loss of main DC power or G force (switch ARM)**  
+With the EMER LTS switch in **ARM** (normal flight mode), the emergency lights do **not** illuminate unless one of the following occurs: PASS SAFETY switch placed in PASS SAFETY ON, **normal aircraft power lost**, or a **5G impact** sustained to the aircraft. The FLOOD rheostat controls cockpit floodlights, not emergency lighting. The correct trigger with the switch in ARM is loss of main DC power or a 5G impact.
+
+---
+
+### Question 4
+
+**Landing lights consist of:**
+
+A. Belly lights only  
+B. Belly lights and recognition light  
+C. Both wing tip lights on each wing tip  
+D. Outboard wing tip lights  
+
+**Correct answer: D – Outboard wing tip lights**  
+Landing lights are **mounted in the left and right wingtips** and are **outboard of the wing recognition lights** in the same light assembly on each forward wing tip. The belly fuselage lights are **taxi** lights (which also function as supplemental landing lights when selected with the LANDING LIGHTS switch). So the dedicated landing lights are the **outboard** wing tip lights.
+
+---
+
+### Question 5
+
+**Which lights will remain working when the battery switch is placed to EMER (generators off-line)?**
+
+A. Floods and auxiliary panel lights  
+B. Flood and map lights  
+C. EL and auxiliary panel lights  
+D. Left, right, and center panel lights  
+
+**Correct answer: A – Floods and auxiliary panel lights**  
+The **emergency DC bus** powers the cockpit floodlights (through the COCKPIT FLOOD CB on the LH circuit breaker panel) and the glareshield/auxiliary panel lights (through the AUX PANEL CB on the left circuit breaker panel, powered from the emergency bus). With the battery switch in EMER, the emergency bus remains powered by the battery, so **flood and auxiliary panel lights** stay available. EL panels, map lights, and the left/center/right rheostat-fed panel lights depend on main DC and are not powered in EMER.
+
+---
+
+### Question 6
+
+**Concerning the STBY PWR switch on the instrument panel:**
+
+A. It must be placed in the ARM position prior to takeoff  
+B. It must be placed in the ON position prior to takeoff  
+C. Yellow indicator light near the switch indicates maintenance must be performed on the emergency battery packs  
+D. Crossfed bus powers the system  
+
+**Correct answer: A – It must be placed in the ARM position prior to takeoff**  
+The manual describes the **EMER LTS** (emergency lights) three-position switch: with normal DC power on and the switch in **OFF**, an **amber** light adjacent to the switch illuminates to **remind the pilot to place the switch to ON or ARM before flight**. For normal flight, the switch is placed in **ARM** so that emergency lights will activate automatically on power loss or 5G impact. The amber light is a preflight reminder, not a maintenance indication; the emergency lighting system is powered by its own battery packs and main DC (for trickle charge), not the crossfeed bus.
+
+---
+
+### Question 7
+
+**While loading baggage after dark, you forget to turn off the baggage compartment lights. They will:**
+
+A. Stay on after you close the door  
+B. Extinguish after one hour  
+C. Extinguish when the main cabin door is locked  
+D. Extinguish when you close the baggage door  
+
+**Correct answer: D – Extinguish when you close the baggage door**  
+The tailcone baggage compartment lights are controlled by a manual ON–OFF toggle on the access door closeout assembly, **wired in series with a door frame microswitch**. If the lights are left on, the **microswitch extinguishes the lights when the door is closed and latched**, so they will not drain the battery.
 
 ---
 
@@ -976,6 +1087,365 @@ Selecting FIRE WARN on the rotary test switch checks loop continuity and control
 
 ---
 
+Chapter 9 – Pneumatics
+----------------------
+
+### Question 1
+
+**Twenty-three psi regulated service air provides:**
+
+A. Cabin temperature control.  
+B. Wing anti-ice capability.  
+C. Pressurization vacuum.  
+D. High pressure air to the ACM.  
+
+**Correct answer: C – Pressurization vacuum**  
+Twenty-three psi service air is distributed from the 23 psi regulator to horizontal stabilizer deice boots, pressurization components, cabin entrance door seals, and throttle detents. A **vacuum ejector supplied with service air** is installed on the primary outflow valve; vacuum from that ejector is applied to the primary outflow valve climb solenoid for AUTO mode operation (slow opening to reduce cabin pressure). Cabin temperature and ACM flow use **bleed air** (precooled, through ozone converters), not the 23 psi regulated service air tap; wing anti-ice is supplied from the tailcone bleed distribution, not the 23 psi service air system.
+
+---
+
+### Question 2
+
+**Illumination of the DOOR SEAL annunciator is initiated by:**
+
+A. Cabin door seal valve.  
+B. <5 psi pressure switch.  
+C. Door locking microswitch.  
+D. Door handle microswitch.  
+
+**Correct answer: B – <5 psi pressure switch**  
+A **differential pressure switch** located in the primary door seal (downstream from the inflation valve) monitors seal pressure. When the switch senses a pressure drop to **approximately 5 psi**, the DOOR SEAL annunciator illuminates flashing (and MASTER WARNING or MASTER CAUTION illuminates per aircraft type). Inflation is initiated by the lower aft door lock pin actuating a valve; the annunciator is driven by the pressure switch, not by door handle or locking microswitches.
+
+---
+
+### Question 3
+
+**The purpose of service air through vacuum ejector(s) is:**
+
+A. Provide cabin door seal vacuum.  
+B. Provide vacuum for the pressurization system and the deice boots.  
+C. Provide vacuum for the door acoustic seal.  
+D. ACM water separator vacuum.  
+
+**Correct answer: B – Provide vacuum for the pressurization system and the deice boots**  
+A **vacuum ejector supplied with service air** on the primary outflow valve generates vacuum for the **pressurization system** (climb solenoid applies vacuum to slowly open the outflow valves). Separately, when the horizontal stabilizer deice system is **deenergized**, service air passes through the **control valve ejectors** and creates a **vacuum to keep the deice boots deflated** against the stabilizer leading edges. Door seals use 23 psi pressure (not vacuum) for inflation; acoustic seals and ACM are not described as using these vacuum ejectors.
+
+---
+
+### Question 4
+
+**Twenty-three psi service air provides operating pressure for:**
+
+A. Throttle detents and deicer boots.  
+B. Standby gyro pressure.  
+C. Emergency release of the gear uplocks.  
+D. For the wheel brakes accumulator.  
+
+**Correct answer: A – Throttle detents and deicer boots**  
+From the 23 psi regulator, service air is distributed to: **horizontal stabilizer deice boots** (via tail deice control valves), pressurization components (vacuum ejector, dive solenoid), **cabin entrance door seals**, and **throttle detents** (air-operated cylinders when EECs are in AUTO). Standby gyro, gear uplocks, and wheel brakes are not supplied by the 23 psi service air system.
+
+---
+
+### Question 5
+
+**If the DOOR SEAL annunciator illuminates in flight:**
+
+A. Descend to FL410 or lower.  
+B. Have the co-pilot check the door.  
+C. Begin an emergency descent, and declare the emergency.  
+D. Don oxygen masks.  
+
+**Correct answer: D – Don oxygen masks**  
+The DOOR SEAL annunciator indicates the **primary cabin door seal pressure has dropped below approximately 5 psi**. The manual states that if the primary seal deflates, the **secondary (crush-type) door seal should prevent cabin pressure from escaping**. Because seal integrity is in doubt, the prudent immediate action is to **don oxygen masks** to protect against possible further depressurization. Full emergency/abnormal procedures (including any descent or declaration of emergency) are in the appropriate checklist or FAA-approved AFM.
+
+---
+
+Chapter 10 – Ice and Rain Protection
+------------------------------------
+
+### Question 1
+
+**Ice detection is accomplished by:**
+
+A. Visual indications.  
+B. ICE DETECT annunciator light.  
+C. Wing ice-detector sensor.  
+D. Both B and C.  
+
+**Correct answer: A – Visual indications**  
+Ice detection uses **two red windshield ice-detection barrel lights** on the glareshield aimed at unheated areas near the inboard edges of each windshield; when ice forms there, a **small red glow is reflected on the glass** to warn the crew. **Wing inspection lights** (WING INSP switch) illuminate the wing leading edges at night so the crew can visually check for ice. There is no ICE DETECT annunciator or wing ice-detector sensor; detection is **visual**.
+
+---
+
+### Question 2
+
+**P3 air leaving the precooler too hot illuminates the:**
+
+A. ACM O'HEAT annunciator.  
+B. BLD AIR O'HEAT annunciator.  
+C. AIR DUCT O'HEAT annunciator.  
+D. PRECLR O'HEAT annunciator.  
+
+**Correct answer: B – BLD AIR O'HEAT annunciator**  
+If bleed-air temperature exiting the precooler(s) exceeds approximately **560°F**, an overheat switch activates the **BLD AIR O'HEAT L or R** annunciator flashing (and MASTER CAUTION). If wing anti-ice is ON, the respective wing anti-ice automatically shuts down. This is described in Chapter 9 (Pneumatics) and referenced in the ice protection annunciator table.
+
+---
+
+### Question 3
+
+**Ground cooling of precooled bleed air is accomplished by:**
+
+A. Tailcone ambient air.  
+B. The air cycle machine.  
+C. Ambient or engine bypass air.  
+D. Engine P2.8 air.  
+
+**Correct answer: C – Ambient or engine bypass air**  
+On the ground, XL precooler cooling is normally **ambient air**; if precooler exit temperature exceeds 405°F (e.g. high power), a shutoff valve opens and admits **engine bypass air** for additional cooling. The XLS uses **engine fan bypass air** for ground cooling. The ACM and P2.8 bleed are not the cooling source for the pylon precoolers.
+
+---
+
+### Question 4
+
+**In-flight cooling of bleed air through the precooler is accomplished by:**
+
+A. Service air.  
+B. Engine bypass air.  
+C. P2.8 bleed air.  
+D. Ram airflow.  
+
+**Correct answer: D – Ram airflow**  
+On the XL, after takeoff (weight off wheels) the LH squat switch causes the engine bypass valve to close and **only ram air** is allowed through the precooler; the ram air inlet door in the NACA scoop modulates to maintain precooler outlet temperature at 475° ±25°F. On the XLS, in-flight cooling is engine fan bypass air; the question’s “ram airflow” option matches the XL in-flight design. Service air and P2.8 are not used to cool the precooler.
+
+---
+
+### Question 5
+
+**Bleed air flowing into the wing leading edge panels that is too cold is annunciated by:**
+
+A. WING TOO CLD L/R annunciator.  
+B. BLD AIR O'HEAT annunciator.  
+C. No annunciation.  
+D. WING ANTI-ICE L/R annunciator.  
+
+**Correct answer: D – WING ANTI-ICE L/R annunciator**  
+**Undertemperature switches** in the wing root monitor bleed air entering the wing leading edge anti-ice panels. If temperature is **less than approximately 220°F**, the **WING ANTI-ICE L and/or R** annunciator illuminates (steady when first selected until warm, then flashing if operating temperature is not reached within 4 min 45 sec). BLD AIR O'HEAT indicates precooler overheat, not cold wing bleed.
+
+---
+
+### Question 6
+
+**The W/S O'HEAT L/R annunciator illuminates:**
+
+A. The system must be shutdown immediately.  
+B. The W/S FAULT L/R annunciator will also illuminate.  
+C. Advisory, no action required.  
+D. Indicates that the respective forward side window is overheated.  
+
+**Correct answer: B – The W/S FAULT L/R annunciator will also illuminate**  
+When an **overheat** (above 140°F) is detected by either the primary or secondary sensor, the **W/S O'HEAT L and/or R** annunciator flashes, power is removed from that windshield, and a **W/S FAULT L or R annunciator will illuminate simultaneously**. The system can auto-restore after cooling below 115°F; the manual notes that if both cycle ON and OFF (controller failure), the system may be left ON if needed for icing/defog.
+
+---
+
+### Question 7
+
+**If the TL DEICE FAIL L/R annunciator illuminates:**
+
+A. In MANUAL mode, considered normal.  
+B. In MANUAL mode, the timer is inoperative.  
+C. In AUTO mode, the inflation pressure may be too low.  
+D. In MANUAL mode, boot did not deflate.  
+
+**Correct answer: C – In AUTO mode, the inflation pressure may be too low**  
+The amber **TL DEICE FAIL L/R** flashes when the control switch is in **AUTO** and boot inflation pressure **did not reach operating pressure** or the boots did not cycle properly (timer or control valve failure). The **TL DEICE FAIL annunciator is disabled with the switch in MANUAL**; in MANUAL the white TL DEICE PRESS lights still indicate boot inflation.
+
+---
+
+### Question 8
+
+**The purpose of the Rosemount Probe, or TAS probe, is to provide:**
+
+A. Ram air temperature to the engine electronic controls.  
+B. Warn of ice formation.  
+C. Provide temperature data to both MADCs.  
+D. Provide emergency airspeed indications.  
+
+**Correct answer: C – Provide temperature data to both MADCs**  
+The **true airspeed temperature (TAS) probe** (Rosemount) on the right side of the nose provides **temperature data to the two microair data computers (MADC)**. Ram air temperature for the RAT indicator and engine controls comes from the **T.0. probe** in the right engine nacelle inlet (12 o’clock), not the TAS probe.
+
+---
+
+### Question 9
+
+**With loss of main DC power, with the battery in the EMER position, the tail de-ice boots will:**
+
+A. Work only in the MANUAL position.  
+B. Work normally.  
+C. Be inoperative.  
+D. Operate very slowly.  
+
+**Correct answer: C – Be inoperative**  
+The tail deice system is powered by **main DC** through the TAIL DEICE circuit breaker on the LH CB panel. With the battery switch in **EMER**, main DC buses are shed and only the EMER and BATTERY buses are powered, so the tail deice system has no power and is **inoperative**.
+
+---
+
+### Question 10
+
+**The purpose of the WING XFLOW switch is to:**
+
+A. Allow hot bleed air to transfer between the wings.  
+B. Equalize bleed-air pressure between the engines.  
+C. Keep fuel levels equal in each wing.  
+D. Fail open during DC power failure.  
+
+**Correct answer: A – Allow hot bleed air to transfer between the wings**  
+The **WING XFLOW** switch controls the crossflow shutoff solenoid valve in the line connecting the two wing bleed supply lines downstream of the PRSOVs. With WING XFLOW **ON** and a WING/ENG ANTI-ICE switch ON, the valve opens so that **one engine can supply bleed air to both wing leading edges** during single-engine operation or loss of bleed to one wing. The valve is closed when de-energized (switch OFF); it does not fail open on DC loss.
+
+---
+
+### Question 11
+
+**Select the correct statement concerning windshield rain removal:**
+
+A. The windshield wipers are effective only during heavy rain.  
+B. The windshield is coated with a rain repellent.  
+C. The WINDSHIELD AIR switch blows air across the windshield.  
+D. Both B and C.  
+
+**Correct answer: D – Both B and C**  
+The windshield has a **permanently coated and sealed rain repellent agent** (Surface Seal™ authorized only) effective in flight in rain. On the ground, rain removal is a **nose compartment two-speed blower and shroud** that **directs airflow across the windshield**, controlled by the **WINDSHIELD AIR** switch (ON = high-speed rain removal). There are no windshield wipers. So both B and C are correct.
+
+---
+
+### Question 12
+
+**In flight, if the WING ANTI-ICE L/R annunciator illuminates:**
+
+A. The wing is too cold; add power for more bleed-air heat.  
+B. Indicates failure of the wing overheat sensor.  
+C. The wing is too hot; reduce power to help cooling.  
+D. Land as soon as possible.  
+
+**Correct answer: A – The wing is too cold; add power for more bleed-air heat**  
+The WING ANTI-ICE L/R annunciator is driven by **undertemperature** switches (bleed air below ~220°F at the wing root). If sufficient bleed flow is not available to reach operating temperature, the lights stay on and can be **extinguished by increasing engine rpm** (e.g. up to ~70% N2). In descent, “maintain sufficient power for wing anti-ice; advance throttles as necessary to extinguish wing anti-ice annunciator lights.” Overheat is indicated by WING O'HEAT L/R, not WING ANTI-ICE L/R.
+
+---
+
+Chapter 11 – Air Conditioning
+-----------------------------
+
+### Question 1
+
+**In the event an ACM O'HEAT annunciator illuminates, what if any other indications will occur while airborne?**
+
+A. AIR DUCT O'HEAT illuminates.  
+B. EMER PRESS illuminates.  
+C. BLD AIR O'HEAT illuminates.  
+D. ENGINE FIRE switchlight illuminates.  
+
+**Correct answer: B – EMER PRESS illuminates**  
+When ACM compressor discharge temperature exceeds approximately 420°F, the logic module closes both normal flow control valves (shutting off bleed to the ACM) and causes the **ACM O'HEAT** annunciator to flash. **In flight**, the same logic **trips the emergency pressurization valve open** so the cabin does not lose pressure at altitude. The **EMER PRESS annunciator illuminates flashing simultaneously** with ACM O'HEAT. (On some aircraft modified per AD, EMER PRESS may not activate with ACM O'HEAT; the PRESS SOURCE may need to be manually selected to EMER.)
+
+---
+
+### Question 2
+
+**The 35°F low temp sensor associated with the water separator remains operational:**
+
+A. If EMER is selected with the PRESS SOURCE selector.  
+B. If MANUAL mode temperature control is selected.  
+C. If main DC power is lost.  
+D. If the ACM O'HEAT annunciator illuminates.  
+
+**Correct answer: B – If MANUAL mode temperature control is selected**  
+The 35°F sensor and water separator TCV protect the water separator from freezing by modulating hot bleed into the ACM outlet. That path is **independent** of cabin/cockpit MANUAL vs AUTO: in **MANUAL**, only the cabin and cockpit TCVs are crew-controlled; **bleed still flows through the ACM** (PRESS SOURCE NORM/LH/RH), so the water separator and its 35°F control **remain operational**. In EMER or when ACM O'HEAT trips, flow through the ACM is shut off, so the 35°F system is no longer in the flow path.
+
+---
+
+### Question 3
+
+**If the AIR DUCT O'HEAT CKPT annunciator illuminates:**
+
+A. The ECU normal flow control valves will close.  
+B. Air in the overhead air duct is too warm.  
+C. Air flow into the cockpit under floor duct is too hot.  
+D. Air from the ECU is too warm.  
+
+**Correct answer: C – Air flow into the cockpit under floor duct is too hot**  
+**Duct overheat switches** are mounted adjacent to the **duct temperature sensors** in the **cabin and cockpit distribution ducts** (under the floor, downstream of the aft pressure bulkhead check valves). If temperature in the **respective duct exceeds 300°F**, the **AIR DUCT O'HEAT CKPT** and/or **CAB** annunciator flashes. So CKPT indicates **cockpit underfloor supply duct** overheat, not overhead ducts or ECU outlet in general.
+
+---
+
+### Question 4
+
+**Air entering the cabin through the overhead ducts is:**
+
+A. Temperature regulated.  
+B. Recirculated cabin air.  
+C. Fresh ram air.  
+D. Unregulated ACM cold air.  
+
+**Correct answer: D – Unregulated ACM cold air**  
+About **one-half of the ACM output** is sent **directly** through the **overhead** cabin/cockpit ductwork; the **other half** is mixed with hot bleed air in the mixing muffs for the underfloor (temperature-controlled) distribution. The manual states the **overhead ductwork distributes cold air only** from the ACM outlet and does not pass through the temperature control valves, so overhead air is **unregulated ACM cold air**.
+
+---
+
+### Question 5
+
+**Temperature control valves (TCV) provide:**
+
+A. Mixing of ram air with cold air from the ECU.  
+B. Increased or decreased air flow into the cabin and cockpit air distribution ducts.  
+C. Automatic temperature control only.  
+D. Hot bleed air from the precoolers to mix with cold air from the ECU.  
+
+**Correct answer: D – Hot bleed air from the precoolers to mix with cold air from the ECU**  
+The two cabin/cockpit TCVs (and the water separator TCV) **modulate the amount of hot bleed air** that is mixed with **cool ACM air** via the mixing muffs to control temperature. Hot air is **bleed air** (from the precoolers/bleed duct), not ram air. TCVs do not primarily regulate total flow; they vary the **mix** of hot and cold air to achieve the selected cabin and cockpit temperatures.
+
+---
+
+### Question 6
+
+**The temperature control panel provides:**
+
+A. Separate automatic and manual temperature control for the cabin and the cockpit.  
+B. Automatic temperature control only.  
+C. Manual temperature control only.  
+D. Provides temperature indications in a digital format in degrees Celsius.  
+
+**Correct answer: A – Separate automatic and manual temperature control for the cabin and the cockpit**  
+The temperature controller on the tilt panel gives **separate** **CABIN TEMP SEL** and **CKPT TEMP SEL** with a **top 180° AUTO** arc (65°F–85°F) and a **bottom 180° MANUAL** arc (direct TCV control). So it provides **separate automatic and manual** control for cabin and cockpit. The digital indicator shows temperature in **Fahrenheit**, not Celsius.
+
+---
+
+### Question 7
+
+**With loss of DC power, and the battery in the EMER position:**
+
+A. Temperature is controlled by selecting MANUAL on the ECU.  
+B. Temperature must be controlled by selecting emergency pressurization.  
+C. The ECU is powered from the EMER bus.  
+D. The ability to control cabin temperature is lost.  
+
+**Correct answer: D – The ability to control cabin temperature is lost**  
+With the battery in **EMER**, only the EMER and BATTERY buses are powered; main DC (and the tilt panel / temperature controller / TCV motors) is not. The flow control valves **fail open** on loss of main DC, so bleed still reaches the cabin and pressurization is maintained, but the **temperature controller and TCVs** depend on main DC. **Cabin and cockpit temperature control is lost**; the ECU is not powered from the EMER bus.
+
+---
+
+### Question 8
+
+**If emergency pressurization has been selected, or activated, cabin temperature is controlled by:**
+
+A. Regulating power on the RIGHT engine.  
+B. Turning the WEMAC boost fans to HIGH.  
+C. Temperature is still controlled by the ECU.  
+D. Regulating power on the LEFT engine.  
+
+**Correct answer: D – Regulating power on the LEFT engine**  
+In **EMER**, the emergency pressurization valve opens and **bleed air from the left engine precooler** goes **directly** to the forward cabin (dropped aisle duct); both normal flow control valves close, so **no air goes through the ECU/ACM**. A venturi mixes cooler cabin air with the hot bleed to moderate temperature, but there is **no ECU temperature control**. The only way to influence cabin temperature is by **regulating left engine power** (bleed source).
+
+---
+
 Required Knowledge
 ------------------
 
@@ -1396,6 +1866,697 @@ D. Crossfeed, refueling, low fuel pressure, APU shutdown
 
 **Correct answer: B – Engine start, crossfeed, low fuel pressure, APU operation**  
 Fuel boost pumps **automatically activate** for: **engine start, crossfeed, low fuel pressure, and APU operation** (normally the right pump, or left pump when crossfeeding from L tank to R engine).
+
+---
+
+Memory Items (CE-560XL G5000)
+=============================
+
+Memory items are recall procedures; each step is presented as a question/answer card. Use for oral or written drill. Refer to Red Message Procedures and FAA-approved AFM/checklists as authoritative.
+
+---
+
+## APU FIRE
+
+### Step 1
+
+**APU FIRE — Step 1: What is the required action?**
+
+**Answer: Lift cover and push (APU FIRE button)**  
+Lift the cover and push the APU FIRE button.
+
+---
+
+## BATT O'TEMP
+
+### Step 1
+
+**BATT O'TEMP — Step 1: What is the required action?**
+
+**Answer: BATT DC AMPS — Note**  
+Note the battery amperage indication before changing the BATT switch.
+
+---
+
+### Step 2
+
+**BATT O'TEMP — Step 2: What is the required action?**
+
+**Answer: BATT Switch — EMER**  
+Place the BATT switch to EMER to isolate the battery from the generators.
+
+---
+
+### Step 3
+
+**BATT O'TEMP — Step 3: What is the required action?**
+
+**Answer: BATT DC AMPS — Note decrease**  
+Note that amperage decreases after isolation; if it does not, follow appropriate procedures (e.g., BATTERY DISCONNECT, land as soon as possible if BATT O'TEMP >160° flashes).
+
+---
+
+## CAB ALT
+
+### Step 1
+
+**CAB ALT — Step 1: What is the required action?**
+
+**Answer: Oxygen masks — DON and 100% oxygen**  
+Don oxygen masks and select 100% oxygen.
+
+---
+
+### Step 2
+
+**CAB ALT — Step 2: What is the required action?**
+
+**Answer: Microphone switches — MIC OXY MASK**  
+Select microphone to oxygen mask for communications.
+
+---
+
+### Step 3
+
+**CAB ALT — Step 3: What is the required action?**
+
+**Answer: Emergency descent — as required**  
+Execute emergency descent as required. Refer to Red Message Procedures, EMER DESCENT.
+
+---
+
+## EMER DESCENT
+
+### Step 1
+
+**EMER DESCENT — Step 1: What is the required action?**
+
+**Answer: Initiate maximum rate of descent to a safe altitude**  
+Initiate maximum rate of descent to a safe altitude. If not in EDM (Emergency Descent Mode), disconnecting the autopilot disables EDM.
+
+---
+
+## LH ENGINE FIRE / RH ENGINE FIRE
+
+### Step 1
+
+**LH ENGINE FIRE or RH ENGINE FIRE — Step 1: What is the required action?**
+
+**Answer: Throttle (affected engine) — IDLE**  
+Retard the throttle on the affected engine to IDLE.
+
+---
+
+### Step 2 (if annunciator remains displayed)
+
+**LH ENGINE FIRE or RH ENGINE FIRE — Step 2: If annunciator remains displayed, what is the required action?**
+
+**Answer: ENGINE FIRE button (affected engine) — Lift cover and push**  
+Lift the cover and push the affected ENGINE FIRE button to arm the bottles and initiate shutdown actions.
+
+---
+
+### Step 3
+
+**LH ENGINE FIRE or RH ENGINE FIRE — Step 3: What is the required action?**
+
+**Answer: Either displayed BOTTLE ARMED annunciator — Push**  
+Push the BOTTLE ARMED switchlight for the bottle to be discharged into the affected nacelle.
+
+---
+
+## UNLOCK (Thrust Reverser)
+
+### Step 1
+
+**UNLOCK (thrust reverser) — Step 1: What is the required action?**
+
+**Answer: THRUST REVERSER STOW switch (affected side) — EMER**  
+Place the affected THRUST REVERSER STOW switch to EMER.
+
+---
+
+### Step 2
+
+**UNLOCK (thrust reverser) — Step 2: What is the required action?**
+
+**Answer: Thrust reverser levers — Check in stowed (full forward) position**  
+Verify thrust reverser levers are stowed full forward.
+
+---
+
+## ENGINE FAILURE / EMERGENCY DURING TAKEOFF — Below V1
+
+### Step 1
+
+**Engine failure or other emergency during takeoff — If speed is below V1 — Step 1: What is the required action?**
+
+**Answer: Takeoff — Abort**  
+Abort the takeoff.
+
+---
+
+## ENGINE FAILURE / EMERGENCY DURING TAKEOFF — At or Above V1
+
+### Step 1
+
+**Engine failure or other emergency during takeoff — If speed at or above V1 — Step 1: What is the required action?**
+
+**Answer: Takeoff — Continue to a safe altitude**  
+Continue the takeoff to a safe altitude.
+
+---
+
+### Step 2
+
+**Engine failure or other emergency during takeoff — If speed at or above V1 — Step 2: What is the required action?**
+
+**Answer: WING XFLOW switch (if wing anti-ice is ON) — ON**  
+If wing anti-ice is on, place WING XFLOW switch ON so one engine can supply both wings.
+
+---
+
+## DUAL ENGINE FAILURE (Below FL300)
+
+### Step 1
+
+**Dual engine failure (if below FL300) — Step 1: What is the required action?**
+
+**Answer: IGNITION switches — ON**  
+Place both IGNITION switches ON.
+
+---
+
+### Step 2
+
+**Dual engine failure (if below FL300) — Step 2: What is the required action?**
+
+**Answer: FUEL BOOST switches (both) — ON**  
+Place both FUEL BOOST switches ON.
+
+---
+
+### Step 3
+
+**Dual engine failure (if below FL300) — Step 3: What is the required action?**
+
+**Answer: Throttles (both) — IDLE**  
+Set both throttles to IDLE for windmill/relight.
+
+---
+
+## ENVIRONMENTAL SYSTEM SMOKE OR ODOR
+
+### Step 1
+
+**Environmental system smoke or odor — Step 1: What is the required action?**
+
+**Answer: Oxygen masks/goggles — DON and EMER**  
+Don oxygen masks and goggles and select EMER (100%) as required.
+
+---
+
+### Step 2
+
+**Environmental system smoke or odor — Step 2: What is the required action?**
+
+**Answer: Microphone switch — MIC OXY MASK**  
+Select microphone to oxygen mask for communications.
+
+---
+
+## ELECTRICAL FIRE OR SMOKE
+
+### Step 1
+
+**Electrical fire or smoke — Step 1: What is the required action?**
+
+**Answer: Oxygen masks/goggles — DON and EMER**  
+Don oxygen masks and goggles and select EMER (100%) as required.
+
+---
+
+### Step 2
+
+**Electrical fire or smoke — Step 2: What is the required action?**
+
+**Answer: Microphone switch — MIC OXY MASK**  
+Select microphone to oxygen mask for communications.
+
+---
+
+## SMOKE REMOVAL
+
+### Step 1
+
+**Smoke removal — Step 1: What is the required action?**
+
+**Answer: Oxygen masks/goggles — DON and EMER**  
+Don oxygen masks and goggles and select EMER as required.
+
+---
+
+### Step 2
+
+**Smoke removal — Step 2: What is the required action?**
+
+**Answer: Microphone switches — MIC OXY MASK**  
+Select microphone to oxygen mask for communications.
+
+---
+
+## THRUST REVERSER IN-FLIGHT DEPLOYMENT
+
+### Step 1
+
+**Thrust reverser in-flight deployment — Step 1: What is the required action?**
+
+**Answer: Control wheel — GRIP**  
+Maintain positive control; grip the control wheel.
+
+---
+
+### Step 2
+
+**Thrust reverser in-flight deployment — Step 2: What is the required action?**
+
+**Answer: AP TRIM DISC button — Push**  
+Push the AP TRIM DISC button to disconnect autopilot trim.
+
+---
+
+### Step 3
+
+**Thrust reverser in-flight deployment — Step 3: What is the required action?**
+
+**Answer: THRUST REVERSER STOW switch (affected side) — EMER**  
+Place the affected THRUST REVERSER STOW switch to EMER.
+
+---
+
+### Step 4
+
+**Thrust reverser in-flight deployment — Step 4: What is the required action?**
+
+**Answer: Throttle (affected engine) — Check IDLE**  
+Verify the affected engine throttle is at IDLE.
+
+---
+
+### Step 5
+
+**Thrust reverser in-flight deployment — Step 5: What is the required action?**
+
+**Answer: Airspeed — 140 KIAS maximum**  
+Do not exceed 140 KIAS.
+
+---
+
+## EMERGENCY EVACUATION
+
+### Step 1
+
+**Emergency evacuation — Step 1: What is the required action?**
+
+**Answer: Parking brake — SET**  
+Set the parking brake.
+
+---
+
+### Step 2
+
+**Emergency evacuation — Step 2: What is the required action?**
+
+**Answer: Throttles (both) — CUT OFF**  
+Move both throttles to CUT OFF.
+
+---
+
+### Step 3
+
+**Emergency evacuation — Step 3: What is the required action?**
+
+**Answer: LH ENGINE FIRE button — Push**  
+Push the LH ENGINE FIRE button (lift cover and push as required).
+
+---
+
+### Step 4
+
+**Emergency evacuation — Step 4: What is the required action?**
+
+**Answer: RH ENGINE FIRE button — Push**  
+Push the RH ENGINE FIRE button (lift cover and push as required).
+
+---
+
+### Step 5
+
+**Emergency evacuation — Step 5: What is the required action?**
+
+**Answer: APU MASTER switch — OFF**  
+Place the APU MASTER switch OFF.
+
+---
+
+### Step 6
+
+**Emergency evacuation — Step 6: What is the required action?**
+
+**Answer: BATT switch — OFF**  
+Place the BATT switch OFF.
+
+---
+
+## OVERSPEED RECOVERY (MAXSPD)
+
+### Step 1
+
+**Overspeed recovery (MAXSPD) — Step 1: What is the required action?**
+
+**Answer: Thrust — Reduce as required**  
+Reduce thrust as required to recover from overspeed.
+
+---
+
+### Step 2
+
+**Overspeed recovery (MAXSPD) — Step 2: What is the required action?**
+
+**Answer: Speed brakes — As required**  
+Use speed brakes as required.
+
+---
+
+## AILERON MISTRIM (AIL or AIL)
+
+### Step 1
+
+**Aileron mistrim (AIL or AIL) — Step 1: What is the required action?**
+
+**Answer: Control wheel — GRIP FIRMLY**  
+Grip the control wheel firmly.
+
+---
+
+### Step 2
+
+**Aileron mistrim (AIL or AIL) — Step 2: What is the required action?**
+
+**Answer: AP YD DISC/TRIM INT button — PRESS and RELEASE**  
+Press and release the AP YD DISC/TRIM INT button to disconnect autopilot and yaw damper.
+
+---
+
+### Step 3
+
+**Aileron mistrim (AIL or AIL) — Step 3: What is the required action?**
+
+**Answer: Roll trim — AS REQUIRED**  
+Use roll trim as required to correct the mistrim.
+
+---
+
+## ELEVATOR MISTRIM (ELE or ELE)
+
+### Step 1
+
+**Elevator mistrim (ELE or ELE) — Step 1: What is the required action?**
+
+**Answer: Control wheel — GRIP FIRMLY**  
+Grip the control wheel firmly.
+
+---
+
+### Step 2
+
+**Elevator mistrim (ELE or ELE) — Step 2: What is the required action?**
+
+**Answer: AP YD DISC/TRIM INT button — PRESS and RELEASE**  
+Press and release the AP YD DISC/TRIM INT button.
+
+---
+
+### Step 3
+
+**Elevator mistrim (ELE or ELE) — Step 3: What is the required action?**
+
+**Answer: Pitch trim — ADJUST AS REQUIRED (in flight)**  
+Adjust pitch trim as required to correct the mistrim.
+
+---
+
+## RUDDER MISTRIM (RUD or RUD)
+
+### Step 1
+
+**Rudder mistrim (RUD or RUD) — Step 1: What is the required action?**
+
+**Answer: Rudder trim — AS REQUIRED**  
+Apply rudder trim in the direction of the indicated mistrim until the annunciation clears.
+
+---
+
+### Step 2
+
+**Rudder mistrim (RUD or RUD) — Step 2: What is the required action?**
+
+**Answer: Rudder pedals — HOLD FIRMLY**  
+Hold the rudder pedals firmly.
+
+---
+
+### Step 3
+
+**Rudder mistrim (RUD or RUD) — Step 3: What is the required action?**
+
+**Answer: AP YD DISC/TRIM INT button — PRESS and RELEASE**  
+Press and release the AP YD DISC/TRIM INT button.
+
+---
+
+## WHEEL BRAKE FAILURE
+
+### Step 1
+
+**Wheel brake failure — Step 1: What is the required action?**
+
+**Answer: Brake pedals — Remove feet**  
+Remove feet from the brake pedals.
+
+---
+
+### Step 2
+
+**Wheel brake failure — Step 2: What is the required action?**
+
+**Answer: EMER BRAKE handle — Pull**  
+Pull the emergency brake handle.
+
+---
+
+## AUTOPILOT OR YAW DAMPER MALFUNCTION / PITCH TRIM RUNAWAY OR FAILURE
+
+### Step 1
+
+**Autopilot or yaw damper malfunction / pitch trim runaway or failure — Step 1: What is the required action?**
+
+**Answer: Control wheel — GRIP FIRMLY**  
+Grip the control wheel firmly.
+
+---
+
+### Step 2
+
+**Autopilot or yaw damper malfunction / pitch trim runaway or failure — Step 2: What is the required action?**
+
+**Answer: AP YD DISC/TRIM INT button — PUSH and HOLD**  
+Push and hold the AP YD DISC/TRIM INT button (do not just release).
+
+---
+
+### Step 3
+
+**Autopilot or yaw damper malfunction / pitch trim runaway or failure — Step 3: What is the required action?**
+
+**Answer: Throttles — Reduce as required to control airspeed**  
+Reduce throttles as required to control airspeed.
+
+---
+
+### Step 4
+
+**Autopilot or yaw damper malfunction / pitch trim runaway or failure — Step 4: What is the required action?**
+
+**Answer: Speed brakes — AS REQUIRED**  
+Use speed brakes as required.
+
+---
+
+## INADVERTENT STALL (STICK SHAKER, BUFFET, AND/OR ROLL-OFF)
+
+### Step 1
+
+**Inadvertent stall (stick shaker, buffet, and/or roll-off) — Step 1: What is the required action?**
+
+**Answer: AP TRIM DISC button — Push**  
+Push the AP TRIM DISC button to disconnect autopilot trim.
+
+---
+
+### Step 2
+
+**Inadvertent stall (stick shaker, buffet, and/or roll-off) — Step 2: What is the required action?**
+
+**Answer: Pitch attitude — Reduce**  
+Reduce pitch attitude.
+
+---
+
+### Step 3
+
+**Inadvertent stall (stick shaker, buffet, and/or roll-off) — Step 3: What is the required action?**
+
+**Answer: Roll attitude — Level**  
+Level the wings.
+
+---
+
+### Step 4
+
+**Inadvertent stall (stick shaker, buffet, and/or roll-off) — Step 4: What is the required action?**
+
+**Answer: Throttles — Maximum thrust**  
+Apply maximum thrust.
+
+---
+
+## AUTOPILOT UNDERSPEED PROTECTION (UNDERSPEED PROT ACTIVE)
+
+### Step 1
+
+**Autopilot underspeed protection activation and recovery — Step 1: What is the required action?**
+
+**Answer: Thrust — INCREASE as required**  
+Increase thrust as required to correct the underspeed.
+
+---
+
+### Step 2
+
+**Autopilot underspeed protection activation and recovery — Step 2: What is the required action?**
+
+**Answer: Aircraft attitude and altitude — MONITOR**  
+Monitor aircraft attitude and altitude.
+
+---
+
+## TAWS WARNING (PULL UP)
+
+### Step 1
+
+**TAWS warning (PULL UP) — Step 1: What is the required action?**
+
+**Answer: AP YD DISC/TRIM INT button — PRESS and RELEASE**  
+Press and release to disconnect the autopilot.
+
+---
+
+### Step 2
+
+**TAWS warning (PULL UP) — Step 2: What is the required action?**
+
+**Answer: Aircraft pitch attitude — Smoothly pitch up climb as required to avoid terrain**  
+Smoothly pitch up and climb as required to avoid terrain.
+
+---
+
+### Step 3
+
+**TAWS warning (PULL UP) — Step 3: What is the required action?**
+
+**Answer: Thrust — T/O DETENT**  
+Set thrust to takeoff detent.
+
+---
+
+### Step 4
+
+**TAWS warning (PULL UP) — Step 4: What is the required action?**
+
+**Answer: Flaps — RETRACT (15°) if required**  
+Retract flaps to 15° if required.
+
+---
+
+### Step 5
+
+**TAWS warning (PULL UP) — Step 5: What is the required action?**
+
+**Answer: Landing gear — UP**  
+Retract the landing gear.
+
+---
+
+### Step 6
+
+**TAWS warning (PULL UP) — Step 6: What is the required action?**
+
+**Answer: Flaps — UP**  
+Retract flaps to UP.
+
+---
+
+### Step 7
+
+**TAWS warning (PULL UP) — Step 7: What is the required action?**
+
+**Answer: Speed brakes — CONFIRM RETRACTED**  
+Confirm speed brakes are retracted.
+
+---
+
+## TWY TAKEOFF (TWY TAKEOFF SURFACEWATCH)
+
+### Step 1
+
+**TWY TAKEOFF SurfaceWatch warning — Step 1: What is the required action?**
+
+**Answer: Takeoff — ABORT**  
+Abort the takeoff.
+
+---
+
+## TWY LANDING (TWY LANDING SURFACEWATCH)
+
+### Step 1
+
+**TWY LANDING SurfaceWatch warning — Step 1: What is the required action?**
+
+**Answer: Go-around procedures — EXECUTE**  
+Execute go-around procedures.
+
+---
+
+## RWY TOO SHORT (DURING TAKEOFF)
+
+### Step 1
+
+**RWY TOO SHORT SurfaceWatch warning (during takeoff) — Step 1: What is the required action?**
+
+**Answer: Takeoff — ABORT**  
+Abort the takeoff.
+
+---
+
+## RWY TOO SHORT (DURING LANDING)
+
+### Step 1
+
+**RWY TOO SHORT SurfaceWatch warning (during landing) — Step 1: What is the required action?**
+
+**Answer: Go-around procedures — EXECUTE**  
+Execute go-around procedures.
 
 ---
 
