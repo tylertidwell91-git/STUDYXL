@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Citation XL/XLS Study Cards – Ch. 2 & 5</title>
+  <title>Citation XL/XLS Study Cards – Ch. 2–11 + Memory Items</title>
   <style>
     :root {
       color-scheme: light dark;
@@ -193,6 +193,13 @@
       transition:
         background 0.12s ease,
         border-color 0.12s ease;
+    }
+
+    .options-list li.memory-recall-hint {
+      list-style: none;
+      color: var(--text-muted);
+      font-style: italic;
+      padding: 8px 0;
     }
 
     .options-list li.selected {
@@ -524,15 +531,20 @@
         </div>
         <label class="deck-label">
           Decks (Ctrl/Cmd+click to select multiple):
-          <select id="deck-select" class="deck-select" multiple size="6">
-            <option value="all" selected>All (Req + Ch. 2, 5, 6, 7, 8)</option>
+          <select id="deck-select" class="deck-select" multiple size="10">
+            <option value="all" selected>All (Ch. 2–11 + Req + Memory)</option>
             <option value="needs-review">Needs Review</option>
             <option value="req">Required Knowledge</option>
+            <option value="memory">Memory Items</option>
             <option value="ch2">Chapter 2 – Electrical Power</option>
+            <option value="ch3">Chapter 3 – Lighting</option>
             <option value="ch5">Chapter 5 – Fuel System</option>
             <option value="ch6">Chapter 6 – Auxiliary Power (APU)</option>
             <option value="ch7">Chapter 7 – Powerplant</option>
             <option value="ch8">Chapter 8 – Fire Protection</option>
+            <option value="ch9">Chapter 9 – Pneumatics</option>
+            <option value="ch10">Chapter 10 – Ice and Rain</option>
+            <option value="ch11">Chapter 11 – Air Conditioning</option>
           </select>
         </label>
         <div class="status" id="status-text">Study mode – 0 / 0 cards reviewed this session.</div>
@@ -2231,6 +2243,566 @@
     ],
     "answer": "B – Engine start, crossfeed, low fuel pressure, APU operation",
     "explanation": "Fuel boost pumps **automatically activate** for: **engine start, crossfeed, low fuel pressure, and APU operation** (normally the right pump, or left pump when crossfeeding from L tank to R engine)."
+  },
+  {
+    "chapter": "Memory Items – APU FIRE",
+    "number": 1,
+    "prompt": "APU FIRE — Step 1: What is the required action?",
+    "options": [],
+    "answer": "Lift cover and push (APU FIRE button)",
+    "explanation": "Lift the cover and push the APU FIRE button."
+  },
+  {
+    "chapter": "Memory Items – BATT O'TEMP",
+    "number": 1,
+    "prompt": "BATT O'TEMP — Step 1: What is the required action?",
+    "options": [],
+    "answer": "BATT DC AMPS — Note",
+    "explanation": "Note the battery amperage indication before changing the BATT switch."
+  },
+  {
+    "chapter": "Memory Items – BATT O'TEMP",
+    "number": 2,
+    "prompt": "BATT O'TEMP — Step 2: What is the required action?",
+    "options": [],
+    "answer": "BATT Switch — EMER",
+    "explanation": "Place the BATT switch to EMER to isolate the battery from the generators."
+  },
+  {
+    "chapter": "Memory Items – BATT O'TEMP",
+    "number": 3,
+    "prompt": "BATT O'TEMP — Step 3: What is the required action?",
+    "options": [],
+    "answer": "BATT DC AMPS — Note decrease",
+    "explanation": "Note that amperage decreases after isolation; if it does not, follow appropriate procedures (e.g., BATTERY DISCONNECT, land as soon as possible if BATT O'TEMP >160° flashes)."
+  },
+  {
+    "chapter": "Memory Items – CAB ALT",
+    "number": 1,
+    "prompt": "CAB ALT — Step 1: What is the required action?",
+    "options": [],
+    "answer": "Oxygen masks — DON and 100% oxygen",
+    "explanation": "Don oxygen masks and select 100% oxygen."
+  },
+  {
+    "chapter": "Memory Items – CAB ALT",
+    "number": 2,
+    "prompt": "CAB ALT — Step 2: What is the required action?",
+    "options": [],
+    "answer": "Microphone switches — MIC OXY MASK",
+    "explanation": "Select microphone to oxygen mask for communications."
+  },
+  {
+    "chapter": "Memory Items – CAB ALT",
+    "number": 3,
+    "prompt": "CAB ALT — Step 3: What is the required action?",
+    "options": [],
+    "answer": "Emergency descent — as required",
+    "explanation": "Execute emergency descent as required. Refer to Red Message Procedures, EMER DESCENT."
+  },
+  {
+    "chapter": "Memory Items – EMER DESCENT",
+    "number": 1,
+    "prompt": "EMER DESCENT — Step 1: What is the required action?",
+    "options": [],
+    "answer": "Initiate maximum rate of descent to a safe altitude",
+    "explanation": "Initiate maximum rate of descent to a safe altitude. If not in EDM (Emergency Descent Mode), disconnecting the autopilot disables EDM."
+  },
+  {
+    "chapter": "Memory Items – LH ENGINE FIRE / RH ENGINE FIRE",
+    "number": 1,
+    "prompt": "LH ENGINE FIRE or RH ENGINE FIRE — Step 1: What is the required action?",
+    "options": [],
+    "answer": "Throttle (affected engine) — IDLE",
+    "explanation": "Retard the throttle on the affected engine to IDLE."
+  },
+  {
+    "chapter": "Memory Items – LH ENGINE FIRE / RH ENGINE FIRE",
+    "number": 2,
+    "prompt": "LH ENGINE FIRE or RH ENGINE FIRE — Step 2: If annunciator remains displayed, what is the required action?",
+    "options": [],
+    "answer": "ENGINE FIRE button (affected engine) — Lift cover and push",
+    "explanation": "Lift the cover and push the affected ENGINE FIRE button to arm the bottles and initiate shutdown actions."
+  },
+  {
+    "chapter": "Memory Items – LH ENGINE FIRE / RH ENGINE FIRE",
+    "number": 3,
+    "prompt": "LH ENGINE FIRE or RH ENGINE FIRE — Step 3: What is the required action?",
+    "options": [],
+    "answer": "Either displayed BOTTLE ARMED annunciator — Push",
+    "explanation": "Push the BOTTLE ARMED switchlight for the bottle to be discharged into the affected nacelle."
+  },
+  {
+    "chapter": "Memory Items – UNLOCK (Thrust Reverser)",
+    "number": 1,
+    "prompt": "UNLOCK (thrust reverser) — Step 1: What is the required action?",
+    "options": [],
+    "answer": "THRUST REVERSER STOW switch (affected side) — EMER",
+    "explanation": "Place the affected THRUST REVERSER STOW switch to EMER."
+  },
+  {
+    "chapter": "Memory Items – UNLOCK (Thrust Reverser)",
+    "number": 2,
+    "prompt": "UNLOCK (thrust reverser) — Step 2: What is the required action?",
+    "options": [],
+    "answer": "Thrust reverser levers — Check in stowed (full forward) position",
+    "explanation": "Verify thrust reverser levers are stowed full forward."
+  },
+  {
+    "chapter": "Memory Items – ENGINE FAILURE / EMERGENCY DURING TAKEOFF — Below V1",
+    "number": 1,
+    "prompt": "Engine failure or other emergency during takeoff — If speed is below V1 — Step 1: What is the required action?",
+    "options": [],
+    "answer": "Takeoff — Abort",
+    "explanation": "Abort the takeoff."
+  },
+  {
+    "chapter": "Memory Items – ENGINE FAILURE / EMERGENCY DURING TAKEOFF — At or Above V1",
+    "number": 1,
+    "prompt": "Engine failure or other emergency during takeoff — If speed at or above V1 — Step 1: What is the required action?",
+    "options": [],
+    "answer": "Takeoff — Continue to a safe altitude",
+    "explanation": "Continue the takeoff to a safe altitude."
+  },
+  {
+    "chapter": "Memory Items – ENGINE FAILURE / EMERGENCY DURING TAKEOFF — At or Above V1",
+    "number": 2,
+    "prompt": "Engine failure or other emergency during takeoff — If speed at or above V1 — Step 2: What is the required action?",
+    "options": [],
+    "answer": "WING XFLOW switch (if wing anti-ice is ON) — ON",
+    "explanation": "If wing anti-ice is on, place WING XFLOW switch ON so one engine can supply both wings."
+  },
+  {
+    "chapter": "Memory Items – DUAL ENGINE FAILURE (Below FL300)",
+    "number": 1,
+    "prompt": "Dual engine failure (if below FL300) — Step 1: What is the required action?",
+    "options": [],
+    "answer": "IGNITION switches — ON",
+    "explanation": "Place both IGNITION switches ON."
+  },
+  {
+    "chapter": "Memory Items – DUAL ENGINE FAILURE (Below FL300)",
+    "number": 2,
+    "prompt": "Dual engine failure (if below FL300) — Step 2: What is the required action?",
+    "options": [],
+    "answer": "FUEL BOOST switches (both) — ON",
+    "explanation": "Place both FUEL BOOST switches ON."
+  },
+  {
+    "chapter": "Memory Items – DUAL ENGINE FAILURE (Below FL300)",
+    "number": 3,
+    "prompt": "Dual engine failure (if below FL300) — Step 3: What is the required action?",
+    "options": [],
+    "answer": "Throttles (both) — IDLE",
+    "explanation": "Set both throttles to IDLE for windmill/relight."
+  },
+  {
+    "chapter": "Memory Items – ENVIRONMENTAL SYSTEM SMOKE OR ODOR",
+    "number": 1,
+    "prompt": "Environmental system smoke or odor — Step 1: What is the required action?",
+    "options": [],
+    "answer": "Oxygen masks/goggles — DON and EMER",
+    "explanation": "Don oxygen masks and goggles and select EMER (100%) as required."
+  },
+  {
+    "chapter": "Memory Items – ENVIRONMENTAL SYSTEM SMOKE OR ODOR",
+    "number": 2,
+    "prompt": "Environmental system smoke or odor — Step 2: What is the required action?",
+    "options": [],
+    "answer": "Microphone switch — MIC OXY MASK",
+    "explanation": "Select microphone to oxygen mask for communications."
+  },
+  {
+    "chapter": "Memory Items – ELECTRICAL FIRE OR SMOKE",
+    "number": 1,
+    "prompt": "Electrical fire or smoke — Step 1: What is the required action?",
+    "options": [],
+    "answer": "Oxygen masks/goggles — DON and EMER",
+    "explanation": "Don oxygen masks and goggles and select EMER (100%) as required."
+  },
+  {
+    "chapter": "Memory Items – ELECTRICAL FIRE OR SMOKE",
+    "number": 2,
+    "prompt": "Electrical fire or smoke — Step 2: What is the required action?",
+    "options": [],
+    "answer": "Microphone switch — MIC OXY MASK",
+    "explanation": "Select microphone to oxygen mask for communications."
+  },
+  {
+    "chapter": "Memory Items – SMOKE REMOVAL",
+    "number": 1,
+    "prompt": "Smoke removal — Step 1: What is the required action?",
+    "options": [],
+    "answer": "Oxygen masks/goggles — DON and EMER",
+    "explanation": "Don oxygen masks and goggles and select EMER as required."
+  },
+  {
+    "chapter": "Memory Items – SMOKE REMOVAL",
+    "number": 2,
+    "prompt": "Smoke removal — Step 2: What is the required action?",
+    "options": [],
+    "answer": "Microphone switches — MIC OXY MASK",
+    "explanation": "Select microphone to oxygen mask for communications."
+  },
+  {
+    "chapter": "Memory Items – THRUST REVERSER IN-FLIGHT DEPLOYMENT",
+    "number": 1,
+    "prompt": "Thrust reverser in-flight deployment — Step 1: What is the required action?",
+    "options": [],
+    "answer": "Control wheel — GRIP",
+    "explanation": "Maintain positive control; grip the control wheel."
+  },
+  {
+    "chapter": "Memory Items – THRUST REVERSER IN-FLIGHT DEPLOYMENT",
+    "number": 2,
+    "prompt": "Thrust reverser in-flight deployment — Step 2: What is the required action?",
+    "options": [],
+    "answer": "AP TRIM DISC button — Push",
+    "explanation": "Push the AP TRIM DISC button to disconnect autopilot trim."
+  },
+  {
+    "chapter": "Memory Items – THRUST REVERSER IN-FLIGHT DEPLOYMENT",
+    "number": 3,
+    "prompt": "Thrust reverser in-flight deployment — Step 3: What is the required action?",
+    "options": [],
+    "answer": "THRUST REVERSER STOW switch (affected side) — EMER",
+    "explanation": "Place the affected THRUST REVERSER STOW switch to EMER."
+  },
+  {
+    "chapter": "Memory Items – THRUST REVERSER IN-FLIGHT DEPLOYMENT",
+    "number": 4,
+    "prompt": "Thrust reverser in-flight deployment — Step 4: What is the required action?",
+    "options": [],
+    "answer": "Throttle (affected engine) — Check IDLE",
+    "explanation": "Verify the affected engine throttle is at IDLE."
+  },
+  {
+    "chapter": "Memory Items – THRUST REVERSER IN-FLIGHT DEPLOYMENT",
+    "number": 5,
+    "prompt": "Thrust reverser in-flight deployment — Step 5: What is the required action?",
+    "options": [],
+    "answer": "Airspeed — 140 KIAS maximum",
+    "explanation": "Do not exceed 140 KIAS."
+  },
+  {
+    "chapter": "Memory Items – EMERGENCY EVACUATION",
+    "number": 1,
+    "prompt": "Emergency evacuation — Step 1: What is the required action?",
+    "options": [],
+    "answer": "Parking brake — SET",
+    "explanation": "Set the parking brake."
+  },
+  {
+    "chapter": "Memory Items – EMERGENCY EVACUATION",
+    "number": 2,
+    "prompt": "Emergency evacuation — Step 2: What is the required action?",
+    "options": [],
+    "answer": "Throttles (both) — CUT OFF",
+    "explanation": "Move both throttles to CUT OFF."
+  },
+  {
+    "chapter": "Memory Items – EMERGENCY EVACUATION",
+    "number": 3,
+    "prompt": "Emergency evacuation — Step 3: What is the required action?",
+    "options": [],
+    "answer": "LH ENGINE FIRE button — Push",
+    "explanation": "Push the LH ENGINE FIRE button (lift cover and push as required)."
+  },
+  {
+    "chapter": "Memory Items – EMERGENCY EVACUATION",
+    "number": 4,
+    "prompt": "Emergency evacuation — Step 4: What is the required action?",
+    "options": [],
+    "answer": "RH ENGINE FIRE button — Push",
+    "explanation": "Push the RH ENGINE FIRE button (lift cover and push as required)."
+  },
+  {
+    "chapter": "Memory Items – EMERGENCY EVACUATION",
+    "number": 5,
+    "prompt": "Emergency evacuation — Step 5: What is the required action?",
+    "options": [],
+    "answer": "APU MASTER switch — OFF",
+    "explanation": "Place the APU MASTER switch OFF."
+  },
+  {
+    "chapter": "Memory Items – EMERGENCY EVACUATION",
+    "number": 6,
+    "prompt": "Emergency evacuation — Step 6: What is the required action?",
+    "options": [],
+    "answer": "BATT switch — OFF",
+    "explanation": "Place the BATT switch OFF."
+  },
+  {
+    "chapter": "Memory Items – OVERSPEED RECOVERY (MAXSPD)",
+    "number": 1,
+    "prompt": "Overspeed recovery (MAXSPD) — Step 1: What is the required action?",
+    "options": [],
+    "answer": "Thrust — Reduce as required",
+    "explanation": "Reduce thrust as required to recover from overspeed."
+  },
+  {
+    "chapter": "Memory Items – OVERSPEED RECOVERY (MAXSPD)",
+    "number": 2,
+    "prompt": "Overspeed recovery (MAXSPD) — Step 2: What is the required action?",
+    "options": [],
+    "answer": "Speed brakes — As required",
+    "explanation": "Use speed brakes as required."
+  },
+  {
+    "chapter": "Memory Items – AILERON MISTRIM (AIL or AIL)",
+    "number": 1,
+    "prompt": "Aileron mistrim (AIL or AIL) — Step 1: What is the required action?",
+    "options": [],
+    "answer": "Control wheel — GRIP FIRMLY",
+    "explanation": "Grip the control wheel firmly."
+  },
+  {
+    "chapter": "Memory Items – AILERON MISTRIM (AIL or AIL)",
+    "number": 2,
+    "prompt": "Aileron mistrim (AIL or AIL) — Step 2: What is the required action?",
+    "options": [],
+    "answer": "AP YD DISC/TRIM INT button — PRESS and RELEASE",
+    "explanation": "Press and release the AP YD DISC/TRIM INT button to disconnect autopilot and yaw damper."
+  },
+  {
+    "chapter": "Memory Items – AILERON MISTRIM (AIL or AIL)",
+    "number": 3,
+    "prompt": "Aileron mistrim (AIL or AIL) — Step 3: What is the required action?",
+    "options": [],
+    "answer": "Roll trim — AS REQUIRED",
+    "explanation": "Use roll trim as required to correct the mistrim."
+  },
+  {
+    "chapter": "Memory Items – ELEVATOR MISTRIM (ELE or ELE)",
+    "number": 1,
+    "prompt": "Elevator mistrim (ELE or ELE) — Step 1: What is the required action?",
+    "options": [],
+    "answer": "Control wheel — GRIP FIRMLY",
+    "explanation": "Grip the control wheel firmly."
+  },
+  {
+    "chapter": "Memory Items – ELEVATOR MISTRIM (ELE or ELE)",
+    "number": 2,
+    "prompt": "Elevator mistrim (ELE or ELE) — Step 2: What is the required action?",
+    "options": [],
+    "answer": "AP YD DISC/TRIM INT button — PRESS and RELEASE",
+    "explanation": "Press and release the AP YD DISC/TRIM INT button."
+  },
+  {
+    "chapter": "Memory Items – ELEVATOR MISTRIM (ELE or ELE)",
+    "number": 3,
+    "prompt": "Elevator mistrim (ELE or ELE) — Step 3: What is the required action?",
+    "options": [],
+    "answer": "Pitch trim — ADJUST AS REQUIRED (in flight)",
+    "explanation": "Adjust pitch trim as required to correct the mistrim."
+  },
+  {
+    "chapter": "Memory Items – RUDDER MISTRIM (RUD or RUD)",
+    "number": 1,
+    "prompt": "Rudder mistrim (RUD or RUD) — Step 1: What is the required action?",
+    "options": [],
+    "answer": "Rudder trim — AS REQUIRED",
+    "explanation": "Apply rudder trim in the direction of the indicated mistrim until the annunciation clears."
+  },
+  {
+    "chapter": "Memory Items – RUDDER MISTRIM (RUD or RUD)",
+    "number": 2,
+    "prompt": "Rudder mistrim (RUD or RUD) — Step 2: What is the required action?",
+    "options": [],
+    "answer": "Rudder pedals — HOLD FIRMLY",
+    "explanation": "Hold the rudder pedals firmly."
+  },
+  {
+    "chapter": "Memory Items – RUDDER MISTRIM (RUD or RUD)",
+    "number": 3,
+    "prompt": "Rudder mistrim (RUD or RUD) — Step 3: What is the required action?",
+    "options": [],
+    "answer": "AP YD DISC/TRIM INT button — PRESS and RELEASE",
+    "explanation": "Press and release the AP YD DISC/TRIM INT button."
+  },
+  {
+    "chapter": "Memory Items – WHEEL BRAKE FAILURE",
+    "number": 1,
+    "prompt": "Wheel brake failure — Step 1: What is the required action?",
+    "options": [],
+    "answer": "Brake pedals — Remove feet",
+    "explanation": "Remove feet from the brake pedals."
+  },
+  {
+    "chapter": "Memory Items – WHEEL BRAKE FAILURE",
+    "number": 2,
+    "prompt": "Wheel brake failure — Step 2: What is the required action?",
+    "options": [],
+    "answer": "EMER BRAKE handle — Pull",
+    "explanation": "Pull the emergency brake handle."
+  },
+  {
+    "chapter": "Memory Items – AUTOPILOT OR YAW DAMPER MALFUNCTION / PITCH TRIM RUNAWAY OR FAILURE",
+    "number": 1,
+    "prompt": "Autopilot or yaw damper malfunction / pitch trim runaway or failure — Step 1: What is the required action?",
+    "options": [],
+    "answer": "Control wheel — GRIP FIRMLY",
+    "explanation": "Grip the control wheel firmly."
+  },
+  {
+    "chapter": "Memory Items – AUTOPILOT OR YAW DAMPER MALFUNCTION / PITCH TRIM RUNAWAY OR FAILURE",
+    "number": 2,
+    "prompt": "Autopilot or yaw damper malfunction / pitch trim runaway or failure — Step 2: What is the required action?",
+    "options": [],
+    "answer": "AP YD DISC/TRIM INT button — PUSH and HOLD",
+    "explanation": "Push and hold the AP YD DISC/TRIM INT button (do not just release)."
+  },
+  {
+    "chapter": "Memory Items – AUTOPILOT OR YAW DAMPER MALFUNCTION / PITCH TRIM RUNAWAY OR FAILURE",
+    "number": 3,
+    "prompt": "Autopilot or yaw damper malfunction / pitch trim runaway or failure — Step 3: What is the required action?",
+    "options": [],
+    "answer": "Throttles — Reduce as required to control airspeed",
+    "explanation": "Reduce throttles as required to control airspeed."
+  },
+  {
+    "chapter": "Memory Items – AUTOPILOT OR YAW DAMPER MALFUNCTION / PITCH TRIM RUNAWAY OR FAILURE",
+    "number": 4,
+    "prompt": "Autopilot or yaw damper malfunction / pitch trim runaway or failure — Step 4: What is the required action?",
+    "options": [],
+    "answer": "Speed brakes — AS REQUIRED",
+    "explanation": "Use speed brakes as required."
+  },
+  {
+    "chapter": "Memory Items – INADVERTENT STALL (STICK SHAKER, BUFFET, AND/OR ROLL-OFF)",
+    "number": 1,
+    "prompt": "Inadvertent stall (stick shaker, buffet, and/or roll-off) — Step 1: What is the required action?",
+    "options": [],
+    "answer": "AP TRIM DISC button — Push",
+    "explanation": "Push the AP TRIM DISC button to disconnect autopilot trim."
+  },
+  {
+    "chapter": "Memory Items – INADVERTENT STALL (STICK SHAKER, BUFFET, AND/OR ROLL-OFF)",
+    "number": 2,
+    "prompt": "Inadvertent stall (stick shaker, buffet, and/or roll-off) — Step 2: What is the required action?",
+    "options": [],
+    "answer": "Pitch attitude — Reduce",
+    "explanation": "Reduce pitch attitude."
+  },
+  {
+    "chapter": "Memory Items – INADVERTENT STALL (STICK SHAKER, BUFFET, AND/OR ROLL-OFF)",
+    "number": 3,
+    "prompt": "Inadvertent stall (stick shaker, buffet, and/or roll-off) — Step 3: What is the required action?",
+    "options": [],
+    "answer": "Roll attitude — Level",
+    "explanation": "Level the wings."
+  },
+  {
+    "chapter": "Memory Items – INADVERTENT STALL (STICK SHAKER, BUFFET, AND/OR ROLL-OFF)",
+    "number": 4,
+    "prompt": "Inadvertent stall (stick shaker, buffet, and/or roll-off) — Step 4: What is the required action?",
+    "options": [],
+    "answer": "Throttles — Maximum thrust",
+    "explanation": "Apply maximum thrust."
+  },
+  {
+    "chapter": "Memory Items – AUTOPILOT UNDERSPEED PROTECTION (UNDERSPEED PROT ACTIVE)",
+    "number": 1,
+    "prompt": "Autopilot underspeed protection activation and recovery — Step 1: What is the required action?",
+    "options": [],
+    "answer": "Thrust — INCREASE as required",
+    "explanation": "Increase thrust as required to correct the underspeed."
+  },
+  {
+    "chapter": "Memory Items – AUTOPILOT UNDERSPEED PROTECTION (UNDERSPEED PROT ACTIVE)",
+    "number": 2,
+    "prompt": "Autopilot underspeed protection activation and recovery — Step 2: What is the required action?",
+    "options": [],
+    "answer": "Aircraft attitude and altitude — MONITOR",
+    "explanation": "Monitor aircraft attitude and altitude."
+  },
+  {
+    "chapter": "Memory Items – TAWS WARNING (PULL UP)",
+    "number": 1,
+    "prompt": "TAWS warning (PULL UP) — Step 1: What is the required action?",
+    "options": [],
+    "answer": "AP YD DISC/TRIM INT button — PRESS and RELEASE",
+    "explanation": "Press and release to disconnect the autopilot."
+  },
+  {
+    "chapter": "Memory Items – TAWS WARNING (PULL UP)",
+    "number": 2,
+    "prompt": "TAWS warning (PULL UP) — Step 2: What is the required action?",
+    "options": [],
+    "answer": "Aircraft pitch attitude — Smoothly pitch up climb as required to avoid terrain",
+    "explanation": "Smoothly pitch up and climb as required to avoid terrain."
+  },
+  {
+    "chapter": "Memory Items – TAWS WARNING (PULL UP)",
+    "number": 3,
+    "prompt": "TAWS warning (PULL UP) — Step 3: What is the required action?",
+    "options": [],
+    "answer": "Thrust — T/O DETENT",
+    "explanation": "Set thrust to takeoff detent."
+  },
+  {
+    "chapter": "Memory Items – TAWS WARNING (PULL UP)",
+    "number": 4,
+    "prompt": "TAWS warning (PULL UP) — Step 4: What is the required action?",
+    "options": [],
+    "answer": "Flaps — RETRACT (15°) if required",
+    "explanation": "Retract flaps to 15° if required."
+  },
+  {
+    "chapter": "Memory Items – TAWS WARNING (PULL UP)",
+    "number": 5,
+    "prompt": "TAWS warning (PULL UP) — Step 5: What is the required action?",
+    "options": [],
+    "answer": "Landing gear — UP",
+    "explanation": "Retract the landing gear."
+  },
+  {
+    "chapter": "Memory Items – TAWS WARNING (PULL UP)",
+    "number": 6,
+    "prompt": "TAWS warning (PULL UP) — Step 6: What is the required action?",
+    "options": [],
+    "answer": "Flaps — UP",
+    "explanation": "Retract flaps to UP."
+  },
+  {
+    "chapter": "Memory Items – TAWS WARNING (PULL UP)",
+    "number": 7,
+    "prompt": "TAWS warning (PULL UP) — Step 7: What is the required action?",
+    "options": [],
+    "answer": "Speed brakes — CONFIRM RETRACTED",
+    "explanation": "Confirm speed brakes are retracted."
+  },
+  {
+    "chapter": "Memory Items – TWY TAKEOFF (TWY TAKEOFF SURFACEWATCH)",
+    "number": 1,
+    "prompt": "TWY TAKEOFF SurfaceWatch warning — Step 1: What is the required action?",
+    "options": [],
+    "answer": "Takeoff — ABORT",
+    "explanation": "Abort the takeoff."
+  },
+  {
+    "chapter": "Memory Items – TWY LANDING (TWY LANDING SURFACEWATCH)",
+    "number": 1,
+    "prompt": "TWY LANDING SurfaceWatch warning — Step 1: What is the required action?",
+    "options": [],
+    "answer": "Go-around procedures — EXECUTE",
+    "explanation": "Execute go-around procedures."
+  },
+  {
+    "chapter": "Memory Items – RWY TOO SHORT (DURING TAKEOFF)",
+    "number": 1,
+    "prompt": "RWY TOO SHORT SurfaceWatch warning (during takeoff) — Step 1: What is the required action?",
+    "options": [],
+    "answer": "Takeoff — ABORT",
+    "explanation": "Abort the takeoff."
+  },
+  {
+    "chapter": "Memory Items – RWY TOO SHORT (DURING LANDING)",
+    "number": 1,
+    "prompt": "RWY TOO SHORT SurfaceWatch warning (during landing) — Step 1: What is the required action?",
+    "options": [],
+    "answer": "Go-around procedures — EXECUTE",
+    "explanation": "Execute go-around procedures."
   }
 ];
 
@@ -2307,6 +2879,8 @@
       } else {
         base = getActiveQuestions();
       }
+      // Test mode only uses multiple-choice questions (exclude Memory Items)
+      base = base.filter((q) => q.options && q.options.length > 0);
 
       const pool = shuffle(base);
       if (selected.includes("all") && pool.length > 50) {
@@ -2327,11 +2901,16 @@
       }
       return questions.filter((q) => {
         if (selected.includes("req") && q.chapter.startsWith("Required Knowledge")) return true;
+        if (selected.includes("memory") && q.chapter.startsWith("Memory Items")) return true;
         if (selected.includes("ch2") && q.chapter.startsWith("Chapter 2")) return true;
+        if (selected.includes("ch3") && q.chapter.startsWith("Chapter 3")) return true;
         if (selected.includes("ch5") && q.chapter.startsWith("Chapter 5")) return true;
         if (selected.includes("ch6") && q.chapter.startsWith("Chapter 6")) return true;
         if (selected.includes("ch7") && q.chapter.startsWith("Chapter 7")) return true;
         if (selected.includes("ch8") && q.chapter.startsWith("Chapter 8")) return true;
+        if (selected.includes("ch9") && q.chapter.startsWith("Chapter 9")) return true;
+        if (selected.includes("ch10") && q.chapter.startsWith("Chapter 10")) return true;
+        if (selected.includes("ch11") && q.chapter.startsWith("Chapter 11")) return true;
         return false;
       });
     }
@@ -2348,37 +2927,45 @@
       questionTextEl.textContent = promptHtml;
 
       optionsListEl.innerHTML = "";
-      q.options.forEach((opt, idx) => {
-        const li = document.createElement("li");
-        const span = document.createElement("span");
-        span.textContent = opt;
-        li.appendChild(span);
+      if (q.options && q.options.length > 0) {
+        q.options.forEach((opt, idx) => {
+          const li = document.createElement("li");
+          const span = document.createElement("span");
+          span.textContent = opt;
+          li.appendChild(span);
 
-        if (mode === "test" && isTestActive && currentTestQuestionIndex >= 0) {
-          li.classList.add("selectable");
-          li.tabIndex = 0;
-          const selectThis = () => {
-            testAnswers[currentTestQuestionIndex] = idx;
-            Array.from(optionsListEl.children).forEach((el) =>
-              el.classList.remove("selected")
-            );
-            li.classList.add("selected");
-          };
-          li.onclick = selectThis;
-          li.onkeydown = (evt) => {
-            if (evt.key === "Enter" || evt.key === " ") {
-              evt.preventDefault();
-              selectThis();
+          if (mode === "test" && isTestActive && currentTestQuestionIndex >= 0) {
+            li.classList.add("selectable");
+            li.tabIndex = 0;
+            const selectThis = () => {
+              testAnswers[currentTestQuestionIndex] = idx;
+              Array.from(optionsListEl.children).forEach((el) =>
+                el.classList.remove("selected")
+              );
+              li.classList.add("selected");
+            };
+            li.onclick = selectThis;
+            li.onkeydown = (evt) => {
+              if (evt.key === "Enter" || evt.key === " ") {
+                evt.preventDefault();
+                selectThis();
+              }
+            };
+
+            if (testAnswers[currentTestQuestionIndex] === idx) {
+              li.classList.add("selected");
             }
-          };
-
-          if (testAnswers[currentTestQuestionIndex] === idx) {
-            li.classList.add("selected");
           }
-        }
 
+          optionsListEl.appendChild(li);
+        });
+      } else {
+        // Memory Items: recall-style card (no multiple choice)
+        const li = document.createElement("li");
+        li.classList.add("memory-recall-hint");
+        li.textContent = "Recall the required action, then tap “Show Answer”.";
         optionsListEl.appendChild(li);
-      });
+      }
     }
 
     function hideAnswer() {
@@ -2532,16 +3119,18 @@
 
         const chosenIdx = testAnswers[i];
         const chosenText =
-          chosenIdx == null ? null : q.options[chosenIdx];
+          q.options && chosenIdx != null ? q.options[chosenIdx] : null;
 
         const correctLetter = q.answer.trim().charAt(0);
         const correctOption =
-          q.options.find((opt) => opt.trim().startsWith(correctLetter + ".")) ||
-          q.answer;
+          q.options && q.options.length
+            ? (q.options.find((opt) => opt.trim().startsWith(correctLetter + ".")) || q.answer)
+            : q.answer;
 
         const isCorrect =
-          chosenIdx != null &&
-          chosenText.trim().charAt(0) === correctLetter;
+          q.options && q.options.length
+            ? chosenIdx != null && chosenText && chosenText.trim().charAt(0) === correctLetter
+            : false;
 
         li.classList.add(isCorrect ? "correct" : "incorrect");
 

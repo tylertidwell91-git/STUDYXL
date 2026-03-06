@@ -38,6 +38,9 @@ def parse_markdown_questions(text: str):
     current_chapter = ""
     i = 0
     q_num_pattern = re.compile(r"^### Question (\d+)")
+    step_num_pattern = re.compile(r"^### Step (\d+)")
+    # Memory Items: ## APU FIRE, ## BATT O'TEMP, etc. (not "Chapter X –" or "Required Knowledge")
+    memory_procedure_pattern = re.compile(r"^##\s+(.+)$")
 
     while i < len(lines):
         line = lines[i]
@@ -51,6 +54,64 @@ def parse_markdown_questions(text: str):
         if line.strip().startswith("Required Knowledge"):
             current_chapter = "Required Knowledge"
             i += 1
+            continue
+        # Memory Items procedure (e.g. ## APU FIRE) — level-2 heading that starts a procedure block
+        mem_proc = memory_procedure_pattern.match(line.strip()) if line.strip().startswith("## ") else None
+        if mem_proc:
+            proc_name = mem_proc.group(1).strip()
+            # Skip the section title "Memory Items (CE-560XL G5000)" and similar
+            if proc_name and not proc_name.lower().startswith("memory items"):
+                current_chapter = "Memory Items – " + proc_name
+            i += 1
+            continue
+
+        # Memory Items: ### Step N with **Answer:** (no A.–D. options)
+        step_m = step_num_pattern.match(line.strip())
+        if step_m and current_chapter.startswith("Memory Items"):
+            number = step_m.group(1)
+            i += 1
+            # Optional blank; then bold question line
+            while i < len(lines) and not lines[i].strip().startswith("**"):
+                i += 1
+            if i >= len(lines):
+                break
+            prompt_line = lines[i].strip()
+            prompt = prompt_line.strip("* ").strip()
+            i += 1
+            # Look for **Answer:** (not Correct answer)
+            answer_line = ""
+            while i < len(lines):
+                s = lines[i].strip()
+                if s.startswith("**Answer:"):
+                    # Strip "**Answer:** " or "**Answer: ...**"
+                    answer_line = s.replace("**Answer:", "").strip().strip("* ").strip()
+                    i += 1
+                    break
+                i += 1
+            # Explanation until next '---' or '### Step' or '## '
+            explanation_lines = []
+            while i < len(lines):
+                s = lines[i]
+                if s.strip() == "---":
+                    i += 1
+                    break
+                if step_num_pattern.match(s.strip()):
+                    break
+                if s.strip().startswith("## "):
+                    break
+                explanation_lines.append(s)
+                i += 1
+            explanation = "\n".join(explanation_lines)
+            questions.append(
+                Question(
+                    chapter=current_chapter,
+                    number=number,
+                    prompt=prompt,
+                    options=[],  # no multiple choice for memory items
+                    answer_line=answer_line,
+                    explanation=explanation,
+                )
+            )
             continue
 
         m = q_num_pattern.match(line.strip())
