@@ -3332,8 +3332,25 @@
       if (mode === "test") return;
       if (currentQuestion === null) return;
       answerPillEl.textContent = "Revealed";
-      answerMainEl.textContent = currentQuestion.answer;
-      answerExplanationEl.textContent = currentQuestion.explanation;
+      if (currentQuestion.chapter.startsWith("Memory Items")) {
+        // Show all steps for this procedure in order
+        const procedureSteps = questions
+          .filter((q) => q.chapter === currentQuestion.chapter)
+          .sort((a, b) => {
+            const na = parseInt(a.number, 10) || 0;
+            const nb = parseInt(b.number, 10) || 0;
+            return na - nb;
+          });
+        const stepLines = procedureSteps.map((q) => {
+          const answerText = q.answer.replace(/^[A-D]\s*–\s*/i, "").trim();
+          return `Step ${q.number}: ${answerText}`;
+        });
+        answerMainEl.textContent = stepLines.join("\n");
+        answerExplanationEl.textContent = currentQuestion.explanation;
+      } else {
+        answerMainEl.textContent = currentQuestion.answer;
+        answerExplanationEl.textContent = currentQuestion.explanation;
+      }
     }
 
     function handleStudyNext() {
