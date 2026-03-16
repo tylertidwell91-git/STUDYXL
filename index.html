@@ -563,7 +563,7 @@
         <label class="deck-label">
           Decks (Ctrl/Cmd+click to select multiple):
           <select id="deck-select" class="deck-select" multiple size="10">
-            <option value="all" selected>All (Ch. 2–12 + Req + Limits + Memory)</option>
+            <option value="all" selected>All (Ch. 2–15 + Req + Limits + Memory)</option>
             <option value="needs-review">Needs Review</option>
             <option value="req">Required Knowledge</option>
             <option value="limits">Limitations</option>
@@ -578,6 +578,9 @@
             <option value="ch10">Chapter 10 – Ice and Rain</option>
             <option value="ch11">Chapter 11 – Air Conditioning</option>
             <option value="ch12">Chapter 12 – Pressurization</option>
+            <option value="ch13">Chapter 13 – Hydraulic Power System</option>
+            <option value="ch14">Chapter 14 – Landing Gear and Brakes</option>
+            <option value="ch15">Chapter 15 – Flight Controls</option>
           </select>
         </label>
         <div class="status" id="status-text">Study mode – 0 / 0 cards reviewed this session.</div>
@@ -3866,6 +3869,9 @@
         if (selected.includes("ch10") && q.chapter.startsWith("Chapter 10")) return true;
         if (selected.includes("ch11") && q.chapter.startsWith("Chapter 11")) return true;
         if (selected.includes("ch12") && q.chapter.startsWith("Chapter 12")) return true;
+        if (selected.includes("ch13") && q.chapter.startsWith("Chapter 13")) return true;
+        if (selected.includes("ch14") && q.chapter.startsWith("Chapter 14")) return true;
+        if (selected.includes("ch15") && q.chapter.startsWith("Chapter 15")) return true;
         return false;
       });
     }

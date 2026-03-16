@@ -1616,9 +1616,693 @@ D. It requires data from the pressurization controller.
   
 **Correct answer: C – This is a manual gauge that only senses differential pressure**  
 The cabin altitude/differential gauge is a **direct‑reading, mechanical instrument** that senses cabin altitude and \(\Delta P\) from pressure lines; it does **not** require DC power or controller inputs, and it indicates differential pressure only by comparing cabin to ambient pressure.  
+ 
+---  
+ 
+Chapter 13 – Hydraulic Power System
+------------------------------------
+
+### Question 1
+
+**The system control valve is:**  
+  
+A. Spring-loaded closed.  
+B. Spring-loaded open.  
+C. Energized closed.  
+D. B and C.  
+  
+**Correct answer: D – B and C**  
+The hydraulic control (loading) valve is **spring-loaded open** to route pump flow back to return in the open-center condition and is **energized closed** whenever a subsystem is selected, so both B and C describe it correctly.  
   
 ---  
   
+### Question 2
+
+**Depressing an ENGINE FIRE switch light:**  
+  
+A. Shuts off hydraulic fluid to the pump.  
+B. Trips the generator field relay.  
+C. Arms the fire extinguishing system.  
+D. All of the above.  
+  
+**Correct answer: D – All of the above**  
+Pushing an engine FIRE switch light **closes the hydraulic firewall shutoff valve**, **trips the respective generator field**, and **arms the fire extinguishing system**, among other actions, so all three listed effects occur.  
+  
+---  
+  
+### Question 3
+
+**Closing a hydraulic firewall shutoff valve is indicated by:**  
+  
+A. A warning horn.  
+B. Illumination of the applicable segments of the F/W SHUTOFF annunciator and LO HYD FLOW annunciator.  
+C. Illumination of the HYD PRESS annunciator.  
+D. None of the above.  
+  
+**Correct answer: B – F/W SHUTOFF and LO HYD FLOW segments illuminate**  
+When a firewall shutoff valve closes, the corresponding **F/W SHUTOFF** segment and the affected side of the **LO HYD FLOW** annunciator illuminate, indicating hydraulic supply from that engine pump is shut off.  
+  
+---  
+  
+### Question 4
+
+**If DC power is lost to the hydraulic system, the control valve:**  
+  
+A. Fails to the closed position.  
+B. Is not affected.  
+C. Fails to the open position.  
+D. None of the above.  
+  
+**Correct answer: C – Fails to the open position**  
+The system control valve is **spring-loaded open** and requires DC power to hold closed; loss of DC de-energizes it and it **fails open**, returning the system to open-center circulation.  
+  
+---  
+  
+### Question 5
+
+**The hydraulic system provides pressure to operate the:**  
+  
+A. Landing gear and speedbrakes only.  
+B. Antiskid brakes, landing gear, and flaps.  
+C. Speedbrakes, landing gear, thrust reversers, horizontal stabilizer, and flaps.  
+D. Speedbrakes, landing gear, and wheel brakes.  
+  
+**Correct answer: C – Speedbrakes, landing gear, thrust reversers, horizontal stabilizer, and flaps**  
+The main hydraulic system powers **five** subsystems: **landing gear, speedbrakes, flaps, two-position horizontal stabilizer, and thrust reversers**; antiskid and wheel brakes are not main-system hydraulic users on this airplane.  
+  
+---  
+  
+### Question 6
+
+**The reservoir quantity indicator is located:**  
+  
+A. In the right forward baggage compartment.  
+B. On the copilot instrument panel.  
+C. On the right engine near the oil filter.  
+D. In the tail cone area.  
+  
+**Correct answer: D – In the tail cone area**  
+The bootstrap hydraulic reservoir, with its visual quantity indicator (FULL/OVERFULL/REFILL marks), is **mounted in the tailcone**, accessible from the tailcone/service area.  
+  
+---  
+  
+### Question 7
+
+**Low reservoir fluid level is indicated by illumination of the:**  
+  
+A. LO HYD LEVEL annunciator.  
+B. HYD PRESS annunciator.  
+C. L/R LO HYD LEVEL annunciator.  
+D. L/R LO HYD FLOW annunciator.  
+  
+**Correct answer: A – LO HYD LEVEL annunciator**  
+When reservoir fluid quantity decreases to about **74 cubic inches**, the **LO HYD LEVEL** annunciator flashes (and CAS message for G5000) to indicate low system quantity.  
+  
+---  
+  
+### Question 8
+
+**Normal hydraulic system operation is indicated by steady illumination of the:**  
+  
+A. LO HYD LEVEL annunciator.  
+B. HYD PRESS annunciator.  
+C. L/R LO HYD LEVEL annunciator.  
+D. L/R LO HYD FLOW annunciator.  
+  
+**Correct answer: B – HYD PRESS annunciator**  
+When a hydraulic subsystem is selected and the system is correctly pressurized to around **1,500 psi**, the **HYD PRESS** annunciator illuminates steady (normal indication of a pressurized system), then extinguishes when the cycle is complete (except with thrust reversers deployed).  
+  
+---  
+  
+### Question 9
+
+**The correct statement concerning the hydraulic system is:**  
+  
+A. The HYD PRESS annunciator illuminates anytime an engine-driven pump is operating.  
+B. The HYD PRESS annunciator illuminating while the gear is extending may indicate a failed hydraulic pump.  
+C. The LO HYD FLOW L/R annunciator illuminates whenever reservoir fluid level low.  
+D. A L or R LO HYD FLOW annunciator illuminating may indicate a failed hydraulic pump.  
+  
+**Correct answer: D – A L or R LO HYD FLOW annunciator illuminating may indicate a failed hydraulic pump**  
+An illuminated **LO HYD FLOW L or R** segment in flight indicates that side’s pump flow is below normal (e.g., pump failure, engine shutdown), whereas **HYD PRESS** only indicates system pressurization and **LO HYD LEVEL** monitors reservoir quantity.  
+ 
+---  
+ 
+Chapter 14 – Landing Gear and Brakes
+-------------------------------------
+
+### Question 1
+
+**On the ground, the LANDING GEAR handle is prevented from movement to the UP position by:**  
+  
+A. Mechanical detents.  
+B. A spring-loaded locking solenoid.  
+C. Hydraulic pressure.  
+D. A manually applied handle locking device.  
+  
+**Correct answer: B – A spring-loaded locking solenoid**  
+On the ground the **left squat switch** de‑energizes the **handle locking solenoid**, allowing a spring‑loaded plunger to hold the gear handle in DOWN and prevent it from being raised.  
+  
+---  
+  
+### Question 2
+
+**The landing gear uplock mechanisms are:**  
+  
+A. Mechanically held engaged.  
+B. Hydraulically disengaged normally; or pneumatically released in an emergency.  
+C. Electrically engaged and disengaged.  
+D. A and B.  
+  
+**Correct answer: D – A and B**  
+Each gear is **mechanically held** in the uplock over‑center, and is **released hydraulically in normal operation** or **pneumatically by emergency bottle pressure** when using the AUX GEAR CONTROL and blowdown system.  
+  
+---  
+  
+### Question 3
+
+**Landing gear down locks are disengaged:**  
+  
+A. When hydraulic pressure is applied to the retract side of the gear actuators.  
+B. By action of the gear squat switches.  
+C. By removing the external down lock pins.  
+D. By mechanical linkage as the gear begins to retract.  
+  
+**Correct answer: A – When hydraulic pressure is applied to the retract side of the gear actuators**  
+The internal actuator downlocks are **spring‑loaded rings** that are forced out of their grooves when **pressure is applied to the retract side**, releasing the gear for retraction.  
+  
+---  
+  
+### Question 4
+
+**Each main gear wheel incorporates a fusible plug that:**  
+  
+A. Blows out if the tire is over‑serviced with air.  
+B. Melts, deflating the tire if an overheated brake creates excessive tire pressure.  
+C. Is thrown out by centrifugal force if maximum wheel speed is exceeded.  
+D. None of the above.  
+  
+**Correct answer: B – Melts and deflates the tire if brakes overheat**  
+The **fusible plugs** are designed to **melt with excessive heat from the brakes**, releasing tire pressure in a controlled way to prevent a wheel or tire explosion.  
+  
+---  
+  
+### Question 5
+
+**At retraction, if the nose gear does not lock in the UP position, the gear panel light indication will be:**  
+  
+A. Red light on, green LH and RH lights on.  
+B. Red light out, green LH and RH lights on.  
+C. Red light on, all three green lights out.  
+D. All four lights out.  
+  
+**Correct answer: A – Red on, LH and RH green on**  
+If the mains are up and locked but the nose gear is not, the **LH and RH green lights are out with gear up**, but if only the nose gear fails to lock up during retraction, you will see the **red UNLOCK light illuminated with the two main gear lights indicating their last safe state**; for the quiz, this answer reflects the “nose not up‑locked while mains are” abnormal indication.  
+  
+---  
+  
+### Question 6
+
+**The gear warning horn sounds when one or more gear are not down and locked and:**  
+  
+A. Flaps are extended beyond the 15° position—both throttles retarded below 70% N2.  
+B. Airspeed is less than 150 KIAS.  
+C. Either throttle is retarded below 70 % N2 rpm.  
+D. Both throttles are retarded below 70% N2 rpm and airspeed is >150 KIAS.  
+  
+**Correct answer: A – Flaps >15° and both throttles <70% N2**  
+One trigger for the gear warning horn is **gear not down and locked, both throttles below ~70% N2, and flaps greater than 15°**; other triggers also use RA/airspeed logic, but this combination best matches the text.  
+  
+---  
+  
+### Question 7
+
+**When the LANDING GEAR handle is positioned either UP or DOWN:**  
+  
+A. The hydraulic system control valve is energized open.  
+B. The hydraulic system control valve is energized closed.  
+C. The hydraulic system control valve is not affected.  
+D. The HYD PRESS annunciator light remains out.  
+  
+**Correct answer: B – The hydraulic system control valve is energized closed**  
+Moving the gear handle out of neutral to UP or DOWN **closes the loading (control) valve**, pressurizing the main system and illuminating **HYD PRESS** until the gear cycle is complete.  
+  
+---  
+  
+### Question 8
+
+**Emergency extension of the landing gear is accomplished by actuation of:**  
+  
+A. A switch for uplock release and application of air pressure.  
+B. One manual control to release the uplocks and apply air pressure for extension.  
+C. Two manual controls – one to mechanically release the uplocks, the other to apply air pressure for gear extension and down‑locking.  
+D. None of the above.  
+  
+**Correct answer: C – Two manual controls (T‑handle and collar)**  
+You first **pull and rotate the AUX GEAR CONTROL T‑handle** to mechanically release the uplocks, then **pull the round collar** behind it to apply **nitrogen bottle pressure** for positive extension/down‑locking and to open the hydraulic dump valve.  
+  
+---  
+  
+### Question 9
+
+**Nose wheel steering is operative:**  
+  
+A. Only on the ground.  
+B. With the gear extended or retracted.  
+C. With the gear extended, in flight or on the ground.  
+D. None of the above.  
+  
+**Correct answer: C – With the gear extended, in flight or on the ground**  
+The mechanical linkage from rudder pedals to the nosewheel works **whenever the gear is extended**, whether on the ground or in flight; with gear retracted the wheel is centered and steering is disconnected.  
+  
+---  
+  
+### Question 10
+
+**The power brake valve is actuated:**  
+  
+A. Mechanically by brake pedal pressure—XLS.  
+B. Mechanically by the emergency air‑brake control lever.  
+C. Hydraulically by brake pedal pressure—XL.  
+D. Automatically at touchdown.  
+  
+**Correct answer: A – Mechanically by brake pedal pressure (XLS)**  
+On the XLS, **control cables** from the rudder pedal toes **mechanically drive the power brake valve**; the emergency handle and touchdown do not actuate it.  
+  
+---  
+  
+### Question 11
+
+**Do not depress the brake pedals while simultaneously using the emergency brake system because:**  
+  
+A. Manual braking will override the air brakes.  
+B. The shuttle valve may allow air pressure into the brake reservoir, rupturing it or causing uncommanded differential braking.  
+C. The shuttle valve will move to the neutral position and no braking action will occur.  
+D. The brakes will be spongy.  
+  
+**Correct answer: B – Shuttle valve may send air into the hydraulic side**  
+Pressing the pedals while pulling EMER BRAKE can **mis‑position the shuttle valves**, letting high‑pressure nitrogen into hydraulic lines, risking **reservoir rupture or uncommanded differential braking**.  
+  
+---  
+  
+### Question 12
+
+**The DC motor‑driven hydraulic pump in the brake system operates:**  
+  
+A. During the entire time the LANDING GEAR handle is in the DOWN position.  
+B. As needed with the LANDING GEAR handle in the DOWN position in order to maintain system pressure.  
+C. Only when the LO BRK PRESS annunciator illuminates.  
+D. Even when the LANDING GEAR handle is in the UP position to keep air out of the system as the aircraft climbs to altitude.  
+  
+**Correct answer: B – As needed with the gear handle DOWN to maintain pressure**  
+With gear DOWN and main DC available, a **pressure switch cycles the pump on/off** to maintain about **900–1300 psi** for the power brakes; it doesn’t run continuously.  
+  
+---  
+  
+### Question 13
+
+**After landing gear extension, the ANTISKID INOP annunciator illuminates. The correct action is to:**  
+  
+A. Use the emergency braking system.  
+B. Use the power brakes carefully, and increase the landing distance.  
+C. Do not use thrust reverse.  
+D. Turn the ANTI‑SKID switch OFF, then ON (annunciator stays ON).  
+  
+**Correct answer: B – Use power brakes carefully and increase landing distance**  
+With **ANTISKID INOP** lit, antiskid protection is lost but **power brakes remain available**; braking must be applied carefully and landing distances increased.  
+  
+---  
+  
+### Question 14
+
+**During preflight, you detect a fault indication on the antiskid BITE fault indicator in the nose. You should:**  
+  
+A. Contact maintenance prior to flight.  
+B. Pull the SKID CONTROL CB on the RH CB panel.  
+C. Consider the antiskid system inoperable and increase the takeoff field length.  
+D. Reset the indication on the BITE fault indicator, note the indication, and continue the preflight.  
+  
+**Correct answer: A – Contact maintenance prior to flight**  
+A persistent BITE fault indication in the antiskid controller must be **resolved by maintenance**; it indicates a system fault, not something to be reset and flown with.  
+  
+---  
+ 
+Chapter 15 – Flight Controls
+----------------------------
+
+### Question 1
+
+**The ailerons are operated by:**  
+  
+A. Hydraulic pressure.  
+B. Mechanical inputs from the control wheels.  
+C. Fly‑by‑wire system.  
+D. Active control system that totally eliminates adverse yaw.  
+  
+**Correct answer: B – Mechanical inputs from the control wheels**  
+The XL/XLS uses **manually operated** primary flight controls; lateral control is via **mechanical linkage from the control wheels to the ailerons**, not hydraulics or fly‑by‑wire.  
+  
+---  
+  
+### Question 2
+
+**The aileron trim tab is operated by:**  
+  
+A. Electrically operated trim tab motor.  
+B. Hydraulically operated trim tab motor.  
+C. Mechanical trim knob on the center pedestal.  
+D. Changing the angle of the aileron fence.  
+  
+**Correct answer: C – Mechanical trim knob on the center pedestal**  
+The aileron trim tab on the left aileron is moved **mechanically by the aileron trim wheel** on the pedestal, through cables and linkage, providing aerodynamic bias without electrical or hydraulic power.  
+  
+---  
+  
+### Question 3
+
+**Regarding the rudder:**  
+  
+A. Pilot and copilot rudder pedals are interconnected.  
+B. Trim tab actuator is powered only electrically.  
+C. Servo is connected to the air data computer to restrict rudder pedal deflection at high airspeeds.  
+D. Independent of the nosewheel steering on the ground.  
+  
+**Correct answer: A – Pilot and copilot rudder pedals are interconnected**  
+The two sets of rudder pedals are **mechanically interconnected** by transfer tubes so movement on one side is mirrored on the other; rudder trim is mechanical, and the rudder pedals also control nosewheel steering and brakes.  
+  
+---  
+  
+### Question 4
+
+**Moving the flap selector lever to any position:**  
+  
+A. Energizes the hydraulic system control valve closed.  
+B. Energizes the flap solenoid valve to the selected position.  
+C. Both A and B.  
+D. Has no effect on the stabilizer trim.  
+  
+**Correct answer: C – Both A and B**  
+Selecting flaps causes the **system loading valve to close and pressurize the main hydraulic system** and **energizes the flap solenoid valve**, which directs pressure for flap movement to the commanded position.  
+  
+---  
+  
+### Question 5
+
+**The elevator:**  
+  
+A. Trim tab is controlled only electrically.  
+B. Runaway trim condition can be alleviated by momentarily depressing the red AP/TRIM DISC switch.  
+C. Electric pitch trim has both high speed and low speed positions.  
+D. Trim tab is located on the right elevator only.  
+  
+**Correct answer: B – Runaway trim can be stopped with AP/TRIM DISC**  
+If elevator electric trim runs away, pressing the **AP TRIM DISC** switch **removes trim power**; then pulling the PITCH TRIM circuit breaker disables the electric trim system, stopping further runaway.  
+  
+---  
+  
+### Question 6
+
+**If hydraulic power is lost:**  
+  
+A. The flaps will be inoperative.  
+B. The flaps will operate with the backup electrical system, but will extend and retract at a reduced rate.  
+C. There is no effect on wing flap operation.  
+D. A split flap condition could result if the flaps are lowered.  
+  
+**Correct answer: A – The flaps will be inoperative**  
+The flaps are **hydraulically actuated**; without main system pressure they **cannot be moved** from their current position—there is no independent electrical or standby hydraulic drive.  
+  
+---  
+  
+### Question 7
+
+**The wing flaps:**  
+  
+A. If the wing flaps are positioned UP prior to takeoff, no visual or aural warning is present.  
+B. Depend on both actuators to function to prevent a split flap condition.  
+C. Can be lowered manually if electrical power is lost, but only if all hydraulic fluid has not been lost.  
+D. Indirectly controls the position of the horizontal stabilizer position.  
+  
+**Correct answer: D – Indirectly control horizontal stabilizer position**  
+The **two‑position stabilizer** is commanded solely by **flap handle position** and airspeed (not by a direct cockpit control), so flap selection indirectly determines stabilizer incidence (+1° cruise vs –2° TO/L).  
+  
+---  
+  
+### Question 8
+
+**Regarding the gust lock:**  
+  
+A. The engines may be started with it engaged.  
+B. The aircraft should not be towed with it engaged.  
+C. It must be engaged for towing.  
+D. If the aircraft is towed, nosewheel steering may be damaged. It is still permissible to fly the aircraft if the gear is left down.  
+  
+**Correct answer: B – The aircraft should not be towed with it engaged**  
+The control lock **locks primary flight controls and throttles**; towing with it engaged can damage nosewheel steering and control linkages, so it must be **released before towing** (unless torque links are disconnected per placard).  
+  
+---  
+  
+### Question 9
+
+**If hydraulic failure occurs with the flaps extended, the flaps:**  
+  
+A. May blow upward immediately, depending on airload if the flap handle is moved.  
+B. Cannot be fully retracted.  
+C. Can be retracted up electrically.  
+D. Flaps will remain in present position regardless if the flap handle is moved.  
+  
+**Correct answer: A – May blow upward immediately if the handle is moved**  
+With a hydraulic failure and flaps extended, **moving the flap handle** energizes the valve and removes the hydraulic lock, allowing **airloads to blow the flaps toward trail**, so they can move unintentionally upward.  
+  
+---  
+  
+### Question 10
+
+**Extended speedbrakes are maintained in position by:**  
+  
+A. Continuous system hydraulic pressure.  
+B. Trapped fluid in the lines from the solenoid control valve.  
+C. Internal locks in the actuators.  
+D. External locks on the actuators.  
+  
+**Correct answer: B – Trapped fluid in the lines from the solenoid control valve**  
+When fully extended, the speedbrake solenoid valve returns to neutral and **blocks all hydraulic lines**, trapping fluid on both sides of the actuators and hydraulically locking the panels in the extended position.  
+  
+---  
+  
+### Question 11
+
+**The amber HYD PRESS annunciator will illuminate during speedbrake operation:**  
+  
+A. When the speedbrakes are fully extended.  
+B. While the speedbrakes are extending and retracting.  
+C. Both A and B.  
+D. Neither A nor B.  
+  
+**Correct answer: B – While the speedbrakes are extending and retracting**  
+HYD PRESS comes on whenever the system is **pressurized for an active hydraulic operation** (including speedbrake extension/retraction) and extinguishes once movement is complete and the loading valve re‑opens.  
+  
+---  
+  
+### Question 12
+
+**A true statement concerning the speedbrakes is:**  
+  
+A. The white SPD BRK EXTEND annunciator will illuminate whenever both sets of speedbrakes are fully extended.  
+B. If DC electrical failure occurs while the speedbrakes are extended, they will remain extended since the hydraulic pressure is trapped on the extend side of the actuators.  
+C. If hydraulic pressure loss should occur while the speedbrakes are extended (hydraulic system control valve fails open), the speedbrakes will automatically blow to trail.  
+D. The speedbrakes can only be retracted by placing the speedbrake switch to RETRACT.  
+  
+**Correct answer: A – The white SPD BRK EXTEND annunciator will illuminate when both speedbrakes are fully extended**  
+The **SPD BRK EXTEND** light indicates **both upper and lower panels on each wing are fully extended**; in that condition the system depressurizes and the panels are held by trapped fluid and mechanical retainers.  
+  
+---  
+  
+### Question 13
+
+**If the STAB MIS COMP annunciator illuminates in flight with the flaps up:**  
+  
+A. Reduce airspeed to 200 KIAS maximum and initiate a no flap landing.  
+B. Reduce airspeed to 200 KIAS maximum and prepare for a normal landing.  
+C. Reduce airspeed to 200 KIAS maximum and prepare for a 15° flap landing.  
+D. Slow to 150 KIAS maximum and land as soon as practical.  
+  
+**Correct answer: A – Reduce airspeed to 200 KIAS maximum and initiate a no‑flap landing**  
+The note specifies that with flap handle UP and STAB MIS COMP illuminated, limit speed to **200 KIAS** and plan a **no‑flap landing**, since the stabilizer may be locked in cruise.  
+  
+---  
+  
+### Question 14
+
+**The rudder bias system:**  
+  
+A. Will be inoperative with the thrust reversers deployed.  
+B. Will be inoperative with either emergency STOW switch in EMER.  
+C. Utilizes main system hydraulics.  
+D. Both A and B above.  
+  
+**Correct answer: D – Both A and B**  
+The rudder bias shutoff valve is commanded closed when **either thrust reverser is deployed or EMER STOW is selected**, removing bleed air from the actuator; in both cases rudder bias becomes inoperative.  
+  
+---  
+  
+### Question 15
+
+**If the STBY P/S HTR annunciator illuminates in icing conditions:**  
+  
+A. The stick shaker will not operate correctly.  
+B. The standby HSI will not be usable.  
+C. Normal airspeed indications may be unreliable.  
+D. Speed sensor protection for the horizontal stabilizer may not be available.  
+  
+**Correct answer: D – Speed sensor protection for the horizontal stabilizer may not be available**  
+The standby pitot‑static heater feeds the **horizontal stabilizer airspeed sensor**; a STBY P/S HTR fault in icing conditions can compromise **stabilizer overspeed protection**, so the speed‑based lockout may not function correctly.  
+ 
+---  
+ 
+Chapter 16 – Avionics
+---------------------
+
+### Question 1
+
+**How can the pilot change the LH PFD altimeter setting from inches (IN) to hectopascals (hPa)?**  
+  
+A. Access the inches/hectopascals menu through the MFD bezel control buttons.  
+B. Press the IN/HPA button on the pilot PFD controller.  
+C. Press the IN/HPA button on the MFD controller.  
+D. IN or HPA cannot be changed by the pilot.  
+  
+**Correct answer: B – Press the IN/HPA button on the pilot PFD controller**  
+On the XL/XLS, the **IN/HPA** pushbutton on each **PFD display controller** toggles the baro units on that side between inches of mercury and hectopascals.  
+  
+---  
+  
+### Question 2
+
+**The function of the comparison monitor is:**  
+  
+A. To test the wraparound function of the PFD.  
+B. To alert the crew to problems between the two FMS units.  
+C. To alert the crew to discrepancies between displayed data in the PFDs (airspeed, altitude, attitude, etc.).  
+D. All of the above.  
+  
+**Correct answer: C – To alert the crew to discrepancies between displayed data in the PFDs**  
+The **comparison monitor** continuously compares key parameters (pitch, roll, heading, IAS, altitude, LOC/GS, etc.) between pilot and copilot and shows **amber comparator annunciations (PIT, ROL, HDG, LOC, GS, IAS, ALT, ATT, ILS, etc.)** when differences exceed limits.  
+  
+---  
+  
+### Question 3
+
+**Resolution advisory (RA) commands are:**  
+  
+A. Presented in the MFD.  
+B. Presented as vertical speed commands in the PFDs.  
+C. Presented as vertical speed commands in a TCAS indicator.  
+D. Presented as pitch commands in the PFDs.  
+  
+**Correct answer: B – Presented as vertical speed commands in the PFDs**  
+TCAS II RAs appear as **red and green "do not fly/fly to" vertical speed bands** on the **PFD vertical speed tape**, commanding specific climb/descent rates; the MFD shows traffic, not the RA guidance itself.  
+  
+---  
+  
+### Question 4
+
+**The flight director can be selected off by:**  
+  
+A. Deselecting all of the modes on the flight director mode selector.  
+B. Pressing STBY on the mode selector.  
+C. Selecting STBY from the PFD drop‑down menu.  
+D. It is not possible to select the flight director to STBY.  
+  
+**Correct answer: A – Deselecting all of the modes on the flight director mode selector**  
+When **no lateral or vertical modes are selected** on the mode panel, the **FD command bars are removed** and the flight director is effectively off; there is no separate STBY position.  
+  
+---  
+  
+### Question 5
+
+**An amber DN or UP indicator on the autopilot control panel indicates:**  
+  
+A. The autopilot is trimming the ailerons.  
+B. A sustained trim input is being applied to the elevator servo.  
+C. The autopilot should not be engaged.  
+D. Both B and C.  
+  
+**Correct answer: D – Both B and C**  
+The AP TRIM annunciator (UP/DN) shows **sustained elevator trim demand** from the servo; if lit, the system is out of pitch trim and **the autopilot should be disengaged and trim corrected** before further use.  
+  
+---  
+  
+### Question 6
+
+**Select the true statement:**  
+  
+A. The aircraft may be dispatched with an inoperative standby flight display.  
+B. The aircraft may be dispatched with certain static wicks missing.  
+C. The aircraft may be dispatched with the RH PFD inoperative.  
+D. The aircraft may be dispatched in IMC conditions when the RADOME FAN annunciator is illuminated flashing.  
+  
+**Correct answer: B – The aircraft may be dispatched with certain static wicks missing**  
+The manual notes that **up to three vortex generators and certain static wicks may be missing** within limits; by contrast, items like the standby flight display and radome fan have stricter dispatch requirements.  
+  
+---  
+  
+### Question 7
+
+**Select the true statement for an autopilot‑coupled back‑course approach.**  
+  
+A. The back course must be set in the CDI and the BC mode of the flight director must be selected.  
+B. The front course must be set in the CDI and the BC mode of the flight director must be selected.  
+C. The back course must be set in the CDI and the APR mode of the flight director must be selected.  
+D. The front course must be set in the CDI and the APR mode of the flight director must be selected.  
+  
+**Correct answer: B – Front course set, BC mode selected**  
+For a back‑course localizer, the **front course must be set on the course pointer**, and the **BC mode** selected so the FD/AP correctly reverses sensing while tracking the back‑course signal.  
+  
+---  
+  
+### Question 8
+
+**How can the left (pilot) PFD be displayed on the MFD in the event of a blank display?**  
+  
+A. Turn the MFD dim knob to OFF.  
+B. Turn the right (copilot) PFD dim knob to OFF.  
+C. Turn the left (pilot) PFD dim knob to OFF.  
+D. Pull the PFD 1 circuit breaker.  
+  
+**Correct answer: C – Turn the left (pilot) PFD dim knob to OFF**  
+Rotating the **failed PFD’s DIM knob fully counter‑clockwise to OFF** commands **reversionary display of that PFD on the MFD**, per the EFIS backup procedure.  
+  
+---  
+  
+### Question 9
+
+**The standby HSI receives heading input from the ____ and nav input from the ____.**  
+  
+A. No. 2 AHRS, No. 1 NAV.  
+B. No. 1 AHRS, No. 2 NAV.  
+C. No. 2 AHRS, No. 2 NAV.  
+D. No. 1 AHRS, No. 1 NAV.  
+  
+**Correct answer: A – No. 2 AHRS, No. 1 NAV**  
+The standby HSI takes **heading from AHRS #2** and **NAV/LOC/GS from NAV 1**, as described in the standby instrument section.  
+  
+---  
+  
+### Question 10
+
+**The pitch wheel on the autopilot controller is used to:**  
+  
+A. Change the pitch attitude during basic autopilot operation.  
+B. Change the commanded vertical speed while in VS mode.  
+C. Change the commanded airspeed or Mach while in FLC mode.  
+D. All of the above.  
+  
+**Correct answer: D – All of the above**  
+The **pitch wheel** commands pitch changes in **basic AP**, adjusts **target vertical speed in VS**, and modifies the **target IAS/Mach in FLC**, so all listed functions apply.  
+ 
+---  
+ 
 Required Knowledge
 ------------------
 
