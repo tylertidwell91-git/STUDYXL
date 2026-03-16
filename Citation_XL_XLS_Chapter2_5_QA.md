@@ -1448,6 +1448,177 @@ In **EMER**, the emergency pressurization valve opens and **bleed air from the l
 
 ---
 
+Chapter 12 – Pressurization
+---------------------------
+
+### Question 1
+
+**Cabin pressure is normally maintained by:**  
+  
+A. Controlling the amount of air entering the cabin.  
+B. Controlling the amount of air escaping the cabin.  
+C. Modulating the temperature of the cabin temperature controller.  
+D. Manipulating the throttles.  
+  
+**Correct answer: B – Controlling the amount of air escaping the cabin**  
+On the XL/XLS, engine bleed air flows continuously into the cabin through the ECU; **cabin pressure is regulated by modulating the outflow valves**, which control how much air is allowed to escape the pressure vessel rather than how much enters.  
+  
+---  
+  
+### Question 2
+
+**The normal outflow valve control modes are:**  
+  
+A. Ground taxi mode.  
+B. Takeoff mode.  
+C. Flight, descent and landing modes.  
+D. All of the above.  
+  
+**Correct answer: D – All of the above**  
+The digital pressurization controller automatically sequences through **ground, takeoff, flight, descent, and landing (return-to-ground)** modes, commanding the outflow valves for each phase of flight when in AUTO schedule.  
+  
+---  
+  
+### Question 3
+
+**As both throttles are advanced above 85% on the ground, the outflow valves slowly close, driving cabin pressure down below field altitude. This is the:**  
+  
+A. Flight mode.  
+B. Ground mode.  
+C. Takeoff mode.  
+D. None of the above.  
+  
+**Correct answer: C – Takeoff mode**  
+With the aircraft still on the ground and throttles advanced for takeoff, the controller leaves ground mode and enters **takeoff mode**, gradually driving the outflow valves toward closed at about 100 fpm so the cabin descends slightly below field elevation to avoid pressure bumps during liftoff.  
+  
+---  
+  
+### Question 4
+
+**What opens the two outflow valves to climb the cabin?**  
+  
+A. Selecting AUTO with the pressurization system select switch uses the digital cabin pressure controller to meter ejector vacuum to the climb solenoid of the primary valve.  
+B. The EMER DUMP switch sends DC power to the climb solenoid and the cabin rises to approximately 14,500 feet (cabin altitude limiter).  
+C. Placing the pressurization system select switch to MANUAL and using the MANUAL toggle (cherry picker) to manually meter ambient low-pressure air to both outflow valves.  
+D. All of the above.  
+  
+**Correct answer: D – All of the above**  
+In **AUTO**, the controller pulses the climb solenoid and uses ejector vacuum to vent the control chambers, opening the valves and letting cabin altitude climb; **EMER DUMP** drives the climb solenoid fully open to rapidly open the valves; in **MANUAL**, holding the cherry picker UP vents the control chambers to ambient static, also opening both outflow valves.  
+  
+---  
+  
+### Question 5
+
+**What closes the two outflow valves to dive the cabin?**  
+  
+A. Selecting AUTO with the pressurization system select switch uses the digital cabin pressure controller to meter 6.0 psi service air pressure or cabin air pressure to the dive solenoid.  
+B. Placing the pressurization system select switch to the MANUAL position, and using the cherry picker to manually meter cabin pressurized air to the secondary valve only.  
+C. Both A and B.  
+D. None of the above.  
+  
+**Correct answer: A – Selecting AUTO with the pressurization system select switch uses the controller and dive solenoid**  
+In AUTO schedule, the controller pulses the **dive solenoid**, admitting regulated 6 psi service air (or cabin air above 6 psi) into the control chambers to drive **both outflow valves toward closed**, increasing cabin pressure (diving the cabin); the MANUAL toggle supplies cabin air to both valves, not just the secondary valve, so choice B is incorrect.  
+  
+---  
+  
+### Question 6
+
+**If control vacuum becomes excessive in flight, cabin altitude:**  
+  
+A. Explosively decompresses to cruise altitude.  
+B. Will remain at present altitude.  
+C. Rises to the maximum altitude limiter setting of approximately 14,500 feet, and cabin pressure enters the outflow valves reducing vacuum effect and the cabin stops climbing at approximately 14,500 feet.  
+D. Decreases to a value as determined by the max differential pressure relief valve setting.  
+  
+**Correct answer: C – Rises to the maximum altitude limiter setting and then stops climbing**  
+Each outflow valve has a **maximum cabin altitude limiter** bellows that opens a poppet at about **14,500 ±500 feet cabin altitude**, admitting cabin air into the control chambers to drive the valves closed and stop further climb, even if vacuum tries to pull them farther open.  
+  
+---  
+  
+### Question 7
+
+**The source of bleed air for cabin pressurization when the EMER PRESS annunciator is illuminated in flight is:**  
+  
+A. Vapor cycle air.  
+B. The left engine.  
+C. Either or both engines.  
+D. Ram air flow.  
+  
+**Correct answer: B – The left engine**  
+When emergency pressurization is selected or automatically activated, the **emergency pressurization valve opens** and directs **hot bleed air from the left engine precooler** directly to the cabin, bypassing the ECU and normal flow control valves.  
+  
+---  
+  
+### Question 8
+
+**The digital pressurization controller modes are:**  
+  
+A. Isobaric mode.  
+B. Auto schedule mode.  
+C. Manual mode.  
+D. A and B above.  
+  
+**Correct answer: D – A and B above**  
+The controller itself provides **AUTO schedule** (normal automatic scheduling) and a backup **isobaric mode** if the No. 1 MADC signal is lost; **manual mode bypasses the controller** and uses the MANUAL toggle valve and outflow valves pneumatically.  
+  
+---  
+  
+### Question 9
+
+**If the No. 1 air data computer (MADC #1) fails in flight:**  
+  
+A. The controller amber light illuminates and it switches to FL isobaric mode.  
+B. It remains in the CA AUTO mode.  
+C. Only manual control remains.  
+D. It automatically switches to the EXER mode.  
+  
+**Correct answer: A – The controller amber light illuminates and it switches to FL isobaric mode**  
+Loss of the No. 1 MADC input causes the pressurization controller to **drop out of auto schedule and revert to isobaric (FL) mode**, illuminating the amber mode light and displaying FL in the SET ALT window.  
+  
+---  
+  
+### Question 10
+
+**During preflight, the controller is normally set to:**  
+  
+A. Destination field elevation.  
+B. Cruise plus 1,000 feet in the FL mode.  
+C. Field pressure altitude plus 500 feet.  
+D. 300 feet to 500 fpm on the cabin rate of climb control.  
+  
+**Correct answer: A – Destination field elevation**  
+Standard procedure is to set the **set landing altitude (SLA) window** to the **destination field elevation** prior to takeoff so the controller can schedule cabin altitude automatically throughout the flight profile.  
+  
+---  
+  
+### Question 11
+
+**If normal DC power is lost to the controller while the cabin is pressurized, cabin altitude is:**  
+  
+A. Uncontrollable.  
+B. Controlled by the EMER DUMP toggle lever.  
+C. Controlled by shutting off the bleed air.  
+D. Controlled by the MANUAL toggle lever (cherry picker).  
+  
+**Correct answer: D – Controlled by the MANUAL toggle lever (cherry picker)**  
+If the digital controller loses power, the outflow valves remain where last commanded, but the **MANUAL toggle valve** still provides a **pneumatic backup**; moving the cherry picker UP/DN directly ports static or cabin air to the outflow valve control chambers to control cabin altitude without the controller.  
+  
+---  
+  
+### Question 12
+
+**Which statement is correct concerning the cabin altitude/differential pressure gauge?**  
+  
+A. This gauge measures inside air pressure.  
+B. This gauge requires DC power for operation.  
+C. This is a manual reading type gauge and only senses differential pressure.  
+D. It requires data from the pressurization controller.  
+  
+**Correct answer: C – This is a manual gauge that only senses differential pressure**  
+The cabin altitude/differential gauge is a **direct‑reading, mechanical instrument** that senses cabin altitude and \(\Delta P\) from pressure lines; it does **not** require DC power or controller inputs, and it indicates differential pressure only by comparing cabin to ambient pressure.  
+  
+---  
+  
 Required Knowledge
 ------------------
 
