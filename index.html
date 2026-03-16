@@ -563,7 +563,7 @@
         <label class="deck-label">
           Decks (Ctrl/Cmd+click to select multiple):
           <select id="deck-select" class="deck-select" multiple size="10">
-            <option value="all" selected>All (Ch. 2–15 + Req + Limits + Memory)</option>
+            <option value="all" selected>All (Ch. 2–16 + Req + Limits + Memory)</option>
             <option value="needs-review">Needs Review</option>
             <option value="req">Required Knowledge</option>
             <option value="limits">Limitations</option>
@@ -581,6 +581,7 @@
             <option value="ch13">Chapter 13 – Hydraulic Power System</option>
             <option value="ch14">Chapter 14 – Landing Gear and Brakes</option>
             <option value="ch15">Chapter 15 – Flight Controls</option>
+            <option value="ch16">Chapter 16 – Avionics</option>
           </select>
         </label>
         <div class="status" id="status-text">Study mode – 0 / 0 cards reviewed this session.</div>
@@ -2045,6 +2046,136 @@
     ],
     "answer": "C – This is a manual gauge that only senses differential pressure",
     "explanation": "The cabin altitude/differential gauge is a **direct‑reading, mechanical instrument** that senses cabin altitude and \u0394P from pressure lines; it does **not** require DC power or controller inputs, and it indicates differential pressure only by comparing cabin to ambient pressure."
+  },
+  {
+    "chapter": "Chapter 16 – Avionics",
+    "number": 1,
+    "prompt": "How can the pilot change the LH PFD altimeter setting from inches (IN) to hectopascals (hPa)?",
+    "options": [
+      "A. Access the inches/hectopascals menu through the MFD bezel control buttons.",
+      "B. Press the IN/HPA button on the pilot PFD controller.",
+      "C. Press the IN/HPA button on the MFD controller.",
+      "D. IN or HPA cannot be changed by the pilot."
+    ],
+    "answer": "B – Press the IN/HPA button on the pilot PFD controller",
+    "explanation": "On the XL/XLS, the **IN/HPA** pushbutton on each **PFD display controller** toggles the baro units on that side between inches of mercury and hectopascals."
+  },
+  {
+    "chapter": "Chapter 16 – Avionics",
+    "number": 2,
+    "prompt": "The function of the comparison monitor is:",
+    "options": [
+      "A. To test the wraparound function of the PFD.",
+      "B. To alert the crew to problems between the two FMS units.",
+      "C. To alert the crew to discrepancies between displayed data in the PFDs (airspeed, altitude, attitude, etc.).",
+      "D. All of the above."
+    ],
+    "answer": "C – To alert the crew to discrepancies between displayed data in the PFDs",
+    "explanation": "The **comparison monitor** continuously compares key parameters (pitch, roll, heading, IAS, altitude, LOC/GS, etc.) between pilot and copilot and shows **amber comparator annunciations (PIT, ROL, HDG, LOC, GS, IAS, ALT, ATT, ILS, etc.)** when differences exceed limits."
+  },
+  {
+    "chapter": "Chapter 16 – Avionics",
+    "number": 3,
+    "prompt": "Resolution advisory (RA) commands are:",
+    "options": [
+      "A. Presented in the MFD.",
+      "B. Presented as vertical speed commands in the PFDs.",
+      "C. Presented as vertical speed commands in a TCAS indicator.",
+      "D. Presented as pitch commands in the PFDs."
+    ],
+    "answer": "B – Presented as vertical speed commands in the PFDs",
+    "explanation": "TCAS II RAs appear as **red and green \\\"do not fly/fly to\\\" vertical speed bands** on the **PFD vertical speed tape**, commanding specific climb/descent rates; the MFD shows traffic, not the RA guidance itself."
+  },
+  {
+    "chapter": "Chapter 16 – Avionics",
+    "number": 4,
+    "prompt": "The flight director can be selected off by:",
+    "options": [
+      "A. Deselecting all of the modes on the flight director mode selector.",
+      "B. Pressing STBY on the mode selector.",
+      "C. Selecting STBY from the PFD drop-down menu.",
+      "D. It is not possible to select the flight director to STBY."
+    ],
+    "answer": "A – Deselecting all of the modes on the flight director mode selector",
+    "explanation": "When **no lateral or vertical modes are selected** on the mode panel, the **FD command bars are removed** and the flight director is effectively off; there is no separate STBY position."
+  },
+  {
+    "chapter": "Chapter 16 – Avionics",
+    "number": 5,
+    "prompt": "An amber DN or UP indicator on the autopilot control panel indicates:",
+    "options": [
+      "A. The autopilot is trimming the ailerons.",
+      "B. A sustained trim input is being applied to the elevator servo.",
+      "C. The autopilot should not be engaged.",
+      "D. Both B and C."
+    ],
+    "answer": "D – Both B and C",
+    "explanation": "The AP TRIM annunciator (UP/DN) shows **sustained elevator trim demand** from the servo; if lit, the system is out of pitch trim and **the autopilot should be disengaged and trim corrected** before further use."
+  },
+  {
+    "chapter": "Chapter 16 – Avionics",
+    "number": 6,
+    "prompt": "Select the true statement",
+    "options": [
+      "A. The aircraft may be dispatched with an inoperative standby flight display.",
+      "B. The aircraft may be dispatched with certain static wicks missing.",
+      "C. The aircraft may be dispatched with the RH PFD inoperative.",
+      "D. The aircraft may be dispatched in IMC conditions when the RADOME FAN annunciator is illuminated flashing."
+    ],
+    "answer": "B – The aircraft may be dispatched with certain static wicks missing",
+    "explanation": "The manual notes that **up to three vortex generators and certain static wicks may be missing** within limits; by contrast, items like the standby flight display and radome fan have stricter dispatch requirements."
+  },
+  {
+    "chapter": "Chapter 16 – Avionics",
+    "number": 7,
+    "prompt": "Select the true statement for an autopilot coupled back course approach.",
+    "options": [
+      "A. The back course must be set in the CDI and the BC mode of the flight director must be selected.",
+      "B. The front course must be set in the CDI and the BC mode of the flight director must be selected.",
+      "C. The back course must be set in the CDI and the APR mode of the flight director must be selected.",
+      "D. The front course must be set in the CDI and the APR mode of the flight director must be selected."
+    ],
+    "answer": "B – The front course must be set in the CDI and the BC mode of the flight director must be selected",
+    "explanation": "For a back‑course localizer, the **front course must be set on the course pointer**, and the **BC mode** selected so the FD/AP correctly reverses sensing while tracking the back‑course signal."
+  },
+  {
+    "chapter": "Chapter 16 – Avionics",
+    "number": 8,
+    "prompt": "How can the left (pilot) PFD be displayed on the MFD in the event of a blank display?",
+    "options": [
+      "A. Turn the MFD dim knob to OFF.",
+      "B. Turn the right (copilot) PFD dim knob to OFF.",
+      "C. Turn the left (pilot) PFD dim knob to OFF.",
+      "D. Pull the PFD 1 circuit breaker."
+    ],
+    "answer": "C – Turn the left (pilot) PFD dim knob to OFF",
+    "explanation": "Rotating the **failed PFD’s DIM knob fully counter‑clockwise to OFF** commands **reversionary display of that PFD on the MFD**, per the EFIS backup procedure."
+  },
+  {
+    "chapter": "Chapter 16 – Avionics",
+    "number": 9,
+    "prompt": "The standby HSI receives heading input from the ____ and nav input from the ____.",
+    "options": [
+      "A. No. 2 AHRS, No. 1 NAV.",
+      "B. No. 1 AHRS, No. 2 NAV.",
+      "C. No. 2 AHRS, No. 2 NAV.",
+      "D. No. 1 AHRS, No. 1 NAV."
+    ],
+    "answer": "A – No. 2 AHRS, No. 1 NAV",
+    "explanation": "The standby HSI takes **heading from AHRS #2** and **NAV/LOC/GS from NAV 1**, as described in the standby instrument section."
+  },
+  {
+    "chapter": "Chapter 16 – Avionics",
+    "number": 10,
+    "prompt": "The pitch wheel on the autopilot controller is used to:",
+    "options": [
+      "A. Change the pitch attitude during basic autopilot operation.",
+      "B. Change the commanded vertical speed while in VS mode.",
+      "C. Change the commanded airspeed or Mach while in FLC mode.",
+      "D. All of the above."
+    ],
+    "answer": "D – All of the above",
+    "explanation": "The **pitch wheel** commands pitch changes in **basic AP**, adjusts **target vertical speed in VS**, and modifies the **target IAS/Mach in FLC**, so all listed functions apply."
   },
   {
     "chapter": "Required Knowledge",
@@ -3872,6 +4003,7 @@
         if (selected.includes("ch13") && q.chapter.startsWith("Chapter 13")) return true;
         if (selected.includes("ch14") && q.chapter.startsWith("Chapter 14")) return true;
         if (selected.includes("ch15") && q.chapter.startsWith("Chapter 15")) return true;
+        if (selected.includes("ch16") && q.chapter.startsWith("Chapter 16")) return true;
         return false;
       });
     }
