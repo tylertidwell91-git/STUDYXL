@@ -3727,7 +3727,7 @@ B. Speed brakes — As required
 C. Speed brakes — CONFIRM RETRACTED
 D. Flaps — RETRACT (15°) if required
 
-**Correct answer: B – Thrust — Reduce as required**
+**Correct answer: A – Thrust — REDUCE AS REQUIRED**
 Reduce thrust as required to recover from overspeed.
 
 ---
@@ -4144,12 +4144,12 @@ Retract flaps to UP.
 
 **TAWS warning (PULL UP) — Step 7: What is the required action?**
 
-A. Takeoff — Continue to a safe altitude
-B. Takeoff — ABORT
-C. Go-around procedures — EXECUTE
-D. Emergency descent — as required
+A. Flaps — RETRACT (15°) if required
+B. Landing gear — UP
+C. Flaps — UP
+D. Speed brakes — CONFIRM RETRACTED
 
-**Correct answer: C – Speed brakes — CONFIRM RETRACTED**
+**Correct answer: D – Speed brakes — CONFIRM RETRACTED**
 Confirm speed brakes are retracted.
 
 ---
