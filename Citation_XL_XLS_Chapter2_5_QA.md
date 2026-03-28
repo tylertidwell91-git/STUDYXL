@@ -148,8 +148,8 @@ B. AHRS 2 supplies heading information to the standby HSI.
 C. AHRS 1 supplies heading information to the standby HSI.  
 D. The secondary flight display may be used for an ILS approach (APR switch depressed).  
 
-**Correct answer: C – AHRS 1 supplies heading information to the standby HSI**  
-In EMER power, the standby HSI remains powered and uses **AHRS 1** as its heading source; RMU 1 is also powered from EMER buses, but AHRS 1 is the designated input to the standby HSI.
+**Correct answer: B – AHRS 2 supplies heading information to the standby HSI.**  
+Per the training answer key, with the same EMER configuration as question 8, **AHRS 2** is the correct choice for the standby HSI heading source.
 
 ---
 
@@ -190,8 +190,8 @@ B. The standby HSI back lighting.
 C. The standby flight display.  
 D. Both B and C.  
 
-**Correct answer: C – The standby flight display**  
-The left nose emergency battery pack is a dedicated backup power source for the **secondary/standby flight display (SFD)** only; it does not power the pilot PFD or the standby HSI lighting.
+**Correct answer: D – Both B and C.**  
+Per the training answer key, the standby flight display emergency power system powers **both** the standby flight display **and** the standby HSI back lighting (choices B and C).
 
 ---
 
@@ -288,8 +288,8 @@ B. A generator assisted start counts as one battery count.
 C. If four or more battery starts are performed in one hour, the battery must be allowed to cool for 30 minutes.  
 D. There are no starter limitations when using a GPU.  
 
-**Correct answer: C – If four or more battery starts are performed in one hour, the battery must be allowed to cool for 30 minutes**  
-Battery‑start limitations are based on preventing battery and starter overheating; performing **four or more battery starts in one hour** requires a **30‑minute cool‑down** period, while there are still starter limitations when using a GPU, so D is incorrect.
+**Correct answer: A – Three engine starts per hour is allowed.**  
+Per the training answer key, **three engine starts per hour** is the correct statement among the choices given.
 
 ---
 
@@ -305,8 +305,8 @@ B. Dims the annunciator panel lights
 C. Illuminates the START DISG button  
 D. All of the above  
 
-**Correct answer: A – Activates the control rheostats**  
-When the master PANEL LIGHT switch is placed in the ON position, Table 3-1 shows that the left, center, right, and EL rheostats are **activated**, and the annunciator panel (and other items) dim. The START DISG button is not part of the panel light sequence, so D is incorrect. The primary direct effect of turning the switch ON is to **activate the control rheostats** so panel lighting can be adjusted.
+**Correct answer: D – All of the above**  
+Per the training answer key, placing the PANEL LIGHT master to **ON** is answered as **D – All of the above** (activates rheostats, dims annunciator panel lights, and illuminates the START DISG button per the keyed choice set).
 
 ---
 
@@ -319,8 +319,8 @@ B. Two emergency battery packs
 C. Emergency DC power  
 D. Either A or B  
 
-**Correct answer: B – Two emergency battery packs**  
-The emergency lighting system is a **separate, independent system** using **two emergency battery packs** (2.5 amp, 18 cell). When main DC power fails and aircraft battery voltage is lower than the emergency packs’ voltage, these battery packs power the exit signs, step lights, overhead lights, floor proximity lighting, and overwing egress lights. Main DC normally powers and trickle-charges the packs, but the *source* of emergency cabin lighting in a power failure is the two battery packs.
+**Correct answer: D – Either A or B**  
+Per the training answer key, emergency cabin lighting is powered from **either the main aircraft battery or the two emergency battery packs** (choice **D**).
 
 ---
 
@@ -375,8 +375,8 @@ B. It must be placed in the ON position prior to takeoff
 C. Yellow indicator light near the switch indicates maintenance must be performed on the emergency battery packs  
 D. Crossfed bus powers the system  
 
-**Correct answer: A – It must be placed in the ARM position prior to takeoff**  
-The manual describes the **EMER LTS** (emergency lights) three-position switch: with normal DC power on and the switch in **OFF**, an **amber** light adjacent to the switch illuminates to **remind the pilot to place the switch to ON or ARM before flight**. For normal flight, the switch is placed in **ARM** so that emergency lights will activate automatically on power loss or 5G impact. The amber light is a preflight reminder, not a maintenance indication; the emergency lighting system is powered by its own battery packs and main DC (for trickle charge), not the crossfeed bus.
+**Correct answer: B – It must be placed in the ON position prior to takeoff**  
+Per the training answer key, the STBY PWR / emergency lights switch must be in the **ON** position prior to takeoff (choice **B**).
 
 ---
 
@@ -548,8 +548,8 @@ B. 230 amps ground/300 amps flight
 C. 200 amps ground/230 amps flight  
 D. 230 amps ground/230 amps flight  
 
-**Correct answer: D – 230 amps ground/230 amps flight**  
-The APU starter-generator is rated at 28 V, 300 amps, but is **regulated not to exceed 230 amps**; this limit applies regardless of whether the aircraft is on the ground or in flight.
+**Correct answer: C – 200 amps ground/230 amps flight**  
+Per the training answer key, APU generator limits are **200 amps on the ground and 230 amps in flight** (choice **C**).
 
 ---
 
@@ -1056,8 +1056,8 @@ B. There will be no effect on the fire system.
 C. The fire detection portion of the system is still operable.  
 D. The fire extinguishing portion of the system is still operable.  
 
-**Correct answer: A – The fire detection and extinguishing system will be inoperative**  
-Both detection and extinguishing rely on **main DC power** through the FIRE DETECT breakers on the LH CB panel; with the BATT switch in EMER, the main DC buses (including those breakers) are de‑energized and only the EMER/BATTERY buses are powered, so the fire system is not powered.
+**Correct answer: D – The fire extinguishing portion of the system is still operable.**  
+Per the training answer key, with **EMER** selected on the BATT switch in flight, choice **D** applies: the **fire extinguishing** portion of the system remains operable.
 
 ---
 
@@ -1070,8 +1070,8 @@ B. That the fire warning system is inoperative.
 C. That the fire detection system will not operate.  
 D. Either or both fire bottles have low pressure.  
 
-**Correct answer: D – Either or both fire bottles have low pressure**  
-The FIRE EXT BOTL LOW annunciator (and CAS) is triggered if **one or both engine fire‑extinguisher bottles have low pressure**, regardless of whether they've discharged.
+**Correct answer: A – Both fire bottles are low on pressure.**  
+Per the training answer key, **FIRE EXT BTL LOW** indicates **both** fire bottles are low on pressure (choice **A**).
 
 ---
 
@@ -1157,8 +1157,8 @@ B. Have the co-pilot check the door.
 C. Begin an emergency descent, and declare the emergency.  
 D. Don oxygen masks.  
 
-**Correct answer: D – Don oxygen masks**  
-The DOOR SEAL annunciator indicates the **primary cabin door seal pressure has dropped below approximately 5 psi**. The manual states that if the primary seal deflates, the **secondary (crush-type) door seal should prevent cabin pressure from escaping**. Because seal integrity is in doubt, the prudent immediate action is to **don oxygen masks** to protect against possible further depressurization. Full emergency/abnormal procedures (including any descent or declaration of emergency) are in the appropriate checklist or FAA-approved AFM.
+**Correct answer: A – Descend to FL410 or lower.**  
+Per the training answer key, if the **DOOR SEAL** annunciator illuminates in flight, **descend to FL410 or lower** (choice **A**).
 
 ---
 
@@ -1502,8 +1502,8 @@ B. The EMER DUMP switch sends DC power to the climb solenoid and the cabin rises
 C. Placing the pressurization system select switch to MANUAL and using the MANUAL toggle (cherry picker) to manually meter ambient low-pressure air to both outflow valves.  
 D. All of the above.  
   
-**Correct answer: D – All of the above**  
-In **AUTO**, the controller pulses the climb solenoid and uses ejector vacuum to vent the control chambers, opening the valves and letting cabin altitude climb; **EMER DUMP** drives the climb solenoid fully open to rapidly open the valves; in **MANUAL**, holding the cherry picker UP vents the control chambers to ambient static, also opening both outflow valves.  
+**Correct answer: A – Selecting AUTO with the pressurization system select switch uses the digital cabin pressure controller to meter ejector vacuum to the climb solenoid of the primary valve.**  
+Per the training answer key, **choice A** correctly describes what opens the two outflow valves to climb the cabin.  
   
 ---  
   
@@ -1516,8 +1516,8 @@ B. Placing the pressurization system select switch to the MANUAL position, and u
 C. Both A and B.  
 D. None of the above.  
   
-**Correct answer: A – Selecting AUTO with the pressurization system select switch uses the controller and dive solenoid**  
-In AUTO schedule, the controller pulses the **dive solenoid**, admitting regulated 6 psi service air (or cabin air above 6 psi) into the control chambers to drive **both outflow valves toward closed**, increasing cabin pressure (diving the cabin); the MANUAL toggle supplies cabin air to both valves, not just the secondary valve, so choice B is incorrect.  
+**Correct answer: D – None of the above.**  
+Per the training answer key, **none** of the listed statements is correct for what closes the outflow valves to dive the cabin (choice **D**).  
   
 ---  
   
