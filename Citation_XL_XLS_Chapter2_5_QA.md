@@ -1056,8 +1056,8 @@ B. There will be no effect on the fire system.
 C. The fire detection portion of the system is still operable.  
 D. The fire extinguishing portion of the system is still operable.  
 
-**Correct answer: D – The fire extinguishing portion of the system is still operable.**  
-Per the training answer key, with **EMER** selected on the BATT switch in flight, choice **D** applies: the **fire extinguishing** portion of the system remains operable.
+**Correct answer: A – The fire detection and extinguishing system will be inoperative.**  
+**EMER** on the BATT switch sheds main DC power; both detection and extinguishing rely on **main DC** through the FIRE DETECT breakers on the LH CB panel, so with only EMER/BATTERY buses powered the fire system is **not** powered.
 
 ---
 
@@ -1070,8 +1070,8 @@ B. That the fire warning system is inoperative.
 C. That the fire detection system will not operate.  
 D. Either or both fire bottles have low pressure.  
 
-**Correct answer: A – Both fire bottles are low on pressure.**  
-Per the training answer key, **FIRE EXT BTL LOW** indicates **both** fire bottles are low on pressure (choice **A**).
+**Correct answer: D – Either or both fire bottles have low pressure.**  
+The FIRE EXT BOTL LOW annunciator (and CAS) is triggered if **one or both** engine fire‑extinguisher bottles have low pressure, regardless of whether they have discharged.
 
 ---
 
